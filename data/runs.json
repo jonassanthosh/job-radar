@@ -1,4 +1,57 @@
 {
   "schemaVersion": 1,
-  "runs": []
+  "runs": [
+    {
+      "id": "2026-11-02T12:59:15.532Z",
+      "mode": "initial",
+      "startedAt": "2026-11-02T12:59:15.532Z",
+      "finishedAt": "2026-11-02T12:59:42.763Z",
+      "ok": true,
+      "boardsScanned": 58,
+      "boardsFailed": 7,
+      "postingsExamined": 8160,
+      "candidatesAfterTitleFilter": 195,
+      "newJobs": 20,
+      "newQualified": 2,
+      "updatedJobs": 0,
+      "closedJobs": 0,
+      "reopenedJobs": 0,
+      "verificationFailed": 0,
+      "duplicatesDiscarded": 0,
+      "suppressedByImport": 0,
+      "newBoardsDiscovered": 0,
+      "sourceFailures": [
+        {
+          "source": "greenhouse:postman",
+          "error": "HTTP 404 for https://boards-api.greenhouse.io/v1/boards/postman/jobs?content=true"
+        },
+        {
+          "source": "greenhouse:temporaltechnologies",
+          "error": "HTTP 404 for https://boards-api.greenhouse.io/v1/boards/temporaltechnologies/jobs?content=true"
+        },
+        {
+          "source": "lever:mattermost",
+          "error": "HTTP 404 for https://api.lever.co/v0/postings/mattermost?mode=json"
+        },
+        {
+          "source": "lever:plaid",
+          "error": "HTTP 404 for https://api.lever.co/v0/postings/plaid?mode=json"
+        },
+        {
+          "source": "lever:appsmith",
+          "error": "HTTP 404 for https://api.lever.co/v0/postings/appsmith?mode=json"
+        },
+        {
+          "source": "lever:hasura",
+          "error": "HTTP 404 for https://api.lever.co/v0/postings/hasura?mode=json"
+        },
+        {
+          "source": "lever:percona",
+          "error": "HTTP 404 for https://api.lever.co/v0/postings/percona?mode=json"
+        }
+      ],
+      "fxDate": "2026-10-30",
+      "nextScheduledAt": "2026-11-03T01:30:00.000Z"
+    }
+  ]
 }
