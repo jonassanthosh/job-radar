@@ -66,6 +66,7 @@ export function JobCard({ job, isNew, app, onTrack }: { job: Job; isNew: boolean
               <span aria-hidden>/</span>
               <span>{FAMILY_LABEL[job.jobFamily]}</span>
               {isNew && <span className="rounded bg-link px-1.5 py-px text-[11px] font-semibold text-surface">New</span>}
+              {job.discoverySources.includes('claude-agent') && <span className="rounded border border-link px-1.5 py-px text-[11px] font-semibold text-link" title="Found by the daily Claude research agent, then verified on the official job board">Found by Claude</span>}
               {job.status === 'closed' && <span className="rounded bg-bad-bg px-1.5 py-px text-[11px] font-semibold text-bad">Closed</span>}
               {job.status === 'verification_failed' && <span className="rounded bg-warn-bg px-1.5 py-px text-[11px] font-semibold text-warn">Could not re-check</span>}
             </div>
@@ -158,7 +159,7 @@ export function JobCard({ job, isNew, app, onTrack }: { job: Job; isNew: boolean
                       <span className="font-normal text-ink-soft">, {c.role}</span>
                     </div>
                     <div className="text-[13px] text-ink-soft">
-                      {CONTACT_LABEL[c.type]}, {c.confidence} confidence. {c.reason}. Verified {fmtDate(c.verifiedAt)} via <a href={c.sourceUrl} target="_blank" rel="noreferrer">source</a>.
+                      {CONTACT_LABEL[c.type]}, {c.confidence} confidence{c.addedBy === 'claude' ? ', researched by Claude' : c.addedBy === 'posting' ? ', named in the posting' : ''}. {c.reason}. Verified {fmtDate(c.verifiedAt)} via <a href={c.sourceUrl} target="_blank" rel="noreferrer">source</a>.
                       {c.stale && <span className="text-warn"> Re-verify: older than 4 months.</span>}
                     </div>
                   </li>

@@ -101,6 +101,8 @@ export const Contact = z.object({
   verifiedAt: isoDate,
   /** Set when verifiedAt is older than the staleness window. */
   stale: z.boolean().default(false),
+  /** posting = named in the official job ad; manual = added by you; claude = researched by the daily Claude agent */
+  addedBy: z.enum(['posting', 'manual', 'claude']).default('manual'),
 });
 export type Contact = z.infer<typeof Contact>;
 
@@ -218,6 +220,16 @@ export const Run = z.object({
   suppressedByImport: z.number().int(),
   newBoardsDiscovered: z.number().int(),
   sourceFailures: z.array(SourceFailure),
+  /** What happened to the Claude agent's leads in this scan. */
+  agentLeads: z
+    .object({
+      considered: z.number().int(),
+      newBoards: z.number().int(),
+      published: z.number().int(),
+      rejected: z.array(z.object({ url: z.string(), company: z.string(), title: z.string(), reason: z.string() })),
+      unsupported: z.array(z.object({ url: z.string(), company: z.string(), title: z.string() })),
+    })
+    .default({ considered: 0, newBoards: 0, published: 0, rejected: [], unsupported: [] }),
   fxDate: isoDate.nullable(),
   nextScheduledAt: isoDateTime,
 });
@@ -247,3 +259,34 @@ export const SuppressFile = z.object({
   schemaVersion: z.literal(1),
   hashes: z.array(z.string().regex(/^[a-f0-9]{64}$/)),
 });
+
+/**
+ * Written ONLY by the daily Claude agent (see AGENT.md). Leads are official posting URLs the agent found;
+ * the scanner re-reads every one from the employer's ATS and applies the same rules as any other job.
+ */
+export const AgentLead = z.object({
+  url,
+  company: z.string().min(1),
+  title: z.string().min(1),
+  /** Exact sentence from the official posting about location/eligibility, if the agent found one. */
+  locationEvidence: z.string().nullable().default(null),
+  note: z.string().nullable().default(null),
+  foundAt: isoDateTime,
+});
+export type AgentLead = z.infer<typeof AgentLead>;
+
+export const AgentRun = z.object({
+  at: isoDateTime,
+  searches: z.number().int().nonnegative(),
+  postingsOpened: z.number().int().nonnegative(),
+  leadsAdded: z.number().int().nonnegative(),
+  contactsAdded: z.number().int().nonnegative(),
+  summary: z.string(),
+});
+
+export const AgentFile = z.object({
+  schemaVersion: z.literal(1),
+  leads: z.array(AgentLead),
+  runs: z.array(AgentRun),
+});
+export type AgentFile = z.infer<typeof AgentFile>;

@@ -5,7 +5,8 @@ const errors: string[] = [];
 const jobs = readData('jobs').jobs;
 readData('boards');
 readData('runs');
-readData('contacts');
+const contacts = readData('contacts').contacts;
+const agent = readData('agent');
 readData('fx');
 readData('suppress');
 
@@ -23,6 +24,17 @@ for (const j of jobs) {
   if (j.feed === 'recommended' && (j.location.india !== 'eligible' || j.compensation.status !== 'verified')) errors.push(`${j.id}: recommended without eligibility + verified pay`);
   for (const c of j.contacts) if (!c.sourceUrl) errors.push(`${j.id}: contact ${c.name} without source`);
   if (Date.parse(j.firstSeenAt) > Date.parse(j.lastCheckedAt)) errors.push(`${j.id}: firstSeenAt after lastCheckedAt`);
+}
+
+const EMAIL = /[\w.+-]+@[\w-]+\.[\w.]+/;
+for (const c of contacts) {
+  if (EMAIL.test(JSON.stringify(c))) errors.push(`contacts.json: ${c.name} contains an email address (not allowed)`);
+  if (c.linkedinUrl && !/^https:\/\/([a-z]{2,3}\.)?(www\.)?linkedin\.com\/in\//.test(c.linkedinUrl)) errors.push(`contacts.json: ${c.name} has a non-profile LinkedIn URL`);
+}
+const leadUrls = new Set<string>();
+for (const l of agent.leads) {
+  if (leadUrls.has(l.url)) errors.push(`agent-leads.json: duplicate lead ${l.url}`);
+  leadUrls.add(l.url);
 }
 
 if (errors.length) {

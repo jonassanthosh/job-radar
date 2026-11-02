@@ -3,7 +3,7 @@
  * Proves persistence, dedup across URL variants, re-post folding, closure vs verification-failed,
  * board discovery via aggregator + probe, and that every written file passes schema validation.
  */
-import { copyFileSync, mkdtempSync, readFileSync } from 'node:fs';
+import { copyFileSync, mkdtempSync, readFileSync, writeFileSync } from 'node:fs';
 import { tmpdir } from 'node:os';
 import { join } from 'node:path';
 import { beforeAll, describe, expect, it } from 'vitest';
@@ -59,12 +59,30 @@ describe('two-day scan', () => {
 
   it('day 2: no duplicates, re-post folded, outage != closed, history preserved', async () => {
     process.env.JOB_RADAR_FIXTURES = join(FIX, 'day2');
+    // The Claude agent pushed three leads between the two scans.
+    writeFileSync(join(dataDir, 'agent-leads.json'), JSON.stringify({
+      schemaVersion: 1,
+      runs: [{ at: '2026-11-01T12:00:00Z', searches: 12, postingsOpened: 5, leadsAdded: 3, contactsAdded: 0, summary: 'test' }],
+      leads: [
+        { url: 'https://job-boards.greenhouse.io/agentco/jobs/7001?gh_src=x', company: 'AgentCo', title: 'API Support Engineer', foundAt: '2026-11-01T12:00:00Z' },
+        { url: 'https://job-boards.greenhouse.io/agentco/jobs/7002', company: 'AgentCo', title: 'Senior Support Engineer', foundAt: '2026-11-01T12:00:00Z' },
+        { url: 'https://agentco.example/careers/support', company: 'AgentCo', title: 'Support Engineer', foundAt: '2026-11-01T12:00:00Z' },
+      ],
+    }));
     const before = read<JobsFile>('jobs.json').jobs;
     const run = await runScan(new Date('2026-11-02T01:31:00Z'));
     const { jobs } = read<JobsFile>('jobs.json');
 
-    expect(run.newJobs).toBe(0); // URL variant of 101 and re-post of 102 are NOT new
-    expect(jobs).toHaveLength(before.length);
+    // Agent leads: the India-remote one is verified and published; the US-only one is rejected by the same rules; the careers-page link is unsupported.
+    expect(run.agentLeads).toMatchObject({ considered: 3, newBoards: 1, published: 1 });
+    expect(run.agentLeads.rejected).toEqual([expect.objectContaining({ title: 'Senior Support Engineer', reason: expect.stringMatching(/^Location/) })]);
+    expect(run.agentLeads.unsupported).toHaveLength(1);
+    const agentJob = jobs.find((j) => j.title === 'API Support Engineer')!;
+    expect(agentJob.discoverySources).toContain('claude-agent');
+    expect(agentJob.feed).toBe('review');
+
+    expect(run.newJobs).toBe(1); // only the agent's lead; URL variant of 101 and re-post of 102 are NOT new
+    expect(jobs).toHaveLength(before.length + 1);
     expect(new Set(jobs.map((j) => j.keys.canonicalUrl)).size).toBe(jobs.length);
 
     const senior = jobs.find((j) => j.title === 'Senior Developer Support Engineer')!;
@@ -89,5 +107,6 @@ describe('two-day scan', () => {
     const run = await runScan(new Date('2026-11-03T01:31:00Z'));
     expect(run.newJobs).toBe(0);
     expect(run.updatedJobs).toBe(0);
+    expect(run.agentLeads.considered).toBe(0); // old leads are not re-reported
   });
 });

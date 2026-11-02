@@ -2,7 +2,7 @@
 import { existsSync, mkdirSync, readFileSync, renameSync, writeFileSync } from 'node:fs';
 import { dirname, join } from 'node:path';
 import type { z } from 'zod';
-import { BoardsFile, ContactsFile, FxFile, JobsFile, RunsFile, SuppressFile } from './schema.js';
+import { AgentFile, BoardsFile, ContactsFile, FxFile, JobsFile, RunsFile, SuppressFile } from './schema.js';
 
 export const DATA_DIR = process.env.JOB_RADAR_DATA ?? join(process.cwd(), 'data');
 
@@ -13,6 +13,7 @@ const FILES = {
   contacts: { file: 'contacts.json', schema: ContactsFile, empty: { schemaVersion: 1, contacts: [] } },
   fx: { file: 'fx.json', schema: FxFile, empty: { schemaVersion: 1, base: 'INR', date: null, source: 'none', rates: {} } },
   suppress: { file: 'suppressed.json', schema: SuppressFile, empty: { schemaVersion: 1, hashes: [] } },
+  agent: { file: 'agent-leads.json', schema: AgentFile, empty: { schemaVersion: 1, leads: [], runs: [] } },
 } as const;
 
 type Files = typeof FILES;

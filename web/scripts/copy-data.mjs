@@ -8,7 +8,7 @@ const root = join(dirname(fileURLToPath(import.meta.url)), '..', '..');
 const src = process.env.JOB_RADAR_DATA ?? join(root, 'data');
 const out = join(root, 'web', 'public', 'data');
 mkdirSync(out, { recursive: true });
-const empty = { 'jobs.json': { schemaVersion: 1, updatedAt: null, jobs: [] }, 'runs.json': { schemaVersion: 1, runs: [] }, 'fx.json': { schemaVersion: 1, base: 'INR', date: null, source: 'none', rates: {} } };
+const empty = { 'agent-leads.json': { schemaVersion: 1, leads: [], runs: [] }, 'jobs.json': { schemaVersion: 1, updatedAt: null, jobs: [] }, 'runs.json': { schemaVersion: 1, runs: [] }, 'fx.json': { schemaVersion: 1, base: 'INR', date: null, source: 'none', rates: {} } };
 for (const f of Object.keys(empty)) {
   const p = join(src, f);
   if (existsSync(p)) copyFileSync(p, join(out, f));

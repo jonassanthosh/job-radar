@@ -148,12 +148,12 @@ describe('contacts', () => {
     ]);
   });
   it('never upgrades a company-level curated contact to "confirmed" for a specific job', () => {
-    const curated = [{ name: 'Sam Lee', role: 'Recruiter', company: 'Acme', linkedinUrl: null, sourceUrl: 'https://x.test', type: 'confirmed_recruiter' as const, confidence: 'high' as const, reason: 'r', verifiedAt: '2026-10-01', stale: false, jobIds: [] }];
+    const curated = [{ name: 'Sam Lee', role: 'Recruiter', company: 'Acme', linkedinUrl: null, sourceUrl: 'https://x.test', type: 'confirmed_recruiter' as const, confidence: 'high' as const, reason: 'r', verifiedAt: '2026-10-01', stale: false, addedBy: 'manual' as const, jobIds: [] }];
     const [m] = mergeContacts({ id: 'gh-acme-1', company: 'Acme' }, [], curated, '2026-11-02', 120);
     expect(m.type).toBe('potential_recruiting_contact');
   });
   it('flags stale curated contacts', () => {
-    const curated = [{ name: 'Sam Lee', role: 'Recruiter', company: 'Acme', linkedinUrl: null, sourceUrl: 'https://x.test', type: 'potential_recruiting_contact' as const, confidence: 'medium' as const, reason: 'r', verifiedAt: '2026-01-01', stale: false, jobIds: [] }];
+    const curated = [{ name: 'Sam Lee', role: 'Recruiter', company: 'Acme', linkedinUrl: null, sourceUrl: 'https://x.test', type: 'potential_recruiting_contact' as const, confidence: 'medium' as const, reason: 'r', verifiedAt: '2026-01-01', stale: false, addedBy: 'manual' as const, jobIds: [] }];
     expect(mergeContacts({ id: 'x', company: 'Acme' }, [], curated, '2026-11-02', 120)[0].stale).toBe(true);
   });
 });
@@ -181,5 +181,13 @@ describe('import suppression', () => {
     const { suppressKeysFor } = await import('../src/rules/dedup.js');
     const hashes = new Set(hashesFor({ company: 'acme', title: 'Sr. Developer Support Engineer (Remote)' }));
     expect(suppressKeysFor(makeJob({})).some((h) => hashes.has(h))).toBe(true);
+  });
+});
+
+describe('Workday lead URLs', () => {
+  it('extracts host, tenant and site', async () => {
+    const { parseWorkdayUrl } = await import('../src/rules/dedup.js');
+    expect(parseWorkdayUrl('https://adobe.wd5.myworkdayjobs.com/en-US/external_experienced/job/Remote-India/Developer-Support-Engineer_R164755')).toEqual({ host: 'adobe.wd5.myworkdayjobs.com', tenant: 'adobe', site: 'external_experienced' });
+    expect(parseWorkdayUrl('https://example.com/jobs/1')).toBeNull();
   });
 });

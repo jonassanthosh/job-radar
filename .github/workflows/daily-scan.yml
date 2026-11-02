@@ -12,7 +12,8 @@ on:
         default: false
   push:
     branches: [main]
-    paths: ['web/**', 'config/**', 'scanner/**', 'package*.json', '.github/workflows/**']
+    # Includes the Claude agent's findings, so its morning push triggers a scan right away.
+    paths: ['web/**', 'config/**', 'scanner/**', 'package*.json', '.github/workflows/**', 'data/agent-leads.json', 'data/contacts.json']
 
 permissions:
   contents: write   # commit updated data/*.json
@@ -44,7 +45,6 @@ jobs:
           npm test
 
       - name: Run discovery scan
-        if: github.event_name != 'push'
         env:
           BRAVE_SEARCH_API_KEY: ${{ secrets.BRAVE_SEARCH_API_KEY }}
           JOB_RADAR_SKIP_DISCOVERY: ${{ inputs.skip_discovery && '1' || '0' }}
@@ -55,7 +55,6 @@ jobs:
         run: npm run validate
 
       - name: Commit data updates
-        if: github.event_name != 'push'
         run: |
           git config user.name "job-radar-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"

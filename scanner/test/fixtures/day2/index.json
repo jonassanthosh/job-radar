@@ -43,5 +43,11 @@
  },
  "https://api.ashbyhq.com/posting-api/job-board/brokenco?includeCompensation=true": {
   "file": "brokenco.json"
+ },
+ "https://boards-api.greenhouse.io/v1/boards/agentco": {
+  "file": "agentco-board.json"
+ },
+ "https://boards-api.greenhouse.io/v1/boards/agentco/jobs?content=true": {
+  "file": "agentco-jobs.json"
  }
 }

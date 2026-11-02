@@ -4,6 +4,13 @@ A daily scanner and dashboard for **remote technical support / developer support
 
 Every job on the dashboard was read from the employer's **official ATS** (Greenhouse, Lever, Ashby or Workday). Aggregators and search engines are only used to discover new employers. Location, pay and dedup decisions are deterministic, unit-tested rules, and every claim carries the quoted evidence and a source link.
 
+Two parts work together each morning:
+
+1. **Claude research agent** (about 05:45 IST, a scheduled task in your Claude account). Searches the web for new openings and employers, follows each one to the official posting, and researches hiring contacts using public pages only. It writes to `data/agent-leads.json` and `data/contacts.json` and pushes. Instructions: [`AGENT.md`](AGENT.md).
+2. **Scanner** (GitHub Actions, triggered by that push and again at 07:00 IST as a fallback). Re-reads every lead and every known board from the official ATS, applies the rules below, and publishes the dashboard.
+
+Claude finds; the rules decide. A lead Claude found is published only if the same deterministic checks pass, and the dashboard marks it "Found by Claude". Leads the rules rejected, and leads on careers pages the scanner can't read, are listed under *Scan health → Claude research agent*.
+
 ---
 
 ## How a job is judged
@@ -116,7 +123,8 @@ data/                 the database, committed by the workflow; every file schema
   jobs.json           all job records with history/audit trail
   boards.json         employers being scanned (seed, discovered, manual) and their health
   runs.json           last 120 scan records (scan health)
-  contacts.json       hand-verified contacts
+  contacts.json       verified contacts (added by you or the Claude agent, each with a source)
+  agent-leads.json    Claude agent's leads and run log (written only by the agent)
   suppressed.json     hashes of jobs you applied to / dismissed
   fx.json             dated FX rates (INR per unit)
 scanner/src/
@@ -148,7 +156,8 @@ Identity is, in order: ATS + board + ATS job id → canonical URL (tracking para
 ## Known limitations
 
 - **Pay for India is rarely published.** Expect "Recommended" (verified ₹60L+) to be small or empty on most days; the "Pay unverified" list is where most real opportunities will be.
-- **Contacts are not discovered automatically** beyond people named in postings. Identifying a hiring manager reliably needs LinkedIn, which this system deliberately does not scrape. The search links make manual checking quick.
+- **Contacts** come from postings that name someone and from the Claude agent's public-page research (up to 5 companies a day). Without LinkedIn access, a confirmed hiring manager is rare; most contacts will be labelled "potential". The agent never adds emails or guessed profiles.
+- **The Claude agent uses your Claude plan's usage** and runs as a scheduled task; if it is paused or fails, the scanner still runs on its own schedule.
 - **Company headquarters is not auto-verified**; `companyInfo` stays empty unless you fill it in `data/boards.json`.
 - **Discovery depends on free public feeds**; without the optional Brave key it finds fewer new employers.
 - **Fit scoring is keyword-based.** It is transparent and repeatable but cannot judge nuance; read the gaps and concerns before applying.

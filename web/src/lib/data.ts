@@ -1,4 +1,4 @@
-import type { Job, JobsFile, Run, RunsFile, FxFile } from '../../../scanner/src/schema';
+import type { AgentFile, Job, JobsFile, Run, RunsFile, FxFile } from '../../../scanner/src/schema';
 
 export type { Job, Run };
 
@@ -7,6 +7,7 @@ export interface Dataset {
   updatedAt: string | null;
   runs: Run[];
   fx: FxFile;
+  agent: AgentFile;
 }
 
 export async function loadData(): Promise<Dataset> {
@@ -16,8 +17,13 @@ export async function loadData(): Promise<Dataset> {
     if (!r.ok) throw new Error(`Could not load data/${f} (HTTP ${r.status})`);
     return r.json() as Promise<T>;
   };
-  const [jobs, runs, fx] = await Promise.all([get<JobsFile>('jobs.json'), get<RunsFile>('runs.json'), get<FxFile>('fx.json')]);
-  return { jobs: jobs.jobs, updatedAt: jobs.updatedAt, runs: runs.runs, fx };
+  const [jobs, runs, fx, agent] = await Promise.all([
+    get<JobsFile>('jobs.json'),
+    get<RunsFile>('runs.json'),
+    get<FxFile>('fx.json'),
+    get<AgentFile>('agent-leads.json').catch((): AgentFile => ({ schemaVersion: 1, leads: [], runs: [] })),
+  ]);
+  return { jobs: jobs.jobs, updatedAt: jobs.updatedAt, runs: runs.runs, fx, agent };
 }
 
 const IST = 'Asia/Kolkata';

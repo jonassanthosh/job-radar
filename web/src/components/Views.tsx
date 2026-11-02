@@ -144,7 +144,7 @@ export function Contacts({ jobs }: { jobs: Job[] }) {
       </p>
       {rows.length === 0 ? (
         <div className="mt-6 rounded-lg border border-dashed border-line p-6 text-ink-soft">
-          No verified contacts yet. Each job has prefilled public search links under “Details”. When you confirm someone, add them to <code>data/contacts.json</code> with the page that proves their role, and the next scan attaches them.
+          No verified contacts yet. The daily Claude agent researches contacts for the strongest openings and adds only people whose current role it could confirm on a public page. Each job also has prefilled search links under “Details”.
         </div>
       ) : (
         <ul className="mt-5 grid gap-3 sm:grid-cols-2">
@@ -153,7 +153,7 @@ export function Contacts({ jobs }: { jobs: Job[] }) {
               <div className="font-bold">{c.linkedinUrl ? <a href={c.linkedinUrl} target="_blank" rel="noreferrer">{c.name}</a> : c.name}</div>
               <div className="text-[14px] text-ink-soft">{c.role}, {c.company}</div>
               <div className="mt-2 text-[13px]">{CONTACT_LABEL[c.type]} for <a href={j.officialUrl} target="_blank" rel="noreferrer">{j.title}</a></div>
-              <div className="mt-1 text-[13px] text-ink-soft">{c.confidence[0].toUpperCase() + c.confidence.slice(1)} confidence. {c.reason}. Verified {fmtDate(c.verifiedAt)}, <a href={c.sourceUrl} target="_blank" rel="noreferrer">source</a>.{c.stale && ' Needs re-verifying.'}</div>
+              <div className="mt-1 text-[13px] text-ink-soft">{c.confidence[0].toUpperCase() + c.confidence.slice(1)} confidence{c.addedBy === 'claude' ? ', researched by Claude' : c.addedBy === 'posting' ? ', named in the posting' : ''}. {c.reason}. Verified {fmtDate(c.verifiedAt)}, <a href={c.sourceUrl} target="_blank" rel="noreferrer">source</a>.{c.stale && ' Needs re-verifying.'}</div>
             </li>
           ))}
         </ul>
@@ -248,6 +248,7 @@ export function ScanHealth({ data }: { data: Dataset }) {
               <p className="mt-2 text-[12px] text-ink-faint">Jobs from a failed source are marked “Could not re-check”, never closed.</p>
             </details>
           )}
+          <AgentSection data={data} />
           <div className="mt-6 overflow-x-auto rounded-lg border border-line bg-surface">
             <table className="w-full min-w-[640px] text-left text-[13px]">
               <thead className="border-b border-line text-ink-soft"><tr>{['Run', 'Result', 'Boards', 'Examined', 'New', 'Updated', 'Closed', 'Dupes', 'Failures'].map((h) => <th key={h} className="p-2.5 font-medium">{h}</th>)}</tr></thead>
@@ -275,3 +276,45 @@ export function ScanHealth({ data }: { data: Dataset }) {
 }
 
 export { locationGate, payGate };
+
+function AgentSection({ data }: { data: Dataset }) {
+  const ar = data.agent.runs.at(-1);
+  const scan = data.runs.at(-1)?.agentLeads;
+  return (
+    <section className="mt-6 rounded-lg border border-line bg-surface p-4">
+      <h3 className="font-bold">Claude research agent</h3>
+      {!ar ? (
+        <p className="mt-1 text-[14px] text-ink-soft">The agent has not run yet. It runs each morning before the scan.</p>
+      ) : (
+        <>
+          <p className="mt-1 text-[14px] text-ink-soft">
+            Last ran {fmtDateTime(ar.at)}: {ar.searches} searches, {ar.postingsOpened} postings read, {ar.leadsAdded} new leads, {ar.contactsAdded} contacts added.
+          </p>
+          <p className="mt-2 max-w-[72ch] text-[14px]">{ar.summary}</p>
+        </>
+      )}
+      {scan && scan.considered > 0 && (
+        <p className="mt-3 text-[14px]">
+          In the last scan, {scan.considered} new lead{scan.considered === 1 ? '' : 's'} from Claude: {scan.published} passed the rules and are listed, {scan.rejected.length} did not, {scan.unsupported.length} {scan.unsupported.length === 1 ? 'is' : 'are'} on a job board the scanner can't read. {scan.newBoards > 0 && `${scan.newBoards} new employer board${scan.newBoards === 1 ? '' : 's'} added to the daily scan.`}
+        </p>
+      )}
+      {scan && scan.rejected.length > 0 && (
+        <details className="mt-3">
+          <summary className="cursor-pointer text-[14px] font-semibold">Leads the rules rejected</summary>
+          <ul className="mt-2 space-y-1 text-[13px]">
+            {scan.rejected.map((r) => <li key={r.url}><a href={r.url} target="_blank" rel="noreferrer">{r.title}</a>, {r.company}: <span className="text-ink-soft">{r.reason}</span></li>)}
+          </ul>
+        </details>
+      )}
+      {scan && scan.unsupported.length > 0 && (
+        <details className="mt-3" open>
+          <summary className="cursor-pointer text-[14px] font-semibold">Leads to check yourself</summary>
+          <p className="mt-1 text-[12px] text-ink-faint">These are on careers pages the scanner can't verify automatically, so they are not in your lists.</p>
+          <ul className="mt-2 space-y-1 text-[13px]">
+            {scan.unsupported.map((r) => <li key={r.url}><a href={r.url} target="_blank" rel="noreferrer">{r.title}</a>, {r.company}</li>)}
+          </ul>
+        </details>
+      )}
+    </section>
+  );
+}

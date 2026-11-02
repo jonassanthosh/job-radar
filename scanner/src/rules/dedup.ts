@@ -54,6 +54,20 @@ export function parseAtsUrl(raw: string): AtsRef | null {
   return null;
 }
 
+/** Workday career-site URL -> board config. https://acme.wd5.myworkdayjobs.com/en-US/External/job/... */
+export function parseWorkdayUrl(raw: string): { host: string; tenant: string; site: string } | null {
+  try {
+    const u = new URL(raw);
+    if (!/\.myworkdayjobs\.com$/i.test(u.hostname)) return null;
+    const parts = u.pathname.split('/').filter(Boolean);
+    const site = /^[a-z]{2}-[A-Z]{2}$/.test(parts[0] ?? '') ? parts[1] : parts[0];
+    if (!site) return null;
+    return { host: u.hostname.toLowerCase(), tenant: u.hostname.split('.')[0].toLowerCase(), site };
+  } catch {
+    return null;
+  }
+}
+
 /** Canonical form of an official posting URL: https, lowercase host, no tracking params, no trailing /apply. */
 export function canonicalUrl(raw: string): string {
   const ref = parseAtsUrl(raw);

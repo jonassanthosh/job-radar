@@ -12,14 +12,14 @@ import { appendFileSync } from 'node:fs';
 import { loadConfig } from './config.js';
 import { refreshFx } from './fx.js';
 import { contactSearchLinks, extractPostingContacts, mergeContacts } from './rules/contacts.js';
-import { buildIndex, findExisting, postingCanonicalUrl, jobId, suppressKeysFor, type MatchVia } from './rules/dedup.js';
+import { buildIndex, canonicalUrl, findExisting, parseAtsUrl, parseWorkdayUrl, postingCanonicalUrl, jobId, suppressKeysFor, type MatchVia } from './rules/dedup.js';
 import { decideFeed } from './rules/feed.js';
 import { classifyLocation } from './rules/location.js';
 import { makeRoleRules, normalizeTitle } from './rules/role.js';
 import { classifyCompensation } from './rules/salary.js';
 import { makeScorer } from './rules/score.js';
 import { applyObservation } from './rules/status.js';
-import type { Board, Job, Run, SourceFailure } from './schema.js';
+import type { AgentLead, Board, Job, Run, SourceFailure } from './schema.js';
 import { ashby } from './sources/ashby.js';
 import { discover, slugCandidates } from './sources/discovery.js';
 import { greenhouse } from './sources/greenhouse.js';
@@ -58,6 +58,10 @@ export async function runScan(now = new Date()): Promise<Run> {
   const runsFile = readData('runs');
   const contactsFile = readData('contacts');
   const suppress = new Set(readData('suppress').hashes);
+  const agentFile = readData('agent');
+  const prevRunAt = runsFile.runs.at(-1)?.startedAt ?? '1970-01-01T00:00:00.000Z';
+  const isNewLead = (l: AgentLead) => Date.parse(l.foundAt) > Date.parse(prevRunAt);
+  const recentLeads = agentFile.leads.filter((l) => now.getTime() - Date.parse(l.foundAt) <= 30 * 86_400_000);
   const mode: Run['mode'] = fixtures ? 'fixtures' : jobsFile.jobs.length === 0 ? 'initial' : 'incremental';
   const failures: SourceFailure[] = [];
   const log = (...a: unknown[]) => console.log(`[scan]`, ...a);
@@ -71,10 +75,10 @@ export async function runScan(now = new Date()): Promise<Run> {
   const boardKey = (ats: string, slug: string) => `${ats}:${slug.toLowerCase()}`;
   const known = new Map(boardsFile.boards.map((b) => [boardKey(b.ats, b.slug), b]));
   let newBoards = 0;
-  const addBoard = (ats: Board['ats'], slug: string, company: string, via: string) => {
+  const addBoard = (ats: Board['ats'], slug: string, company: string, via: string, workdayCfg: Board['workday'] = null) => {
     if (known.has(boardKey(ats, slug)) || isExcludedCompany(company) || isExcludedCompany(slug)) return false;
     const b: Board = {
-      ats, slug: slug.toLowerCase(), company, workday: null, origin: 'discovered', discoveredVia: via, discoveredAt: at,
+      ats, slug: slug.toLowerCase(), company, workday: workdayCfg, origin: 'discovered', discoveredVia: via, discoveredAt: at,
       lastScannedAt: null, lastOkAt: null, consecutiveFailures: 0, disabled: false, disabledReason: null, relevantSeen: 0, companyInfo: null,
     };
     boardsFile.boards.push(b);
@@ -82,6 +86,25 @@ export async function runScan(now = new Date()): Promise<Run> {
     newBoards++;
     return true;
   };
+
+  // Claude agent leads: every official ATS link becomes a board to scan; the job itself is then verified like any other.
+  const leadByCanon = new Map<string, AgentLead>();
+  const leadBoardsBefore = newBoards;
+  const unsupportedLeads: Run['agentLeads']['unsupported'] = [];
+  for (const l of recentLeads) {
+    const ref = parseAtsUrl(l.url);
+    const wd = ref ? null : parseWorkdayUrl(l.url);
+    if (ref && ref.board) {
+      addBoard(ref.ats, ref.board, l.company, 'claude-agent');
+      if (ref.id) leadByCanon.set(postingCanonicalUrl(ref.ats, ref.board, ref.id, l.url), l);
+    } else if (wd) {
+      addBoard('workday', wd.tenant, l.company, 'claude-agent', wd);
+      leadByCanon.set(canonicalUrl(l.url), l);
+    } else if (isNewLead(l)) {
+      unsupportedLeads.push({ url: l.url, company: l.company, title: l.title });
+    }
+  }
+  const agentNewBoards = newBoards - leadBoardsBefore;
 
   if (process.env.JOB_RADAR_SKIP_DISCOVERY !== '1') {
     const d = await discover(cfg.search, titleFilter);
@@ -162,6 +185,9 @@ export async function runScan(now = new Date()): Promise<Run> {
   const touched = new Set<string>();
   const createdThisRun = new Set<string>();
   const runKeys = new Map<string, string>(); // canonical url / req key -> job id (within-run dedup)
+  const leadSeen = new Set<string>();
+  const leadRejected: Run['agentLeads']['rejected'] = [];
+  const leadJobIds = new Map<string, AgentLead>();
   let candidates = 0, newJobs = 0, updated = 0, dupes = 0, suppressedCount = 0;
   const curated = contactsFile.contacts;
 
@@ -188,8 +214,13 @@ export async function runScan(now = new Date()): Promise<Run> {
 
     const rv = role.classifyRole(p.title, p.description);
     const location = classifyLocation({ locationText: p.locationText, workplaceType: p.workplaceType, isRemote: p.isRemote, description: p.description, url: p.officialUrl });
+    const lead = leadByCanon.get(canon);
+    if (lead) leadSeen.add(canon);
     // New postings that are clearly irrelevant or not open to India are not stored (keeps history meaningful).
-    if (!existing && (!rv.include || location.india === 'ineligible')) continue;
+    if (!existing && (!rv.include || location.india === 'ineligible')) {
+      if (lead && isNewLead(lead)) leadRejected.push({ url: lead.url, company: lead.company, title: lead.title, reason: !rv.include ? `Role check: ${rv.reason}` : `Location: ${location.reason}` });
+      continue;
+    }
 
     const compensation = classifyCompensation({ ranges: p.ranges, description: p.description, sourceUrl: p.officialUrl, fx, minAnnualInr: cfg.profile.compensation.minAnnualInr });
     const family = rv.family ?? existing?.jobFamily ?? 'technical_support';
@@ -224,7 +255,7 @@ export async function runScan(now = new Date()): Promise<Run> {
       feedReasons: [],
       officialUrl: p.officialUrl,
       applyUrl: p.applyUrl,
-      discoverySources: [...new Set([...(existing?.discoverySources ?? []), `${p.ats}:${p.board}`, ...(board && board.origin === 'discovered' ? [board.discoveredVia] : [])])],
+      discoverySources: [...new Set([...(existing?.discoverySources ?? []), `${p.ats}:${p.board}`, ...(board && board.origin === 'discovered' ? [board.discoveredVia] : []), ...(lead ? ['claude-agent'] : [])])],
       contacts: mergeContacts({ id: finalId, company: p.company }, postingContacts, curated, today, t.contactStaleDays),
       contactSearchLinks: contactSearchLinks(p.company),
       notes: [
@@ -258,6 +289,7 @@ export async function runScan(now = new Date()): Promise<Run> {
     runKeys.set(id, finalId);
     for (const k of runKey) runKeys.set(k, finalId);
     if (board && rv.include) board.relevantSeen++;
+    if (lead && isNewLead(lead)) leadJobIds.set(finalId, lead);
   }
 
   // Jobs not seen this run: closed, or verification failed, depending on why.
@@ -302,6 +334,22 @@ export async function runScan(now = new Date()): Promise<Run> {
     if (createdThisRun.has(id) && feed !== 'excluded') newQualified++;
   }
 
+  // Agent lead outcomes (only leads added since the previous scan are reported)
+  let leadsPublished = 0;
+  for (const [id, lead] of leadJobIds) {
+    const j = jobs.get(id)!;
+    if (j.feed !== 'excluded') leadsPublished++;
+    else leadRejected.push({ url: lead.url, company: lead.company, title: lead.title, reason: j.feedReasons.join('; ') });
+  }
+  for (const [canon, lead] of leadByCanon) {
+    if (leadSeen.has(canon) || !isNewLead(lead)) continue;
+    const ref = parseAtsUrl(lead.url);
+    const wd = ref ? null : parseWorkdayUrl(lead.url);
+    const r = boardResult.get(ref ? boardKey(ref.ats, ref.board) : boardKey('workday', wd?.tenant ?? ''));
+    leadRejected.push({ url: lead.url, company: lead.company, title: lead.title, reason: r && !r.ok ? 'Board could not be fetched this run' : 'Not found on the official board (closed, or not a target title)' });
+  }
+  const agentConsidered = recentLeads.filter(isNewLead).length;
+
   // 6. Persist -------------------------------------------------------------------------------
   const FEED_ORDER = { recommended: 0, review: 1, location_check: 2, excluded: 3 } as const;
   const STATUS_ORDER = { active: 0, verification_failed: 1, closed: 2 } as const;
@@ -313,7 +361,9 @@ export async function runScan(now = new Date()): Promise<Run> {
     boardsScanned: active.length, boardsFailed, postingsExamined: examined, candidatesAfterTitleFilter: candidates,
     newJobs, newQualified, updatedJobs: updated, closedJobs: closed, reopenedJobs: reopened, verificationFailed,
     duplicatesDiscarded: dupes, suppressedByImport: suppressedCount, newBoardsDiscovered: newBoards,
-    sourceFailures: failures, fxDate: fx.date, nextScheduledAt: nextRunAfter(now),
+    sourceFailures: failures,
+    agentLeads: { considered: agentConsidered, newBoards: agentNewBoards, published: leadsPublished, rejected: leadRejected.slice(0, 50), unsupported: unsupportedLeads.slice(0, 50) },
+    fxDate: fx.date, nextScheduledAt: nextRunAfter(now),
   };
 
   writeData('jobs', { schemaVersion: 1, updatedAt: at, jobs: sorted });
@@ -336,6 +386,7 @@ function summary(run: Run): string {
     `| Verification failed | ${run.verificationFailed} |`,
     `| Duplicates discarded | ${run.duplicatesDiscarded} |`,
     `| New boards discovered | ${run.newBoardsDiscovered} |`,
+    `| Claude leads: new / published / rejected / unsupported | ${run.agentLeads.considered} / ${run.agentLeads.published} / ${run.agentLeads.rejected.length} / ${run.agentLeads.unsupported.length} |`,
     `| FX date | ${run.fxDate ?? 'n/a'} |`,
     `| Next scheduled | ${run.nextScheduledAt} |`,
   ];

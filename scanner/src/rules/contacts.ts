@@ -35,6 +35,7 @@ export function extractPostingContacts(description: string, company: string, sou
         reason: type === 'potential_team_contact' ? 'Posting names this person as who the role reports to / works with; not confirmed as the hiring manager' : 'Named for this opening in the official posting',
         verifiedAt: today,
         stale: false,
+        addedBy: 'posting',
       });
     }
   }
