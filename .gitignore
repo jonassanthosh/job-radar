@@ -1,0 +1,8 @@
+node_modules/
+web/dist/
+web/public/data/
+*.local
+.env
+# Private application exports from the dashboard — never commit these
+applications*.json
+private/

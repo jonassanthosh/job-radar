@@ -1,0 +1,70 @@
+{
+ "schemaVersion": 1,
+ "boards": [
+  {
+   "ats": "greenhouse",
+   "slug": "acmedev",
+   "company": "AcmeDev",
+   "workday": null,
+   "origin": "seed",
+   "discoveredVia": "test seed",
+   "discoveredAt": "2026-11-01T01:30:00.000Z",
+   "lastScannedAt": null,
+   "lastOkAt": null,
+   "consecutiveFailures": 0,
+   "disabled": false,
+   "disabledReason": null,
+   "relevantSeen": 0,
+   "companyInfo": null
+  },
+  {
+   "ats": "lever",
+   "slug": "flowbase",
+   "company": "FlowBase",
+   "workday": null,
+   "origin": "seed",
+   "discoveredVia": "test seed",
+   "discoveredAt": "2026-11-01T01:30:00.000Z",
+   "lastScannedAt": null,
+   "lastOkAt": null,
+   "consecutiveFailures": 0,
+   "disabled": false,
+   "disabledReason": null,
+   "relevantSeen": 0,
+   "companyInfo": null
+  },
+  {
+   "ats": "ashby",
+   "slug": "cloudnine",
+   "company": "CloudNine",
+   "workday": null,
+   "origin": "seed",
+   "discoveredVia": "test seed",
+   "discoveredAt": "2026-11-01T01:30:00.000Z",
+   "lastScannedAt": null,
+   "lastOkAt": null,
+   "consecutiveFailures": 0,
+   "disabled": false,
+   "disabledReason": null,
+   "relevantSeen": 0,
+   "companyInfo": null
+  },
+  {
+   "ats": "ashby",
+   "slug": "brokenco",
+   "company": "BrokenCo",
+   "workday": null,
+   "origin": "seed",
+   "discoveredVia": "test seed",
+   "discoveredAt": "2026-11-01T01:30:00.000Z",
+   "lastScannedAt": null,
+   "lastOkAt": null,
+   "consecutiveFailures": 0,
+   "disabled": false,
+   "disabledReason": null,
+   "relevantSeen": 0,
+   "companyInfo": null
+  }
+ ],
+ "probed": {}
+}

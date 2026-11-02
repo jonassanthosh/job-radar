@@ -1,0 +1,30 @@
+{
+  "name": "job-radar",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "web"
+  ],
+  "scripts": {
+    "scan": "tsx scanner/src/run.ts",
+    "scan:fixtures": "JOB_RADAR_FIXTURES=scanner/test/fixtures tsx scanner/src/run.ts",
+    "import": "tsx scanner/src/import.ts",
+    "validate": "tsx scanner/src/validate.ts",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit -p tsconfig.json",
+    "build:web": "npm run build -w web",
+    "dev:web": "npm run dev -w web"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "devDependencies": {
+    "@types/node": "^22.20.5",
+    "tsx": "^4.23.15",
+    "typescript": "^5.9.3",
+    "vitest": "^3.2.7"
+  },
+  "dependencies": {
+    "zod": "^3.25.76"
+  }
+}

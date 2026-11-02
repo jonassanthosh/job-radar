@@ -1,0 +1,23 @@
+{
+ "id": 101,
+ "title": "x",
+ "updated_at": "2026-10-28T10:00:00-04:00",
+ "first_published": "2026-10-28T10:00:00-04:00",
+ "location": {
+  "name": "x"
+ },
+ "absolute_url": "https://job-boards.greenhouse.io/acmedev/jobs/101",
+ "content": "",
+ "requisition_id": null,
+ "metadata": [],
+ "offices": [],
+ "pay_input_ranges": [
+  {
+   "min_cents": 650000000,
+   "max_cents": 900000000,
+   "currency_type": "INR",
+   "title": "India",
+   "blurb": "<p>Base salary range for India</p>"
+  }
+ ]
+}

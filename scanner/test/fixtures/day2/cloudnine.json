@@ -1,0 +1,35 @@
+{
+ "jobs": [
+  {
+   "id": "aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeeee",
+   "title": "Product Support Engineer",
+   "employmentType": "FullTime",
+   "location": "Remote",
+   "isRemote": true,
+   "isListed": true,
+   "publishedAt": "2026-10-25T00:00:00Z",
+   "jobUrl": "https://jobs.ashbyhq.com/cloudnine/aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeeee",
+   "applyUrl": "https://jobs.ashbyhq.com/cloudnine/aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeeee/application",
+   "descriptionPlain": "About the role\nAs a Senior Developer Support Engineer you will help developers integrate our REST APIs and SDKs. You will debug webhooks, OAuth and authentication issues, investigate production issues using logs, traces and SQL, reproduce bugs and work with our product engineering team on root cause analysis.\n\n<ul><li>Own complex L2/L3 escalations from enterprise customers</li><li>Write scripts and internal tools to automate support workflows</li><li>Improve our documentation and developer experience</li><li>Work with TypeScript, Node.js, React, Firebase and Postgres</li></ul>\nRequirements: 4+ years of experience in developer support or software engineering. Experience with LLM / AI products is a plus.\nOur developer platform is a backend-as-a-service used by 200,000 developers.\n\nWe are a remote-first company and can hire in the following countries: Canada, Germany, India, Brazil.\nYour recruiter for this role is Priya Raman.",
+   "compensation": {
+    "compensationTierSummary": "$150K \u2013 $180K",
+    "compensationTiers": [
+     {
+      "title": "United States",
+      "tierSummary": "$150K \u2013 $180K",
+      "components": [
+       {
+        "compensationType": "Salary",
+        "interval": "1 YEAR",
+        "currencyCode": "USD",
+        "minValue": 150000,
+        "maxValue": 180000
+       }
+      ]
+     }
+    ],
+    "summaryComponents": []
+   }
+  }
+ ]
+}

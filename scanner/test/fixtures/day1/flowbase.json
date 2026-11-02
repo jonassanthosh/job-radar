@@ -1,0 +1,32 @@
+[
+ {
+  "id": "11111111-2222-3333-4444-555555555555",
+  "text": "Developer Success Engineer",
+  "categories": {
+   "commitment": "Full-time",
+   "location": "India",
+   "allLocations": [
+    "India"
+   ]
+  },
+  "workplaceType": "remote",
+  "descriptionPlain": "About the role\nAs a Developer Success Engineer you will help developers integrate our REST APIs and SDKs. You will debug webhooks, OAuth and authentication issues, investigate production issues using logs, traces and SQL, reproduce bugs and work with our product engineering team on root cause analysis.\n\n- Own complex L2/L3 escalations from enterprise customers\n- Write scripts and internal tools to automate support workflows\n- Improve our documentation and developer experience\n- Work with TypeScript, Node.js, React, Firebase and Postgres\n\nRequirements: 4+ years of experience in developer support or software engineering. Experience with LLM / AI products is a plus.\nOur developer platform is a low-code app builder used by 200,000 developers.\n",
+  "lists": [],
+  "hostedUrl": "https://jobs.lever.co/flowbase/11111111-2222-3333-4444-555555555555",
+  "applyUrl": "https://jobs.lever.co/flowbase/11111111-2222-3333-4444-555555555555/apply",
+  "createdAt": 1793318400000
+ },
+ {
+  "id": "66666666-2222-3333-4444-555555555555",
+  "text": "Support Engineer",
+  "categories": {
+   "commitment": "Full-time",
+   "location": "Bengaluru, India"
+  },
+  "workplaceType": "hybrid",
+  "descriptionPlain": "Debug APIs for developers. 3 days a week in the office.",
+  "lists": [],
+  "hostedUrl": "https://jobs.lever.co/flowbase/66666666-2222-3333-4444-555555555555",
+  "createdAt": 1793318400000
+ }
+]

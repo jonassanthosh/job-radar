@@ -1,0 +1,317 @@
+{
+  "$comment": "Title and responsibility rules. All patterns are case-insensitive regular expressions. Edit freely; tests in scanner/test cover the behaviour.",
+  "titleFamilies": [
+    {
+      "family": "developer_support",
+      "strict": false,
+      "patterns": [
+        "developer support",
+        "developer success",
+        "api support",
+        "dev(?:eloper)? ?support engineer",
+        "developer relations support"
+      ]
+    },
+    {
+      "family": "technical_support",
+      "strict": false,
+      "patterns": [
+        "technical support engineer",
+        "technical customer support engineer",
+        "product support engineer",
+        "technical product support",
+        "customer support engineer",
+        "enterprise support engineer",
+        "integrations? support engineer",
+        "support engineering specialist",
+        "\\bsupport engineer\\b",
+        "support engineer(?:ing)?\\b"
+      ]
+    },
+    {
+      "family": "customer_engineering",
+      "strict": true,
+      "patterns": [
+        "customer success engineer",
+        "customer engineer\\b"
+      ]
+    },
+    {
+      "family": "solutions_integration",
+      "strict": true,
+      "patterns": [
+        "technical solutions? engineer",
+        "integrations? engineer"
+      ]
+    },
+    {
+      "family": "developer_experience",
+      "strict": true,
+      "patterns": [
+        "developer experience engineer",
+        "\\bdx engineer"
+      ]
+    }
+  ],
+  "titleExclusions": [
+    "\\bmanager\\b",
+    "\\bdirector\\b",
+    "head of",
+    "\\bvp\\b",
+    "vice president",
+    "\\bchief\\b",
+    "\\bintern(ship)?\\b",
+    "new grad",
+    "graduate program",
+    "apprentice",
+    "\\bsales\\b",
+    "account executive",
+    "account manager",
+    "business development",
+    "forward[- ]deployed",
+    "pre[- ]?sales",
+    "\\bit support\\b",
+    "help ?desk",
+    "service desk",
+    "desktop support",
+    "end[- ]user support",
+    "field (service|support|engineer)",
+    "representative",
+    "\\bagent\\b",
+    "customer service",
+    "\\bnoc\\b",
+    "data ?cent(er|re)",
+    "hardware",
+    "\\bonsite\\b",
+    "contract(or)? \\(?\\d+ months?"
+  ],
+  "responsibilityGroups": [
+    {
+      "id": "developer_customers",
+      "label": "Supports developers on a SaaS / developer platform",
+      "patterns": [
+        "developers?",
+        "developer platform",
+        "\\bsaas\\b",
+        "engineering teams? at (?:our )?customers"
+      ]
+    },
+    {
+      "id": "api_debugging",
+      "label": "Debugs APIs, SDKs, webhooks, integrations or auth",
+      "patterns": [
+        "\\bapis?\\b",
+        "\\bsdks?\\b",
+        "webhooks?",
+        "integrations?",
+        "oauth|authenticat|\\bsso\\b"
+      ]
+    },
+    {
+      "id": "production_investigation",
+      "label": "Investigates production issues with logs, traces, SQL or code",
+      "patterns": [
+        "\\blogs?\\b",
+        "traces?|tracing",
+        "\\bsql\\b|quer(y|ies)",
+        "read(ing)? (?:the )?code|codebase|source code",
+        "production (?:issues?|incidents?)"
+      ]
+    },
+    {
+      "id": "bug_reproduction",
+      "label": "Reproduces bugs and works with product engineering",
+      "patterns": [
+        "reproduc",
+        "bug reports?|file bugs|bugs?\\b",
+        "(?:product|engineering) teams?",
+        "root cause"
+      ]
+    },
+    {
+      "id": "technical_customers",
+      "label": "Works directly with technical customers",
+      "patterns": [
+        "customers?",
+        "clients?",
+        "users?"
+      ]
+    },
+    {
+      "id": "tooling",
+      "label": "Writes scripts, tools, examples or automation",
+      "patterns": [
+        "scripts?|scripting",
+        "tool(s|ing)\\b",
+        "automat",
+        "sample (?:code|apps?)|code samples|examples"
+      ]
+    },
+    {
+      "id": "escalations",
+      "label": "Resolves complex L2/L3 escalations",
+      "patterns": [
+        "\\bl[23]\\b|tier[ -]?[23]|level [23]",
+        "escalat",
+        "complex (?:technical )?(?:issues|problems|cases)"
+      ]
+    },
+    {
+      "id": "documentation_dx",
+      "label": "Improves documentation and developer experience",
+      "patterns": [
+        "documentation|\\bdocs\\b|knowledge base|help cent(?:er|re)",
+        "developer experience"
+      ]
+    },
+    {
+      "id": "platform_product",
+      "label": "Supports AI, cloud, API, database or infrastructure products",
+      "patterns": [
+        "\\bai\\b|\\bllm",
+        "cloud",
+        "database",
+        "infrastructure",
+        "\\bapi\\b platform|api products?"
+      ]
+    }
+  ],
+  "minResponsibilityGroups": {
+    "default": 4,
+    "strict": 5
+  },
+  "presalesSignals": [
+    "\\bquota\\b",
+    "pre[- ]?sales",
+    "sales cycle",
+    "proofs? of concept|\\bpocs?\\b",
+    "prospects?\\b",
+    "close deals|closing deals",
+    "\\bote\\b|on[- ]target earnings",
+    "commission",
+    "revenue targets?",
+    "technical wins?",
+    "account executives?",
+    "pipeline generation"
+  ],
+  "maxPresalesSignals": 2,
+  "genericSupportSignals": [
+    "password resets?",
+    "call cent(?:er|re)",
+    "phone support",
+    "inbound calls",
+    "ticket routing|route tickets",
+    "order (?:status|issues)",
+    "refunds?",
+    "billing (?:inquiries|questions)",
+    "hardware (?:troubleshooting|repair)",
+    "printers?",
+    "active directory",
+    "windows (?:desktop|support)"
+  ],
+  "maxGenericSupportSignals": 2,
+  "seniorityTitle": {
+    "senior": [
+      "\\bsenior\\b",
+      "\\bsr\\.?\\b",
+      "\\biii\\b",
+      "\\blevel 3\\b"
+    ],
+    "staff": [
+      "\\bstaff\\b",
+      "\\bprincipal\\b",
+      "\\blead\\b",
+      "\\biv\\b"
+    ],
+    "junior": [
+      "\\bjunior\\b",
+      "\\bjr\\.?\\b",
+      "\\bassociate\\b",
+      "entry[- ]level",
+      "\\bi\\b$"
+    ]
+  },
+  "concernSignals": [
+    {
+      "label": "Shift / weekend / 24x7 coverage",
+      "patterns": [
+        "24/7|24x7",
+        "weekends?",
+        "night shifts?|rotational shifts?|shift-based"
+      ]
+    },
+    {
+      "label": "On-call rotation",
+      "patterns": [
+        "on[- ]call"
+      ]
+    },
+    {
+      "label": "Expects overlap with US hours",
+      "patterns": [
+        "\\b(pst|pt|est|et|cst|ct)\\b (?:business )?hours",
+        "us (?:business )?hours",
+        "pacific time",
+        "eastern time"
+      ]
+    },
+    {
+      "label": "Contract / fixed-term role",
+      "patterns": [
+        "fixed[- ]term",
+        "contract (?:role|position)",
+        "\\b\\d+[- ]month contract"
+      ]
+    }
+  ],
+  "aggregatorQueries": [
+    "support engineer",
+    "developer support",
+    "technical support engineer",
+    "customer success engineer",
+    "customer engineer",
+    "product support engineer",
+    "developer success",
+    "api support"
+  ],
+  "searchApiQueries": [
+    "site:job-boards.greenhouse.io \"support engineer\" India remote",
+    "site:boards.greenhouse.io \"support engineer\" \"remote\" India",
+    "site:jobs.lever.co \"support engineer\" India remote",
+    "site:jobs.ashbyhq.com \"support engineer\" India",
+    "site:jobs.ashbyhq.com \"developer support\" remote",
+    "site:job-boards.greenhouse.io \"developer support engineer\"",
+    "site:jobs.lever.co \"customer success engineer\" India",
+    "\"technical support engineer\" \"remote\" \"India\" developer platform greenhouse OR lever OR ashby"
+  ],
+  "workdaySearchTerms": [
+    "support engineer",
+    "developer support",
+    "customer engineer"
+  ],
+  "excludedCompanies": [
+    "crossover",
+    "\\bturing\\b",
+    "toptal",
+    "andela",
+    "braintrust",
+    "mercor",
+    "outlier",
+    "x-team",
+    "proxify",
+    "lemon\\.io",
+    "arc\\.dev",
+    "remote ?base",
+    "uplers",
+    "talent ?500",
+    "\\bhired\\b",
+    "recruit",
+    "staffing",
+    "talent solutions",
+    "consult(ing|ancy)",
+    "jobgether",
+    "remoterocketship",
+    "flexjobs",
+    "weekday"
+  ]
+}

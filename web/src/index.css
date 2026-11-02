@@ -1,0 +1,83 @@
+@import 'tailwindcss';
+
+/* Tokens: cool ink on slate paper. Gate colours carry meaning (verified / unverified / rejected) and are used for nothing else. */
+@theme {
+  --font-sans: 'Schibsted Grotesk', ui-sans-serif, system-ui, sans-serif;
+  --color-ink: var(--ink);
+  --color-ink-soft: var(--ink-soft);
+  --color-ink-faint: var(--ink-faint);
+  --color-paper: var(--paper);
+  --color-surface: var(--surface);
+  --color-line: var(--line);
+  --color-link: var(--link);
+  --color-ok: var(--ok);
+  --color-ok-bg: var(--ok-bg);
+  --color-warn: var(--warn);
+  --color-warn-bg: var(--warn-bg);
+  --color-bad: var(--bad);
+  --color-bad-bg: var(--bad-bg);
+}
+
+:root {
+  --ink: #1b2433;
+  --ink-soft: #4a5568;
+  --ink-faint: #7a8597;
+  --paper: #eef1f5;
+  --surface: #ffffff;
+  --line: #d8dee7;
+  --link: #3446b8;
+  --ok: #1f6f4a;
+  --ok-bg: #e3f2ea;
+  --warn: #9a6200;
+  --warn-bg: #fbf0d9;
+  --bad: #9a3b3b;
+  --bad-bg: #f7e4e4;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --ink: #e6eaf0;
+    --ink-soft: #b3bccb;
+    --ink-faint: #8792a5;
+    --paper: #121821;
+    --surface: #1a2230;
+    --line: #2c3748;
+    --link: #9aa8ff;
+    --ok: #6fd19f;
+    --ok-bg: #173527;
+    --warn: #f0bf5e;
+    --warn-bg: #3a2c10;
+    --bad: #f09a9a;
+    --bad-bg: #3d1d1d;
+    color-scheme: dark;
+  }
+}
+
+@layer base {
+html { background: var(--paper); }
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-sans);
+  font-feature-settings: 'tnum' 1;
+  -webkit-font-smoothing: antialiased;
+}
+a { color: var(--link); }
+:focus-visible { outline: 2px solid var(--link); outline-offset: 2px; border-radius: 4px; }
+@media (prefers-reduced-motion: reduce) { * { transition: none !important; animation: none !important; } }
+
+}
+
+@layer components {
+.field {
+  width: 100%;
+  border: 1px solid var(--line);
+  background: var(--surface);
+  color: var(--ink);
+  border-radius: 6px;
+  padding: 6px 8px;
+  font: inherit;
+  font-size: 14px;
+}
+}

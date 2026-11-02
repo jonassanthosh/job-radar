@@ -1,0 +1,22 @@
+{
+ "jobs": [
+  {
+   "title": "Developer Support Engineer",
+   "company_name": "Nimbus Data",
+   "candidate_required_location": "Worldwide",
+   "url": "https://remotive.com/x/1"
+  },
+  {
+   "title": "Support Engineer",
+   "company_name": "US Only Corp",
+   "candidate_required_location": "USA Only",
+   "url": "https://remotive.com/x/2"
+  },
+  {
+   "title": "Technical Support Engineer",
+   "company_name": "Crossover",
+   "candidate_required_location": "Worldwide",
+   "url": "https://remotive.com/x/3"
+  }
+ ]
+}

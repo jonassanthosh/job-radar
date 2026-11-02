@@ -1,0 +1,86 @@
+name: Daily scan
+
+on:
+  schedule:
+    # 07:00 IST = 01:30 UTC. GitHub can delay scheduled runs, sometimes by 30+ minutes at busy times.
+    - cron: '30 1 * * *'
+  workflow_dispatch:
+    inputs:
+      skip_discovery:
+        description: 'Skip discovering new employers (scan known boards only)'
+        type: boolean
+        default: false
+  push:
+    branches: [main]
+    paths: ['web/**', 'config/**', 'scanner/**', 'package*.json', '.github/workflows/**']
+
+permissions:
+  contents: write   # commit updated data/*.json
+  pages: write      # deploy the dashboard
+  id-token: write   # required by actions/deploy-pages
+
+concurrency:
+  group: job-radar
+  cancel-in-progress: false
+
+jobs:
+  scan-and-build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Type-check and run tests (rules + offline end-to-end)
+        run: |
+          npm run typecheck
+          npm test
+
+      - name: Run discovery scan
+        if: github.event_name != 'push'
+        env:
+          BRAVE_SEARCH_API_KEY: ${{ secrets.BRAVE_SEARCH_API_KEY }}
+          JOB_RADAR_SKIP_DISCOVERY: ${{ inputs.skip_discovery && '1' || '0' }}
+          JOB_RADAR_UA: job-radar/1.0 (+https://github.com/${{ github.repository }})
+        run: npm run scan
+
+      - name: Validate data
+        run: npm run validate
+
+      - name: Commit data updates
+        if: github.event_name != 'push'
+        run: |
+          git config user.name "job-radar-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/
+          if git diff --cached --quiet; then
+            echo "No data changes."
+          else
+            git commit -m "data: scan $(date -u +%Y-%m-%dT%H:%MZ)"
+            git pull --rebase --autostash
+            git push
+          fi
+
+      - name: Build dashboard
+        run: npm run build:web
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: web/dist
+
+  deploy:
+    needs: scan-and-build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
