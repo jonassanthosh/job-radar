@@ -122,6 +122,69 @@
       },
       "fxDate": "2026-10-30",
       "nextScheduledAt": "2026-11-03T01:30:00.000Z"
+    },
+    {
+      "id": "2026-11-02T13:08:18.718Z",
+      "mode": "incremental",
+      "startedAt": "2026-11-02T13:08:18.718Z",
+      "finishedAt": "2026-11-02T13:08:45.056Z",
+      "ok": true,
+      "boardsScanned": 58,
+      "boardsFailed": 8,
+      "postingsExamined": 8099,
+      "candidatesAfterTitleFilter": 194,
+      "newJobs": 0,
+      "newQualified": 0,
+      "updatedJobs": 0,
+      "closedJobs": 0,
+      "reopenedJobs": 0,
+      "verificationFailed": 0,
+      "duplicatesDiscarded": 0,
+      "suppressedByImport": 0,
+      "newBoardsDiscovered": 0,
+      "sourceFailures": [
+        {
+          "source": "greenhouse:postman",
+          "error": "HTTP 404 for https://boards-api.greenhouse.io/v1/boards/postman/jobs?content=true"
+        },
+        {
+          "source": "greenhouse:temporaltechnologies",
+          "error": "HTTP 404 for https://boards-api.greenhouse.io/v1/boards/temporaltechnologies/jobs?content=true"
+        },
+        {
+          "source": "lever:mattermost",
+          "error": "HTTP 404 for https://api.lever.co/v0/postings/mattermost?mode=json"
+        },
+        {
+          "source": "lever:plaid",
+          "error": "HTTP 404 for https://api.lever.co/v0/postings/plaid?mode=json"
+        },
+        {
+          "source": "lever:appsmith",
+          "error": "HTTP 404 for https://api.lever.co/v0/postings/appsmith?mode=json"
+        },
+        {
+          "source": "lever:hasura",
+          "error": "HTTP 404 for https://api.lever.co/v0/postings/hasura?mode=json"
+        },
+        {
+          "source": "lever:percona",
+          "error": "HTTP 404 for https://api.lever.co/v0/postings/percona?mode=json"
+        },
+        {
+          "source": "workday:adobe",
+          "error": "[\n  {\n    \"code\": \"invalid_type\",\n    \"expected\": \"string\",\n    \"received\": \"undefined\",\n    \"path\": [\n      \"jobPostings\",\n      0,\n      \"title\"\n    ],\n    \"message\": \"Required\"\n  },\n  {\n    \"code\": \"invalid_type\",\n    \"expected\": \"string\",\n    \"received\": \"undefined\",\n    \"path\": [\n      \"jobPost"
+        }
+      ],
+      "agentLeads": {
+        "considered": 0,
+        "newBoards": 0,
+        "published": 0,
+        "rejected": [],
+        "unsupported": []
+      },
+      "fxDate": "2026-10-30",
+      "nextScheduledAt": "2026-11-03T01:30:00.000Z"
     }
   ]
 }

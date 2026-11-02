@@ -1,7 +1,308 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-02T13:07:10.058Z",
+  "updatedAt": "2026-11-02T13:08:18.718Z",
   "jobs": [
+    {
+      "id": "gh-gitlab-8692874002",
+      "keys": {
+        "ats": "greenhouse",
+        "board": "gitlab",
+        "atsId": "8692874002",
+        "canonicalUrl": "https://job-boards.greenhouse.io/gitlab/jobs/8692874002",
+        "reqId": "6782"
+      },
+      "company": "GitLab",
+      "companyInfo": {
+        "hq": null,
+        "international": null,
+        "source": null
+      },
+      "title": "Senior Support Engineer",
+      "normalizedTitle": "senior support engineer",
+      "jobFamily": "technical_support",
+      "employmentType": null,
+      "location": {
+        "raw": "Bangalore, India | India",
+        "remoteType": "remote",
+        "region": "India",
+        "india": "eligible",
+        "evidence": "Bangalore, India | India",
+        "evidenceSource": "https://job-boards.greenhouse.io/gitlab/jobs/8692874002",
+        "reason": "Official location lists India and the role is remote"
+      },
+      "postedAt": "2026-08-18T09:16:27.000Z",
+      "firstSeenAt": "2026-11-02T12:59:15.532Z",
+      "lastCheckedAt": "2026-11-02T13:08:18.718Z",
+      "lastVerifiedAt": "2026-11-02T13:08:18.718Z",
+      "lastModifiedAt": "2026-11-02T12:59:15.532Z",
+      "status": "active",
+      "consecutiveFailures": 0,
+      "descriptionFingerprint": "ee0ae2f13c371a93",
+      "techStack": [
+        "Serverless / Cloud Functions",
+        "Python / scripting",
+        "Logs / observability",
+        "Debugging / RCA",
+        "AI / LLM support automation",
+        "Git / CI",
+        "Technical documentation",
+        "Kubernetes",
+        "Ruby / Rails",
+        "Linux administration"
+      ],
+      "yearsRequired": null,
+      "compensation": {
+        "status": "unverified",
+        "currency": null,
+        "interval": null,
+        "min": null,
+        "max": null,
+        "annualMin": null,
+        "annualMax": null,
+        "inrMin": null,
+        "inrMax": null,
+        "fxRate": null,
+        "fxDate": null,
+        "components": {
+          "base": null,
+          "bonus": null,
+          "equity": null
+        },
+        "applicability": "unspecified",
+        "confidence": "none",
+        "evidence": null,
+        "sourceUrl": null,
+        "display": "Not disclosed — verify with recruiter"
+      },
+      "fit": {
+        "score": 79,
+        "category": "possible",
+        "breakdown": {
+          "technical": 18,
+          "devSupport": 21,
+          "experience": 15,
+          "industry": 15,
+          "customerFacing": 10
+        },
+        "matchedSkills": [
+          "Debugging / RCA",
+          "Serverless / Cloud Functions",
+          "Logs / observability",
+          "AI / LLM support automation",
+          "Python / scripting",
+          "Git / CI",
+          "Technical documentation"
+        ],
+        "strongestMatch": [
+          "Root cause analysis on enterprise escalations; drove 30+ product fixes with engineering",
+          "Debugged Cloud Functions deployments and runtime errors",
+          "Root-caused production incidents from logs and traces"
+        ],
+        "missing": [
+          "Kubernetes",
+          "Ruby / Rails",
+          "Linux administration"
+        ],
+        "concerns": [
+          "Shift / weekend / 24x7 coverage",
+          "On-call rotation"
+        ],
+        "whyFit": "Names 7 of your core skills (Debugging / RCA, Serverless / Cloud Functions, Logs / observability, AI / LLM support automation, Python / scripting) and the work centres on: Supports developers on a SaaS / developer platform; Debugs APIs, SDKs, webhooks, integrations or auth; Investigates production issues with logs, traces, SQL or code.",
+        "worthApplying": "Senior-level title fits your escalation and mentoring experience. Domain overlap: Developer platform / devtools, Cloud / infrastructure SaaS. Lead with: Root cause analysis on enterprise escalations; drove 30+ product fixes with engineering."
+      },
+      "feed": "review",
+      "feedReasons": [
+        "India-eligible; pay not disclosed for India — verify with recruiter"
+      ],
+      "officialUrl": "https://job-boards.greenhouse.io/gitlab/jobs/8692874002",
+      "applyUrl": "https://job-boards.greenhouse.io/gitlab/jobs/8692874002",
+      "discoverySources": [
+        "greenhouse:gitlab"
+      ],
+      "contacts": [],
+      "contactSearchLinks": [
+        {
+          "label": "Support / developer-support leaders",
+          "url": "https://www.google.com/search?q=site%3Alinkedin.com%2Fin%20%22GitLab%22%20(%22support%20engineering%20manager%22%20OR%20%22head%20of%20support%22%20OR%20%22director%20of%20support%22%20OR%20%22developer%20support%22%20OR%20%22customer%20engineering%20manager%22)"
+        },
+        {
+          "label": "Technical recruiters",
+          "url": "https://www.google.com/search?q=site%3Alinkedin.com%2Fin%20%22GitLab%22%20(%22technical%20recruiter%22%20OR%20%22talent%20acquisition%22%20OR%20%22recruiting%22)%20(engineering%20OR%20technical)"
+        },
+        {
+          "label": "Company team / about page",
+          "url": "https://www.google.com/search?q=%22GitLab%22%20team%20OR%20leadership%20%22support%22"
+        }
+      ],
+      "notes": [],
+      "suppressed": false,
+      "repostOf": null,
+      "history": [
+        {
+          "at": "2026-11-02T12:59:15.532Z",
+          "type": "created",
+          "from": null,
+          "to": "active",
+          "reason": "Discovered on greenhouse:gitlab"
+        },
+        {
+          "at": "2026-11-02T13:08:18.718Z",
+          "type": "feed",
+          "from": "excluded",
+          "to": "review",
+          "reason": "India-eligible; pay not disclosed for India — verify with recruiter"
+        }
+      ]
+    },
+    {
+      "id": "gh-gitlab-8918853002",
+      "keys": {
+        "ats": "greenhouse",
+        "board": "gitlab",
+        "atsId": "8918853002",
+        "canonicalUrl": "https://job-boards.greenhouse.io/gitlab/jobs/8918853002",
+        "reqId": "7304"
+      },
+      "company": "GitLab",
+      "companyInfo": {
+        "hq": null,
+        "international": null,
+        "source": null
+      },
+      "title": "Senior Assigned Support Engineer-(Designated / Premier Support)",
+      "normalizedTitle": "senior assigned support engineer",
+      "jobFamily": "technical_support",
+      "employmentType": null,
+      "location": {
+        "raw": "Bangalore, India | India",
+        "remoteType": "remote",
+        "region": "India",
+        "india": "eligible",
+        "evidence": "Bangalore, India | India",
+        "evidenceSource": "https://job-boards.greenhouse.io/gitlab/jobs/8918853002",
+        "reason": "Official location lists India and the role is remote"
+      },
+      "postedAt": "2026-10-28T08:28:45.000Z",
+      "firstSeenAt": "2026-11-02T12:59:15.532Z",
+      "lastCheckedAt": "2026-11-02T13:08:18.718Z",
+      "lastVerifiedAt": "2026-11-02T13:08:18.718Z",
+      "lastModifiedAt": "2026-11-02T12:59:15.532Z",
+      "status": "active",
+      "consecutiveFailures": 0,
+      "descriptionFingerprint": "c8590d2412ebc0b0",
+      "techStack": [
+        "Serverless / Cloud Functions",
+        "Python / scripting",
+        "Logs / observability",
+        "Debugging / RCA",
+        "AI / LLM support automation",
+        "Git / CI",
+        "Technical documentation",
+        "Kubernetes",
+        "Ruby / Rails",
+        "Linux administration"
+      ],
+      "yearsRequired": null,
+      "compensation": {
+        "status": "unverified",
+        "currency": null,
+        "interval": null,
+        "min": null,
+        "max": null,
+        "annualMin": null,
+        "annualMax": null,
+        "inrMin": null,
+        "inrMax": null,
+        "fxRate": null,
+        "fxDate": null,
+        "components": {
+          "base": null,
+          "bonus": null,
+          "equity": null
+        },
+        "applicability": "unspecified",
+        "confidence": "none",
+        "evidence": null,
+        "sourceUrl": null,
+        "display": "Not disclosed — verify with recruiter"
+      },
+      "fit": {
+        "score": 79,
+        "category": "possible",
+        "breakdown": {
+          "technical": 18,
+          "devSupport": 21,
+          "experience": 15,
+          "industry": 15,
+          "customerFacing": 10
+        },
+        "matchedSkills": [
+          "Debugging / RCA",
+          "Serverless / Cloud Functions",
+          "Logs / observability",
+          "AI / LLM support automation",
+          "Python / scripting",
+          "Git / CI",
+          "Technical documentation"
+        ],
+        "strongestMatch": [
+          "Root cause analysis on enterprise escalations; drove 30+ product fixes with engineering",
+          "Debugged Cloud Functions deployments and runtime errors",
+          "Root-caused production incidents from logs and traces"
+        ],
+        "missing": [
+          "Kubernetes",
+          "Ruby / Rails",
+          "Linux administration"
+        ],
+        "concerns": [],
+        "whyFit": "Names 7 of your core skills (Debugging / RCA, Serverless / Cloud Functions, Logs / observability, AI / LLM support automation, Python / scripting) and the work centres on: Supports developers on a SaaS / developer platform; Debugs APIs, SDKs, webhooks, integrations or auth; Investigates production issues with logs, traces, SQL or code.",
+        "worthApplying": "Senior-level title fits your escalation and mentoring experience. Domain overlap: Developer platform / devtools, Cloud / infrastructure SaaS. Lead with: Root cause analysis on enterprise escalations; drove 30+ product fixes with engineering."
+      },
+      "feed": "review",
+      "feedReasons": [
+        "India-eligible; pay not disclosed for India — verify with recruiter"
+      ],
+      "officialUrl": "https://job-boards.greenhouse.io/gitlab/jobs/8918853002",
+      "applyUrl": "https://job-boards.greenhouse.io/gitlab/jobs/8918853002",
+      "discoverySources": [
+        "greenhouse:gitlab"
+      ],
+      "contacts": [],
+      "contactSearchLinks": [
+        {
+          "label": "Support / developer-support leaders",
+          "url": "https://www.google.com/search?q=site%3Alinkedin.com%2Fin%20%22GitLab%22%20(%22support%20engineering%20manager%22%20OR%20%22head%20of%20support%22%20OR%20%22director%20of%20support%22%20OR%20%22developer%20support%22%20OR%20%22customer%20engineering%20manager%22)"
+        },
+        {
+          "label": "Technical recruiters",
+          "url": "https://www.google.com/search?q=site%3Alinkedin.com%2Fin%20%22GitLab%22%20(%22technical%20recruiter%22%20OR%20%22talent%20acquisition%22%20OR%20%22recruiting%22)%20(engineering%20OR%20technical)"
+        },
+        {
+          "label": "Company team / about page",
+          "url": "https://www.google.com/search?q=%22GitLab%22%20team%20OR%20leadership%20%22support%22"
+        }
+      ],
+      "notes": [],
+      "suppressed": false,
+      "repostOf": null,
+      "history": [
+        {
+          "at": "2026-11-02T12:59:15.532Z",
+          "type": "created",
+          "from": null,
+          "to": "active",
+          "reason": "Discovered on greenhouse:gitlab"
+        },
+        {
+          "at": "2026-11-02T13:08:18.718Z",
+          "type": "feed",
+          "from": "excluded",
+          "to": "review",
+          "reason": "India-eligible; pay not disclosed for India — verify with recruiter"
+        }
+      ]
+    },
     {
       "id": "ab-supabase-ee4f1860bed4",
       "keys": {
@@ -32,8 +333,8 @@
       },
       "postedAt": "2026-10-26T14:29:18.961Z",
       "firstSeenAt": "2026-11-02T12:59:15.532Z",
-      "lastCheckedAt": "2026-11-02T13:07:10.058Z",
-      "lastVerifiedAt": "2026-11-02T13:07:10.058Z",
+      "lastCheckedAt": "2026-11-02T13:08:18.718Z",
+      "lastVerifiedAt": "2026-11-02T13:08:18.718Z",
       "lastModifiedAt": "2026-11-02T12:59:15.532Z",
       "status": "active",
       "consecutiveFailures": 0,
@@ -73,13 +374,13 @@
         "display": "Not disclosed — verify with recruiter"
       },
       "fit": {
-        "score": 81,
-        "category": "strong",
+        "score": 93,
+        "category": "exceptional",
         "breakdown": {
-          "technical": 22,
+          "technical": 30,
           "devSupport": 18,
           "experience": 20,
-          "industry": 11,
+          "industry": 15,
           "customerFacing": 10
         },
         "matchedSkills": [
@@ -171,8 +472,8 @@
       },
       "postedAt": "2026-09-23T13:58:42.792Z",
       "firstSeenAt": "2026-11-02T12:59:15.532Z",
-      "lastCheckedAt": "2026-11-02T13:07:10.058Z",
-      "lastVerifiedAt": "2026-11-02T13:07:10.058Z",
+      "lastCheckedAt": "2026-11-02T13:08:18.718Z",
+      "lastVerifiedAt": "2026-11-02T13:08:18.718Z",
       "lastModifiedAt": "2026-11-02T12:59:15.532Z",
       "status": "active",
       "consecutiveFailures": 0,
@@ -210,13 +511,13 @@
         "display": "Not disclosed — verify with recruiter"
       },
       "fit": {
-        "score": 75,
-        "category": "possible",
+        "score": 87,
+        "category": "strong",
         "breakdown": {
-          "technical": 16,
+          "technical": 24,
           "devSupport": 18,
           "experience": 20,
-          "industry": 11,
+          "industry": 15,
           "customerFacing": 10
         },
         "matchedSkills": [
@@ -275,6 +576,295 @@
       ]
     },
     {
+      "id": "ab-posthog-0c3c0ae6970d",
+      "keys": {
+        "ats": "ashby",
+        "board": "posthog",
+        "atsId": "db808740-242e-4a40-ad43-d41f26c049d7",
+        "canonicalUrl": "https://jobs.ashbyhq.com/posthog/db808740-242e-4a40-ad43-d41f26c049d7",
+        "reqId": null
+      },
+      "company": "PostHog",
+      "companyInfo": {
+        "hq": null,
+        "international": null,
+        "source": null
+      },
+      "title": "Technical Support Engineer",
+      "normalizedTitle": "technical support engineer",
+      "jobFamily": "technical_support",
+      "employmentType": "Full-Time",
+      "location": {
+        "raw": "Remote",
+        "remoteType": "remote",
+        "region": "Unspecified",
+        "india": "verification_required",
+        "evidence": "Remote",
+        "evidenceSource": "https://jobs.ashbyhq.com/posthog/db808740-242e-4a40-ad43-d41f26c049d7",
+        "reason": "Remote listing with no stated country — confirm India eligibility"
+      },
+      "postedAt": "2026-10-28T14:43:56.854Z",
+      "firstSeenAt": "2026-11-02T12:59:15.532Z",
+      "lastCheckedAt": "2026-11-02T13:08:18.718Z",
+      "lastVerifiedAt": "2026-11-02T13:08:18.718Z",
+      "lastModifiedAt": "2026-11-02T12:59:15.532Z",
+      "status": "active",
+      "consecutiveFailures": 0,
+      "descriptionFingerprint": "dfe23302f965db5f",
+      "techStack": [
+        "SQL / databases",
+        "Logs / observability",
+        "Debugging / RCA",
+        "AI / LLM support automation",
+        "Technical documentation",
+        "Spark / data engineering"
+      ],
+      "yearsRequired": null,
+      "compensation": {
+        "status": "unverified",
+        "currency": null,
+        "interval": null,
+        "min": null,
+        "max": null,
+        "annualMin": null,
+        "annualMax": null,
+        "inrMin": null,
+        "inrMax": null,
+        "fxRate": null,
+        "fxDate": null,
+        "components": {
+          "base": null,
+          "bonus": null,
+          "equity": null
+        },
+        "applicability": "unspecified",
+        "confidence": "none",
+        "evidence": null,
+        "sourceUrl": null,
+        "display": "Not disclosed — verify with recruiter"
+      },
+      "fit": {
+        "score": 72,
+        "category": "possible",
+        "breakdown": {
+          "technical": 18,
+          "devSupport": 16,
+          "experience": 15,
+          "industry": 15,
+          "customerFacing": 8
+        },
+        "matchedSkills": [
+          "Debugging / RCA",
+          "SQL / databases",
+          "Logs / observability",
+          "AI / LLM support automation",
+          "Technical documentation"
+        ],
+        "strongestMatch": [
+          "Root cause analysis on enterprise escalations; drove 30+ product fixes with engineering",
+          "Investigated database and query issues during production escalations",
+          "Root-caused production incidents from logs and traces"
+        ],
+        "missing": [
+          "Spark / data engineering"
+        ],
+        "concerns": [],
+        "whyFit": "Names 5 of your core skills (Debugging / RCA, SQL / databases, Logs / observability, AI / LLM support automation, Technical documentation) and the work centres on: Supports developers on a SaaS / developer platform; Investigates production issues with logs, traces, SQL or code; Reproduces bugs and works with product engineering.",
+        "worthApplying": "Domain overlap: Developer platform / devtools, AI platform. Lead with: Root cause analysis on enterprise escalations; drove 30+ product fixes with engineering."
+      },
+      "feed": "location_check",
+      "feedReasons": [
+        "Remote listing with no stated country — confirm India eligibility"
+      ],
+      "officialUrl": "https://jobs.ashbyhq.com/posthog/db808740-242e-4a40-ad43-d41f26c049d7",
+      "applyUrl": "https://jobs.ashbyhq.com/posthog/db808740-242e-4a40-ad43-d41f26c049d7/application",
+      "discoverySources": [
+        "ashby:posthog"
+      ],
+      "contacts": [],
+      "contactSearchLinks": [
+        {
+          "label": "Support / developer-support leaders",
+          "url": "https://www.google.com/search?q=site%3Alinkedin.com%2Fin%20%22PostHog%22%20(%22support%20engineering%20manager%22%20OR%20%22head%20of%20support%22%20OR%20%22director%20of%20support%22%20OR%20%22developer%20support%22%20OR%20%22customer%20engineering%20manager%22)"
+        },
+        {
+          "label": "Technical recruiters",
+          "url": "https://www.google.com/search?q=site%3Alinkedin.com%2Fin%20%22PostHog%22%20(%22technical%20recruiter%22%20OR%20%22talent%20acquisition%22%20OR%20%22recruiting%22)%20(engineering%20OR%20technical)"
+        },
+        {
+          "label": "Company team / about page",
+          "url": "https://www.google.com/search?q=%22PostHog%22%20team%20OR%20leadership%20%22support%22"
+        }
+      ],
+      "notes": [],
+      "suppressed": false,
+      "repostOf": null,
+      "history": [
+        {
+          "at": "2026-11-02T12:59:15.532Z",
+          "type": "created",
+          "from": null,
+          "to": "active",
+          "reason": "Discovered on ashby:posthog"
+        },
+        {
+          "at": "2026-11-02T13:08:18.718Z",
+          "type": "feed",
+          "from": "excluded",
+          "to": "location_check",
+          "reason": "Remote listing with no stated country — confirm India eligibility"
+        }
+      ]
+    },
+    {
+      "id": "gh-singlestore-8267309",
+      "keys": {
+        "ats": "greenhouse",
+        "board": "singlestore",
+        "atsId": "8267309",
+        "canonicalUrl": "https://job-boards.greenhouse.io/singlestore/jobs/8267309",
+        "reqId": "COG00073"
+      },
+      "company": "SingleStore",
+      "companyInfo": {
+        "hq": null,
+        "international": null,
+        "source": null
+      },
+      "title": "Support Engineer",
+      "normalizedTitle": "support engineer",
+      "jobFamily": "technical_support",
+      "employmentType": null,
+      "location": {
+        "raw": "India | Hyderabad, Telangana, India",
+        "remoteType": "unknown",
+        "region": "India",
+        "india": "verification_required",
+        "evidence": "India | Hyderabad, Telangana, India",
+        "evidenceSource": "https://job-boards.greenhouse.io/singlestore/jobs/8267309",
+        "reason": "India location listed, but the posting does not say the role is remote"
+      },
+      "postedAt": "2026-10-14T16:28:22.000Z",
+      "firstSeenAt": "2026-11-02T12:59:15.532Z",
+      "lastCheckedAt": "2026-11-02T13:08:18.718Z",
+      "lastVerifiedAt": "2026-11-02T13:08:18.718Z",
+      "lastModifiedAt": "2026-11-02T12:59:15.532Z",
+      "status": "active",
+      "consecutiveFailures": 0,
+      "descriptionFingerprint": "468cdd5bcb683c3f",
+      "techStack": [
+        "SQL / databases",
+        "Python / scripting",
+        "GCP / cloud",
+        "Logs / observability",
+        "Debugging / RCA",
+        "Technical documentation",
+        "Kubernetes",
+        "Linux administration"
+      ],
+      "yearsRequired": 4,
+      "compensation": {
+        "status": "unverified",
+        "currency": null,
+        "interval": null,
+        "min": null,
+        "max": null,
+        "annualMin": null,
+        "annualMax": null,
+        "inrMin": null,
+        "inrMax": null,
+        "fxRate": null,
+        "fxDate": null,
+        "components": {
+          "base": null,
+          "bonus": null,
+          "equity": null
+        },
+        "applicability": "unspecified",
+        "confidence": "none",
+        "evidence": null,
+        "sourceUrl": null,
+        "display": "Not disclosed — verify with recruiter"
+      },
+      "fit": {
+        "score": 70,
+        "category": "possible",
+        "breakdown": {
+          "technical": 16,
+          "devSupport": 18,
+          "experience": 20,
+          "industry": 6,
+          "customerFacing": 10
+        },
+        "matchedSkills": [
+          "Debugging / RCA",
+          "SQL / databases",
+          "Logs / observability",
+          "Python / scripting",
+          "GCP / cloud",
+          "Technical documentation"
+        ],
+        "strongestMatch": [
+          "Root cause analysis on enterprise escalations; drove 30+ product fixes with engineering",
+          "Investigated database and query issues during production escalations",
+          "Root-caused production incidents from logs and traces"
+        ],
+        "missing": [
+          "Kubernetes",
+          "Linux administration"
+        ],
+        "concerns": [
+          "Shift / weekend / 24x7 coverage",
+          "On-call rotation"
+        ],
+        "whyFit": "Names 6 of your core skills (Debugging / RCA, SQL / databases, Logs / observability, Python / scripting, GCP / cloud) and the work centres on: Supports developers on a SaaS / developer platform; Investigates production issues with logs, traces, SQL or code; Reproduces bugs and works with product engineering.",
+        "worthApplying": "Domain overlap: Cloud / infrastructure SaaS. Lead with: Root cause analysis on enterprise escalations; drove 30+ product fixes with engineering."
+      },
+      "feed": "location_check",
+      "feedReasons": [
+        "India location listed, but the posting does not say the role is remote"
+      ],
+      "officialUrl": "https://job-boards.greenhouse.io/singlestore/jobs/8267309",
+      "applyUrl": "https://job-boards.greenhouse.io/singlestore/jobs/8267309",
+      "discoverySources": [
+        "greenhouse:singlestore"
+      ],
+      "contacts": [],
+      "contactSearchLinks": [
+        {
+          "label": "Support / developer-support leaders",
+          "url": "https://www.google.com/search?q=site%3Alinkedin.com%2Fin%20%22SingleStore%22%20(%22support%20engineering%20manager%22%20OR%20%22head%20of%20support%22%20OR%20%22director%20of%20support%22%20OR%20%22developer%20support%22%20OR%20%22customer%20engineering%20manager%22)"
+        },
+        {
+          "label": "Technical recruiters",
+          "url": "https://www.google.com/search?q=site%3Alinkedin.com%2Fin%20%22SingleStore%22%20(%22technical%20recruiter%22%20OR%20%22talent%20acquisition%22%20OR%20%22recruiting%22)%20(engineering%20OR%20technical)"
+        },
+        {
+          "label": "Company team / about page",
+          "url": "https://www.google.com/search?q=%22SingleStore%22%20team%20OR%20leadership%20%22support%22"
+        }
+      ],
+      "notes": [],
+      "suppressed": false,
+      "repostOf": null,
+      "history": [
+        {
+          "at": "2026-11-02T12:59:15.532Z",
+          "type": "created",
+          "from": null,
+          "to": "active",
+          "reason": "Discovered on greenhouse:singlestore"
+        },
+        {
+          "at": "2026-11-02T13:08:18.718Z",
+          "type": "feed",
+          "from": "excluded",
+          "to": "location_check",
+          "reason": "India location listed, but the posting does not say the role is remote"
+        }
+      ]
+    },
+    {
       "id": "gh-okta-7770733",
       "keys": {
         "ats": "greenhouse",
@@ -304,8 +894,8 @@
       },
       "postedAt": "2026-04-02T08:09:56.000Z",
       "firstSeenAt": "2026-11-02T12:59:15.532Z",
-      "lastCheckedAt": "2026-11-02T13:07:10.058Z",
-      "lastVerifiedAt": "2026-11-02T13:07:10.058Z",
+      "lastCheckedAt": "2026-11-02T13:08:18.718Z",
+      "lastVerifiedAt": "2026-11-02T13:08:18.718Z",
       "lastModifiedAt": "2026-11-02T12:59:15.532Z",
       "status": "active",
       "consecutiveFailures": 0,
@@ -347,13 +937,13 @@
         "display": "Not disclosed — verify with recruiter"
       },
       "fit": {
-        "score": 88,
-        "category": "strong",
+        "score": 94,
+        "category": "exceptional",
         "breakdown": {
-          "technical": 25,
+          "technical": 28,
           "devSupport": 25,
           "experience": 20,
-          "industry": 8,
+          "industry": 11,
           "customerFacing": 10
         },
         "matchedSkills": [
@@ -446,8 +1036,8 @@
       },
       "postedAt": "2025-03-20T18:51:09.252Z",
       "firstSeenAt": "2026-11-02T12:59:15.532Z",
-      "lastCheckedAt": "2026-11-02T13:07:10.058Z",
-      "lastVerifiedAt": "2026-11-02T13:07:10.058Z",
+      "lastCheckedAt": "2026-11-02T13:08:18.718Z",
+      "lastVerifiedAt": "2026-11-02T13:08:18.718Z",
       "lastModifiedAt": "2026-11-02T12:59:15.532Z",
       "status": "active",
       "consecutiveFailures": 0,
@@ -487,13 +1077,13 @@
         "display": "Not disclosed — verify with recruiter"
       },
       "fit": {
-        "score": 81,
-        "category": "strong",
+        "score": 93,
+        "category": "exceptional",
         "breakdown": {
-          "technical": 22,
+          "technical": 30,
           "devSupport": 18,
           "experience": 20,
-          "industry": 11,
+          "industry": 15,
           "customerFacing": 10
         },
         "matchedSkills": [
@@ -585,8 +1175,8 @@
       },
       "postedAt": "2026-07-31T19:04:49.027Z",
       "firstSeenAt": "2026-11-02T12:59:15.532Z",
-      "lastCheckedAt": "2026-11-02T13:07:10.058Z",
-      "lastVerifiedAt": "2026-11-02T13:07:10.058Z",
+      "lastCheckedAt": "2026-11-02T13:08:18.718Z",
+      "lastVerifiedAt": "2026-11-02T13:08:18.718Z",
       "lastModifiedAt": "2026-11-02T12:59:15.532Z",
       "status": "active",
       "consecutiveFailures": 0,
@@ -626,13 +1216,13 @@
         "display": "Not disclosed — verify with recruiter"
       },
       "fit": {
-        "score": 81,
-        "category": "strong",
+        "score": 93,
+        "category": "exceptional",
         "breakdown": {
-          "technical": 22,
+          "technical": 30,
           "devSupport": 18,
           "experience": 20,
-          "industry": 11,
+          "industry": 15,
           "customerFacing": 10
         },
         "matchedSkills": [
@@ -725,8 +1315,8 @@
       },
       "postedAt": "2025-12-17T21:46:32.608Z",
       "firstSeenAt": "2026-11-02T12:59:15.532Z",
-      "lastCheckedAt": "2026-11-02T13:07:10.058Z",
-      "lastVerifiedAt": "2026-11-02T13:07:10.058Z",
+      "lastCheckedAt": "2026-11-02T13:08:18.718Z",
+      "lastVerifiedAt": "2026-11-02T13:08:18.718Z",
       "lastModifiedAt": "2026-11-02T12:59:15.532Z",
       "status": "active",
       "consecutiveFailures": 0,
@@ -764,13 +1354,13 @@
         "display": "Not disclosed — verify with recruiter"
       },
       "fit": {
-        "score": 67,
-        "category": "exclude",
+        "score": 79,
+        "category": "possible",
         "breakdown": {
-          "technical": 16,
+          "technical": 24,
           "devSupport": 18,
           "experience": 12,
-          "industry": 11,
+          "industry": 15,
           "customerFacing": 10
         },
         "matchedSkills": [
@@ -797,7 +1387,6 @@
       },
       "feed": "excluded",
       "feedReasons": [
-        "Fit score 67 < 70",
         "Posted 320 days before discovery (likely stale/evergreen)"
       ],
       "officialUrl": "https://jobs.ashbyhq.com/supabase/62945518-2468-4cf5-9f36-904b60f75183",
@@ -863,8 +1452,8 @@
       },
       "postedAt": "2026-06-04T05:42:58.000Z",
       "firstSeenAt": "2026-11-02T12:59:15.532Z",
-      "lastCheckedAt": "2026-11-02T13:07:10.058Z",
-      "lastVerifiedAt": "2026-11-02T13:07:10.058Z",
+      "lastCheckedAt": "2026-11-02T13:08:18.718Z",
+      "lastVerifiedAt": "2026-11-02T13:08:18.718Z",
       "lastModifiedAt": "2026-11-02T12:59:15.532Z",
       "status": "active",
       "consecutiveFailures": 0,
@@ -905,13 +1494,13 @@
         "display": "Not disclosed — verify with recruiter"
       },
       "fit": {
-        "score": 66,
-        "category": "exclude",
+        "score": 78,
+        "category": "possible",
         "breakdown": {
-          "technical": 15,
+          "technical": 24,
           "devSupport": 21,
           "experience": 12,
-          "industry": 8,
+          "industry": 11,
           "customerFacing": 10
         },
         "matchedSkills": [
@@ -941,7 +1530,6 @@
       },
       "feed": "excluded",
       "feedReasons": [
-        "Fit score 66 < 70",
         "Posted 151 days before discovery (likely stale/evergreen)"
       ],
       "officialUrl": "https://www.samsara.com/company/careers/roles/7960367?gh_jid=7960367",
@@ -1007,8 +1595,8 @@
       },
       "postedAt": "2025-02-05T16:40:51.000Z",
       "firstSeenAt": "2026-11-02T12:59:15.532Z",
-      "lastCheckedAt": "2026-11-02T13:07:10.058Z",
-      "lastVerifiedAt": "2026-11-02T13:07:10.058Z",
+      "lastCheckedAt": "2026-11-02T13:08:18.718Z",
+      "lastVerifiedAt": "2026-11-02T13:08:18.718Z",
       "lastModifiedAt": "2026-11-02T12:59:15.532Z",
       "status": "active",
       "consecutiveFailures": 0,
@@ -1050,13 +1638,13 @@
         "display": "Not disclosed — verify with recruiter"
       },
       "fit": {
-        "score": 64,
-        "category": "exclude",
+        "score": 76,
+        "category": "possible",
         "breakdown": {
-          "technical": 16,
+          "technical": 26,
           "devSupport": 15,
           "experience": 12,
-          "industry": 13,
+          "industry": 15,
           "customerFacing": 8
         },
         "matchedSkills": [
@@ -1085,7 +1673,6 @@
       },
       "feed": "excluded",
       "feedReasons": [
-        "Fit score 64 < 70",
         "Posted 635 days before discovery (likely stale/evergreen)"
       ],
       "officialUrl": "https://databricks.com/company/careers/open-positions/job?gh_jid=7845325002",
@@ -1122,434 +1709,6 @@
       ]
     },
     {
-      "id": "gh-singlestore-8267309",
-      "keys": {
-        "ats": "greenhouse",
-        "board": "singlestore",
-        "atsId": "8267309",
-        "canonicalUrl": "https://job-boards.greenhouse.io/singlestore/jobs/8267309",
-        "reqId": "COG00073"
-      },
-      "company": "SingleStore",
-      "companyInfo": {
-        "hq": null,
-        "international": null,
-        "source": null
-      },
-      "title": "Support Engineer",
-      "normalizedTitle": "support engineer",
-      "jobFamily": "technical_support",
-      "employmentType": null,
-      "location": {
-        "raw": "India | Hyderabad, Telangana, India",
-        "remoteType": "unknown",
-        "region": "India",
-        "india": "verification_required",
-        "evidence": "India | Hyderabad, Telangana, India",
-        "evidenceSource": "https://job-boards.greenhouse.io/singlestore/jobs/8267309",
-        "reason": "India location listed, but the posting does not say the role is remote"
-      },
-      "postedAt": "2026-10-14T16:28:22.000Z",
-      "firstSeenAt": "2026-11-02T12:59:15.532Z",
-      "lastCheckedAt": "2026-11-02T13:07:10.058Z",
-      "lastVerifiedAt": "2026-11-02T13:07:10.058Z",
-      "lastModifiedAt": "2026-11-02T12:59:15.532Z",
-      "status": "active",
-      "consecutiveFailures": 0,
-      "descriptionFingerprint": "468cdd5bcb683c3f",
-      "techStack": [
-        "SQL / databases",
-        "Python / scripting",
-        "GCP / cloud",
-        "Logs / observability",
-        "Debugging / RCA",
-        "Technical documentation",
-        "Kubernetes",
-        "Linux administration"
-      ],
-      "yearsRequired": 4,
-      "compensation": {
-        "status": "unverified",
-        "currency": null,
-        "interval": null,
-        "min": null,
-        "max": null,
-        "annualMin": null,
-        "annualMax": null,
-        "inrMin": null,
-        "inrMax": null,
-        "fxRate": null,
-        "fxDate": null,
-        "components": {
-          "base": null,
-          "bonus": null,
-          "equity": null
-        },
-        "applicability": "unspecified",
-        "confidence": "none",
-        "evidence": null,
-        "sourceUrl": null,
-        "display": "Not disclosed — verify with recruiter"
-      },
-      "fit": {
-        "score": 62,
-        "category": "exclude",
-        "breakdown": {
-          "technical": 10,
-          "devSupport": 18,
-          "experience": 20,
-          "industry": 4,
-          "customerFacing": 10
-        },
-        "matchedSkills": [
-          "Debugging / RCA",
-          "SQL / databases",
-          "Logs / observability",
-          "Python / scripting",
-          "GCP / cloud",
-          "Technical documentation"
-        ],
-        "strongestMatch": [
-          "Root cause analysis on enterprise escalations; drove 30+ product fixes with engineering",
-          "Investigated database and query issues during production escalations",
-          "Root-caused production incidents from logs and traces"
-        ],
-        "missing": [
-          "Kubernetes",
-          "Linux administration"
-        ],
-        "concerns": [
-          "Shift / weekend / 24x7 coverage",
-          "On-call rotation"
-        ],
-        "whyFit": "Names 6 of your core skills (Debugging / RCA, SQL / databases, Logs / observability, Python / scripting, GCP / cloud) and the work centres on: Supports developers on a SaaS / developer platform; Investigates production issues with logs, traces, SQL or code; Reproduces bugs and works with product engineering.",
-        "worthApplying": "Domain overlap: Cloud / infrastructure SaaS. Lead with: Root cause analysis on enterprise escalations; drove 30+ product fixes with engineering."
-      },
-      "feed": "excluded",
-      "feedReasons": [
-        "Fit score 62 < 70"
-      ],
-      "officialUrl": "https://job-boards.greenhouse.io/singlestore/jobs/8267309",
-      "applyUrl": "https://job-boards.greenhouse.io/singlestore/jobs/8267309",
-      "discoverySources": [
-        "greenhouse:singlestore"
-      ],
-      "contacts": [],
-      "contactSearchLinks": [
-        {
-          "label": "Support / developer-support leaders",
-          "url": "https://www.google.com/search?q=site%3Alinkedin.com%2Fin%20%22SingleStore%22%20(%22support%20engineering%20manager%22%20OR%20%22head%20of%20support%22%20OR%20%22director%20of%20support%22%20OR%20%22developer%20support%22%20OR%20%22customer%20engineering%20manager%22)"
-        },
-        {
-          "label": "Technical recruiters",
-          "url": "https://www.google.com/search?q=site%3Alinkedin.com%2Fin%20%22SingleStore%22%20(%22technical%20recruiter%22%20OR%20%22talent%20acquisition%22%20OR%20%22recruiting%22)%20(engineering%20OR%20technical)"
-        },
-        {
-          "label": "Company team / about page",
-          "url": "https://www.google.com/search?q=%22SingleStore%22%20team%20OR%20leadership%20%22support%22"
-        }
-      ],
-      "notes": [],
-      "suppressed": false,
-      "repostOf": null,
-      "history": [
-        {
-          "at": "2026-11-02T12:59:15.532Z",
-          "type": "created",
-          "from": null,
-          "to": "active",
-          "reason": "Discovered on greenhouse:singlestore"
-        }
-      ]
-    },
-    {
-      "id": "gh-gitlab-8692874002",
-      "keys": {
-        "ats": "greenhouse",
-        "board": "gitlab",
-        "atsId": "8692874002",
-        "canonicalUrl": "https://job-boards.greenhouse.io/gitlab/jobs/8692874002",
-        "reqId": "6782"
-      },
-      "company": "GitLab",
-      "companyInfo": {
-        "hq": null,
-        "international": null,
-        "source": null
-      },
-      "title": "Senior Support Engineer",
-      "normalizedTitle": "senior support engineer",
-      "jobFamily": "technical_support",
-      "employmentType": null,
-      "location": {
-        "raw": "Bangalore, India | India",
-        "remoteType": "remote",
-        "region": "India",
-        "india": "eligible",
-        "evidence": "Bangalore, India | India",
-        "evidenceSource": "https://job-boards.greenhouse.io/gitlab/jobs/8692874002",
-        "reason": "Official location lists India and the role is remote"
-      },
-      "postedAt": "2026-08-18T09:16:27.000Z",
-      "firstSeenAt": "2026-11-02T12:59:15.532Z",
-      "lastCheckedAt": "2026-11-02T13:07:10.058Z",
-      "lastVerifiedAt": "2026-11-02T13:07:10.058Z",
-      "lastModifiedAt": "2026-11-02T12:59:15.532Z",
-      "status": "active",
-      "consecutiveFailures": 0,
-      "descriptionFingerprint": "ee0ae2f13c371a93",
-      "techStack": [
-        "Serverless / Cloud Functions",
-        "Python / scripting",
-        "Logs / observability",
-        "Debugging / RCA",
-        "AI / LLM support automation",
-        "Git / CI",
-        "Technical documentation",
-        "Kubernetes",
-        "Ruby / Rails",
-        "Linux administration"
-      ],
-      "yearsRequired": null,
-      "compensation": {
-        "status": "unverified",
-        "currency": null,
-        "interval": null,
-        "min": null,
-        "max": null,
-        "annualMin": null,
-        "annualMax": null,
-        "inrMin": null,
-        "inrMax": null,
-        "fxRate": null,
-        "fxDate": null,
-        "components": {
-          "base": null,
-          "bonus": null,
-          "equity": null
-        },
-        "applicability": "unspecified",
-        "confidence": "none",
-        "evidence": null,
-        "sourceUrl": null,
-        "display": "Not disclosed — verify with recruiter"
-      },
-      "fit": {
-        "score": 60,
-        "category": "exclude",
-        "breakdown": {
-          "technical": 10,
-          "devSupport": 21,
-          "experience": 15,
-          "industry": 4,
-          "customerFacing": 10
-        },
-        "matchedSkills": [
-          "Debugging / RCA",
-          "Serverless / Cloud Functions",
-          "Logs / observability",
-          "AI / LLM support automation",
-          "Python / scripting",
-          "Git / CI",
-          "Technical documentation"
-        ],
-        "strongestMatch": [
-          "Root cause analysis on enterprise escalations; drove 30+ product fixes with engineering",
-          "Debugged Cloud Functions deployments and runtime errors",
-          "Root-caused production incidents from logs and traces"
-        ],
-        "missing": [
-          "Kubernetes",
-          "Ruby / Rails",
-          "Linux administration"
-        ],
-        "concerns": [
-          "Shift / weekend / 24x7 coverage",
-          "On-call rotation"
-        ],
-        "whyFit": "Names 7 of your core skills (Debugging / RCA, Serverless / Cloud Functions, Logs / observability, AI / LLM support automation, Python / scripting) and the work centres on: Supports developers on a SaaS / developer platform; Debugs APIs, SDKs, webhooks, integrations or auth; Investigates production issues with logs, traces, SQL or code.",
-        "worthApplying": "Senior-level title fits your escalation and mentoring experience. Domain overlap: Cloud / infrastructure SaaS. Lead with: Root cause analysis on enterprise escalations; drove 30+ product fixes with engineering."
-      },
-      "feed": "excluded",
-      "feedReasons": [
-        "Fit score 60 < 70"
-      ],
-      "officialUrl": "https://job-boards.greenhouse.io/gitlab/jobs/8692874002",
-      "applyUrl": "https://job-boards.greenhouse.io/gitlab/jobs/8692874002",
-      "discoverySources": [
-        "greenhouse:gitlab"
-      ],
-      "contacts": [],
-      "contactSearchLinks": [
-        {
-          "label": "Support / developer-support leaders",
-          "url": "https://www.google.com/search?q=site%3Alinkedin.com%2Fin%20%22GitLab%22%20(%22support%20engineering%20manager%22%20OR%20%22head%20of%20support%22%20OR%20%22director%20of%20support%22%20OR%20%22developer%20support%22%20OR%20%22customer%20engineering%20manager%22)"
-        },
-        {
-          "label": "Technical recruiters",
-          "url": "https://www.google.com/search?q=site%3Alinkedin.com%2Fin%20%22GitLab%22%20(%22technical%20recruiter%22%20OR%20%22talent%20acquisition%22%20OR%20%22recruiting%22)%20(engineering%20OR%20technical)"
-        },
-        {
-          "label": "Company team / about page",
-          "url": "https://www.google.com/search?q=%22GitLab%22%20team%20OR%20leadership%20%22support%22"
-        }
-      ],
-      "notes": [],
-      "suppressed": false,
-      "repostOf": null,
-      "history": [
-        {
-          "at": "2026-11-02T12:59:15.532Z",
-          "type": "created",
-          "from": null,
-          "to": "active",
-          "reason": "Discovered on greenhouse:gitlab"
-        }
-      ]
-    },
-    {
-      "id": "gh-gitlab-8918853002",
-      "keys": {
-        "ats": "greenhouse",
-        "board": "gitlab",
-        "atsId": "8918853002",
-        "canonicalUrl": "https://job-boards.greenhouse.io/gitlab/jobs/8918853002",
-        "reqId": "7304"
-      },
-      "company": "GitLab",
-      "companyInfo": {
-        "hq": null,
-        "international": null,
-        "source": null
-      },
-      "title": "Senior Assigned Support Engineer-(Designated / Premier Support)",
-      "normalizedTitle": "senior assigned support engineer",
-      "jobFamily": "technical_support",
-      "employmentType": null,
-      "location": {
-        "raw": "Bangalore, India | India",
-        "remoteType": "remote",
-        "region": "India",
-        "india": "eligible",
-        "evidence": "Bangalore, India | India",
-        "evidenceSource": "https://job-boards.greenhouse.io/gitlab/jobs/8918853002",
-        "reason": "Official location lists India and the role is remote"
-      },
-      "postedAt": "2026-10-28T08:28:45.000Z",
-      "firstSeenAt": "2026-11-02T12:59:15.532Z",
-      "lastCheckedAt": "2026-11-02T13:07:10.058Z",
-      "lastVerifiedAt": "2026-11-02T13:07:10.058Z",
-      "lastModifiedAt": "2026-11-02T12:59:15.532Z",
-      "status": "active",
-      "consecutiveFailures": 0,
-      "descriptionFingerprint": "c8590d2412ebc0b0",
-      "techStack": [
-        "Serverless / Cloud Functions",
-        "Python / scripting",
-        "Logs / observability",
-        "Debugging / RCA",
-        "AI / LLM support automation",
-        "Git / CI",
-        "Technical documentation",
-        "Kubernetes",
-        "Ruby / Rails",
-        "Linux administration"
-      ],
-      "yearsRequired": null,
-      "compensation": {
-        "status": "unverified",
-        "currency": null,
-        "interval": null,
-        "min": null,
-        "max": null,
-        "annualMin": null,
-        "annualMax": null,
-        "inrMin": null,
-        "inrMax": null,
-        "fxRate": null,
-        "fxDate": null,
-        "components": {
-          "base": null,
-          "bonus": null,
-          "equity": null
-        },
-        "applicability": "unspecified",
-        "confidence": "none",
-        "evidence": null,
-        "sourceUrl": null,
-        "display": "Not disclosed — verify with recruiter"
-      },
-      "fit": {
-        "score": 60,
-        "category": "exclude",
-        "breakdown": {
-          "technical": 10,
-          "devSupport": 21,
-          "experience": 15,
-          "industry": 4,
-          "customerFacing": 10
-        },
-        "matchedSkills": [
-          "Debugging / RCA",
-          "Serverless / Cloud Functions",
-          "Logs / observability",
-          "AI / LLM support automation",
-          "Python / scripting",
-          "Git / CI",
-          "Technical documentation"
-        ],
-        "strongestMatch": [
-          "Root cause analysis on enterprise escalations; drove 30+ product fixes with engineering",
-          "Debugged Cloud Functions deployments and runtime errors",
-          "Root-caused production incidents from logs and traces"
-        ],
-        "missing": [
-          "Kubernetes",
-          "Ruby / Rails",
-          "Linux administration"
-        ],
-        "concerns": [],
-        "whyFit": "Names 7 of your core skills (Debugging / RCA, Serverless / Cloud Functions, Logs / observability, AI / LLM support automation, Python / scripting) and the work centres on: Supports developers on a SaaS / developer platform; Debugs APIs, SDKs, webhooks, integrations or auth; Investigates production issues with logs, traces, SQL or code.",
-        "worthApplying": "Senior-level title fits your escalation and mentoring experience. Domain overlap: Cloud / infrastructure SaaS. Lead with: Root cause analysis on enterprise escalations; drove 30+ product fixes with engineering."
-      },
-      "feed": "excluded",
-      "feedReasons": [
-        "Fit score 60 < 70"
-      ],
-      "officialUrl": "https://job-boards.greenhouse.io/gitlab/jobs/8918853002",
-      "applyUrl": "https://job-boards.greenhouse.io/gitlab/jobs/8918853002",
-      "discoverySources": [
-        "greenhouse:gitlab"
-      ],
-      "contacts": [],
-      "contactSearchLinks": [
-        {
-          "label": "Support / developer-support leaders",
-          "url": "https://www.google.com/search?q=site%3Alinkedin.com%2Fin%20%22GitLab%22%20(%22support%20engineering%20manager%22%20OR%20%22head%20of%20support%22%20OR%20%22director%20of%20support%22%20OR%20%22developer%20support%22%20OR%20%22customer%20engineering%20manager%22)"
-        },
-        {
-          "label": "Technical recruiters",
-          "url": "https://www.google.com/search?q=site%3Alinkedin.com%2Fin%20%22GitLab%22%20(%22technical%20recruiter%22%20OR%20%22talent%20acquisition%22%20OR%20%22recruiting%22)%20(engineering%20OR%20technical)"
-        },
-        {
-          "label": "Company team / about page",
-          "url": "https://www.google.com/search?q=%22GitLab%22%20team%20OR%20leadership%20%22support%22"
-        }
-      ],
-      "notes": [],
-      "suppressed": false,
-      "repostOf": null,
-      "history": [
-        {
-          "at": "2026-11-02T12:59:15.532Z",
-          "type": "created",
-          "from": null,
-          "to": "active",
-          "reason": "Discovered on greenhouse:gitlab"
-        }
-      ]
-    },
-    {
       "id": "gh-canonical-7569126",
       "keys": {
         "ats": "greenhouse",
@@ -1579,8 +1738,8 @@
       },
       "postedAt": "2026-05-29T21:09:34.000Z",
       "firstSeenAt": "2026-11-02T12:59:15.532Z",
-      "lastCheckedAt": "2026-11-02T13:07:10.058Z",
-      "lastVerifiedAt": "2026-11-02T13:07:10.058Z",
+      "lastCheckedAt": "2026-11-02T13:08:18.718Z",
+      "lastVerifiedAt": "2026-11-02T13:08:18.718Z",
       "lastModifiedAt": "2026-11-02T12:59:15.532Z",
       "status": "active",
       "consecutiveFailures": 0,
@@ -1618,13 +1777,13 @@
         "display": "Not disclosed — verify with recruiter"
       },
       "fit": {
-        "score": 59,
-        "category": "exclude",
+        "score": 75,
+        "category": "possible",
         "breakdown": {
-          "technical": 13,
+          "technical": 20,
           "devSupport": 21,
           "experience": 15,
-          "industry": 0,
+          "industry": 9,
           "customerFacing": 10
         },
         "matchedSkills": [
@@ -1646,11 +1805,10 @@
           "Shift / weekend / 24x7 coverage"
         ],
         "whyFit": "Names 5 of your core skills (OAuth / authentication, Debugging / RCA, Logs / observability, AI / LLM support automation, Technical documentation) and the work centres on: Supports developers on a SaaS / developer platform; Debugs APIs, SDKs, webhooks, integrations or auth; Investigates production issues with logs, traces, SQL or code.",
-        "worthApplying": "Lead with: Resolved OAuth and authentication failures across Firebase/Supabase auth in 11,700+ support cases."
+        "worthApplying": "Domain overlap: Developer platform / devtools. Lead with: Resolved OAuth and authentication failures across Firebase/Supabase auth in 11,700+ support cases."
       },
       "feed": "excluded",
       "feedReasons": [
-        "Fit score 59 < 70",
         "Posted 157 days before discovery (likely stale/evergreen)"
       ],
       "officialUrl": "https://job-boards.greenhouse.io/canonical/jobs/7569126",
@@ -1687,270 +1845,6 @@
       ]
     },
     {
-      "id": "gh-twilio-8213730",
-      "keys": {
-        "ats": "greenhouse",
-        "board": "twilio",
-        "atsId": "8213730",
-        "canonicalUrl": "https://job-boards.greenhouse.io/twilio/jobs/8213730",
-        "reqId": "51061"
-      },
-      "company": "Twilio",
-      "companyInfo": {
-        "hq": null,
-        "international": null,
-        "source": null
-      },
-      "title": "Personalized Support Engineer",
-      "normalizedTitle": "personalized support engineer",
-      "jobFamily": "technical_support",
-      "employmentType": null,
-      "location": {
-        "raw": "Remote - India | Remote - India",
-        "remoteType": "remote",
-        "region": "India",
-        "india": "eligible",
-        "evidence": "Remote - India | Remote - India",
-        "evidenceSource": "https://job-boards.greenhouse.io/twilio/jobs/8213730",
-        "reason": "Official location lists India and the role is remote"
-      },
-      "postedAt": "2026-09-23T13:59:26.000Z",
-      "firstSeenAt": "2026-11-02T12:59:15.532Z",
-      "lastCheckedAt": "2026-11-02T13:07:10.058Z",
-      "lastVerifiedAt": "2026-11-02T13:07:10.058Z",
-      "lastModifiedAt": "2026-11-02T12:59:15.532Z",
-      "status": "active",
-      "consecutiveFailures": 0,
-      "descriptionFingerprint": "27b7b544e87f88d8",
-      "techStack": [
-        "REST APIs",
-        "Debugging / RCA",
-        "AI / LLM support automation"
-      ],
-      "yearsRequired": 2,
-      "compensation": {
-        "status": "unverified",
-        "currency": null,
-        "interval": null,
-        "min": null,
-        "max": null,
-        "annualMin": null,
-        "annualMax": null,
-        "inrMin": null,
-        "inrMax": null,
-        "fxRate": null,
-        "fxDate": null,
-        "components": {
-          "base": null,
-          "bonus": null,
-          "equity": null
-        },
-        "applicability": "unspecified",
-        "confidence": "none",
-        "evidence": null,
-        "sourceUrl": null,
-        "display": "Not disclosed — verify with recruiter"
-      },
-      "fit": {
-        "score": 57,
-        "category": "exclude",
-        "breakdown": {
-          "technical": 11,
-          "devSupport": 16,
-          "experience": 20,
-          "industry": 4,
-          "customerFacing": 6
-        },
-        "matchedSkills": [
-          "REST APIs",
-          "Debugging / RCA",
-          "AI / LLM support automation"
-        ],
-        "strongestMatch": [
-          "Debugged REST API integrations for FlutterFlow developers and built OpenLynk's public REST API",
-          "Root cause analysis on enterprise escalations; drove 30+ product fixes with engineering",
-          "Built and deployed a LangChain RAG support agent resolving ~75–80% of 40–50 daily inquiries"
-        ],
-        "missing": [],
-        "concerns": [
-          "Shift / weekend / 24x7 coverage",
-          "Few of your core skills are named in the posting"
-        ],
-        "whyFit": "Names 3 of your core skills (REST APIs, Debugging / RCA, AI / LLM support automation) and the work centres on: Supports developers on a SaaS / developer platform; Debugs APIs, SDKs, webhooks, integrations or auth; Reproduces bugs and works with product engineering.",
-        "worthApplying": "Domain overlap: API / integrations. Lead with: Debugged REST API integrations for FlutterFlow developers and built OpenLynk's public REST API."
-      },
-      "feed": "excluded",
-      "feedReasons": [
-        "Fit score 57 < 70"
-      ],
-      "officialUrl": "https://job-boards.greenhouse.io/twilio/jobs/8213730",
-      "applyUrl": "https://job-boards.greenhouse.io/twilio/jobs/8213730",
-      "discoverySources": [
-        "greenhouse:twilio"
-      ],
-      "contacts": [],
-      "contactSearchLinks": [
-        {
-          "label": "Support / developer-support leaders",
-          "url": "https://www.google.com/search?q=site%3Alinkedin.com%2Fin%20%22Twilio%22%20(%22support%20engineering%20manager%22%20OR%20%22head%20of%20support%22%20OR%20%22director%20of%20support%22%20OR%20%22developer%20support%22%20OR%20%22customer%20engineering%20manager%22)"
-        },
-        {
-          "label": "Technical recruiters",
-          "url": "https://www.google.com/search?q=site%3Alinkedin.com%2Fin%20%22Twilio%22%20(%22technical%20recruiter%22%20OR%20%22talent%20acquisition%22%20OR%20%22recruiting%22)%20(engineering%20OR%20technical)"
-        },
-        {
-          "label": "Company team / about page",
-          "url": "https://www.google.com/search?q=%22Twilio%22%20team%20OR%20leadership%20%22support%22"
-        }
-      ],
-      "notes": [],
-      "suppressed": false,
-      "repostOf": null,
-      "history": [
-        {
-          "at": "2026-11-02T12:59:15.532Z",
-          "type": "created",
-          "from": null,
-          "to": "active",
-          "reason": "Discovered on greenhouse:twilio"
-        }
-      ]
-    },
-    {
-      "id": "ab-posthog-0c3c0ae6970d",
-      "keys": {
-        "ats": "ashby",
-        "board": "posthog",
-        "atsId": "db808740-242e-4a40-ad43-d41f26c049d7",
-        "canonicalUrl": "https://jobs.ashbyhq.com/posthog/db808740-242e-4a40-ad43-d41f26c049d7",
-        "reqId": null
-      },
-      "company": "PostHog",
-      "companyInfo": {
-        "hq": null,
-        "international": null,
-        "source": null
-      },
-      "title": "Technical Support Engineer",
-      "normalizedTitle": "technical support engineer",
-      "jobFamily": "technical_support",
-      "employmentType": "Full-Time",
-      "location": {
-        "raw": "Remote",
-        "remoteType": "remote",
-        "region": "Unspecified",
-        "india": "verification_required",
-        "evidence": "Remote",
-        "evidenceSource": "https://jobs.ashbyhq.com/posthog/db808740-242e-4a40-ad43-d41f26c049d7",
-        "reason": "Remote listing with no stated country — confirm India eligibility"
-      },
-      "postedAt": "2026-10-28T14:43:56.854Z",
-      "firstSeenAt": "2026-11-02T12:59:15.532Z",
-      "lastCheckedAt": "2026-11-02T13:07:10.058Z",
-      "lastVerifiedAt": "2026-11-02T13:07:10.058Z",
-      "lastModifiedAt": "2026-11-02T12:59:15.532Z",
-      "status": "active",
-      "consecutiveFailures": 0,
-      "descriptionFingerprint": "dfe23302f965db5f",
-      "techStack": [
-        "SQL / databases",
-        "Logs / observability",
-        "Debugging / RCA",
-        "AI / LLM support automation",
-        "Technical documentation",
-        "Spark / data engineering"
-      ],
-      "yearsRequired": null,
-      "compensation": {
-        "status": "unverified",
-        "currency": null,
-        "interval": null,
-        "min": null,
-        "max": null,
-        "annualMin": null,
-        "annualMax": null,
-        "inrMin": null,
-        "inrMax": null,
-        "fxRate": null,
-        "fxDate": null,
-        "components": {
-          "base": null,
-          "bonus": null,
-          "equity": null
-        },
-        "applicability": "unspecified",
-        "confidence": "none",
-        "evidence": null,
-        "sourceUrl": null,
-        "display": "Not disclosed — verify with recruiter"
-      },
-      "fit": {
-        "score": 56,
-        "category": "exclude",
-        "breakdown": {
-          "technical": 12,
-          "devSupport": 16,
-          "experience": 15,
-          "industry": 5,
-          "customerFacing": 8
-        },
-        "matchedSkills": [
-          "Debugging / RCA",
-          "SQL / databases",
-          "Logs / observability",
-          "AI / LLM support automation",
-          "Technical documentation"
-        ],
-        "strongestMatch": [
-          "Root cause analysis on enterprise escalations; drove 30+ product fixes with engineering",
-          "Investigated database and query issues during production escalations",
-          "Root-caused production incidents from logs and traces"
-        ],
-        "missing": [
-          "Spark / data engineering"
-        ],
-        "concerns": [],
-        "whyFit": "Names 5 of your core skills (Debugging / RCA, SQL / databases, Logs / observability, AI / LLM support automation, Technical documentation) and the work centres on: Supports developers on a SaaS / developer platform; Investigates production issues with logs, traces, SQL or code; Reproduces bugs and works with product engineering.",
-        "worthApplying": "Domain overlap: AI platform. Lead with: Root cause analysis on enterprise escalations; drove 30+ product fixes with engineering."
-      },
-      "feed": "excluded",
-      "feedReasons": [
-        "Fit score 56 < 70"
-      ],
-      "officialUrl": "https://jobs.ashbyhq.com/posthog/db808740-242e-4a40-ad43-d41f26c049d7",
-      "applyUrl": "https://jobs.ashbyhq.com/posthog/db808740-242e-4a40-ad43-d41f26c049d7/application",
-      "discoverySources": [
-        "ashby:posthog"
-      ],
-      "contacts": [],
-      "contactSearchLinks": [
-        {
-          "label": "Support / developer-support leaders",
-          "url": "https://www.google.com/search?q=site%3Alinkedin.com%2Fin%20%22PostHog%22%20(%22support%20engineering%20manager%22%20OR%20%22head%20of%20support%22%20OR%20%22director%20of%20support%22%20OR%20%22developer%20support%22%20OR%20%22customer%20engineering%20manager%22)"
-        },
-        {
-          "label": "Technical recruiters",
-          "url": "https://www.google.com/search?q=site%3Alinkedin.com%2Fin%20%22PostHog%22%20(%22technical%20recruiter%22%20OR%20%22talent%20acquisition%22%20OR%20%22recruiting%22)%20(engineering%20OR%20technical)"
-        },
-        {
-          "label": "Company team / about page",
-          "url": "https://www.google.com/search?q=%22PostHog%22%20team%20OR%20leadership%20%22support%22"
-        }
-      ],
-      "notes": [],
-      "suppressed": false,
-      "repostOf": null,
-      "history": [
-        {
-          "at": "2026-11-02T12:59:15.532Z",
-          "type": "created",
-          "from": null,
-          "to": "active",
-          "reason": "Discovered on ashby:posthog"
-        }
-      ]
-    },
-    {
       "id": "gh-startree-6189220004",
       "keys": {
         "ats": "greenhouse",
@@ -1980,8 +1874,8 @@
       },
       "postedAt": "2026-09-11T05:56:37.000Z",
       "firstSeenAt": "2026-11-02T12:59:15.532Z",
-      "lastCheckedAt": "2026-11-02T13:07:10.058Z",
-      "lastVerifiedAt": "2026-11-02T13:07:10.058Z",
+      "lastCheckedAt": "2026-11-02T13:08:18.718Z",
+      "lastVerifiedAt": "2026-11-02T13:08:18.718Z",
       "lastModifiedAt": "2026-11-02T12:59:15.532Z",
       "status": "active",
       "consecutiveFailures": 0,
@@ -2022,13 +1916,13 @@
         "display": "Not disclosed — verify with recruiter"
       },
       "fit": {
-        "score": 56,
-        "category": "exclude",
+        "score": 73,
+        "category": "possible",
         "breakdown": {
-          "technical": 6,
+          "technical": 12,
           "devSupport": 16,
           "experience": 20,
-          "industry": 4,
+          "industry": 15,
           "customerFacing": 10
         },
         "matchedSkills": [
@@ -2054,11 +1948,11 @@
           "Expects overlap with US hours"
         ],
         "whyFit": "Names 5 of your core skills (Debugging / RCA, SQL / databases, AI / LLM support automation, GCP / cloud, Technical documentation) and the work centres on: Investigates production issues with logs, traces, SQL or code; Reproduces bugs and works with product engineering; Resolves complex L2/L3 escalations.",
-        "worthApplying": "Domain overlap: Cloud / infrastructure SaaS. Lead with: Root cause analysis on enterprise escalations; drove 30+ product fixes with engineering."
+        "worthApplying": "Domain overlap: Developer platform / devtools, Cloud / infrastructure SaaS. Lead with: Root cause analysis on enterprise escalations; drove 30+ product fixes with engineering."
       },
       "feed": "excluded",
       "feedReasons": [
-        "Fit score 56 < 70"
+        "Pay unverified and fit 73 below review threshold 75"
       ],
       "officialUrl": "https://job-boards.greenhouse.io/startree/jobs/6189220004",
       "applyUrl": "https://job-boards.greenhouse.io/startree/jobs/6189220004",
@@ -2123,8 +2017,8 @@
       },
       "postedAt": "2025-02-05T16:31:17.000Z",
       "firstSeenAt": "2026-11-02T12:59:15.532Z",
-      "lastCheckedAt": "2026-11-02T13:07:10.058Z",
-      "lastVerifiedAt": "2026-11-02T13:07:10.058Z",
+      "lastCheckedAt": "2026-11-02T13:08:18.718Z",
+      "lastVerifiedAt": "2026-11-02T13:08:18.718Z",
       "lastModifiedAt": "2026-11-02T12:59:15.532Z",
       "status": "active",
       "consecutiveFailures": 0,
@@ -2166,13 +2060,13 @@
         "display": "Not disclosed — verify with recruiter"
       },
       "fit": {
-        "score": 54,
+        "score": 68,
         "category": "exclude",
         "breakdown": {
-          "technical": 10,
+          "technical": 18,
           "devSupport": 13,
           "experience": 12,
-          "industry": 9,
+          "industry": 15,
           "customerFacing": 10
         },
         "matchedSkills": [
@@ -2197,11 +2091,11 @@
         ],
         "concerns": [],
         "whyFit": "Names 7 of your core skills (Debugging / RCA, SQL / databases, Logs / observability, AI / LLM support automation, GCP / cloud) and the work centres on: Investigates production issues with logs, traces, SQL or code; Reproduces bugs and works with product engineering; Resolves complex L2/L3 escalations.",
-        "worthApplying": "Senior-level title fits your escalation and mentoring experience. Domain overlap: AI platform, Cloud / infrastructure SaaS. Lead with: Root cause analysis on enterprise escalations; drove 30+ product fixes with engineering."
+        "worthApplying": "Senior-level title fits your escalation and mentoring experience. Domain overlap: Developer platform / devtools, AI platform. Lead with: Root cause analysis on enterprise escalations; drove 30+ product fixes with engineering."
       },
       "feed": "excluded",
       "feedReasons": [
-        "Fit score 54 < 70",
+        "Fit score 68 < 70",
         "Posted 635 days before discovery (likely stale/evergreen)"
       ],
       "officialUrl": "https://databricks.com/company/careers/open-positions/job?gh_jid=7845320002",
@@ -2238,6 +2132,136 @@
       ]
     },
     {
+      "id": "gh-twilio-8213730",
+      "keys": {
+        "ats": "greenhouse",
+        "board": "twilio",
+        "atsId": "8213730",
+        "canonicalUrl": "https://job-boards.greenhouse.io/twilio/jobs/8213730",
+        "reqId": "51061"
+      },
+      "company": "Twilio",
+      "companyInfo": {
+        "hq": null,
+        "international": null,
+        "source": null
+      },
+      "title": "Personalized Support Engineer",
+      "normalizedTitle": "personalized support engineer",
+      "jobFamily": "technical_support",
+      "employmentType": null,
+      "location": {
+        "raw": "Remote - India | Remote - India",
+        "remoteType": "remote",
+        "region": "India",
+        "india": "eligible",
+        "evidence": "Remote - India | Remote - India",
+        "evidenceSource": "https://job-boards.greenhouse.io/twilio/jobs/8213730",
+        "reason": "Official location lists India and the role is remote"
+      },
+      "postedAt": "2026-09-23T13:59:26.000Z",
+      "firstSeenAt": "2026-11-02T12:59:15.532Z",
+      "lastCheckedAt": "2026-11-02T13:08:18.718Z",
+      "lastVerifiedAt": "2026-11-02T13:08:18.718Z",
+      "lastModifiedAt": "2026-11-02T12:59:15.532Z",
+      "status": "active",
+      "consecutiveFailures": 0,
+      "descriptionFingerprint": "27b7b544e87f88d8",
+      "techStack": [
+        "REST APIs",
+        "Debugging / RCA",
+        "AI / LLM support automation"
+      ],
+      "yearsRequired": 2,
+      "compensation": {
+        "status": "unverified",
+        "currency": null,
+        "interval": null,
+        "min": null,
+        "max": null,
+        "annualMin": null,
+        "annualMax": null,
+        "inrMin": null,
+        "inrMax": null,
+        "fxRate": null,
+        "fxDate": null,
+        "components": {
+          "base": null,
+          "bonus": null,
+          "equity": null
+        },
+        "applicability": "unspecified",
+        "confidence": "none",
+        "evidence": null,
+        "sourceUrl": null,
+        "display": "Not disclosed — verify with recruiter"
+      },
+      "fit": {
+        "score": 64,
+        "category": "exclude",
+        "breakdown": {
+          "technical": 16,
+          "devSupport": 16,
+          "experience": 20,
+          "industry": 6,
+          "customerFacing": 6
+        },
+        "matchedSkills": [
+          "REST APIs",
+          "Debugging / RCA",
+          "AI / LLM support automation"
+        ],
+        "strongestMatch": [
+          "Debugged REST API integrations for FlutterFlow developers and built OpenLynk's public REST API",
+          "Root cause analysis on enterprise escalations; drove 30+ product fixes with engineering",
+          "Built and deployed a LangChain RAG support agent resolving ~75–80% of 40–50 daily inquiries"
+        ],
+        "missing": [],
+        "concerns": [
+          "Shift / weekend / 24x7 coverage",
+          "Few of your core skills are named in the posting"
+        ],
+        "whyFit": "Names 3 of your core skills (REST APIs, Debugging / RCA, AI / LLM support automation) and the work centres on: Supports developers on a SaaS / developer platform; Debugs APIs, SDKs, webhooks, integrations or auth; Reproduces bugs and works with product engineering.",
+        "worthApplying": "Domain overlap: API / integrations. Lead with: Debugged REST API integrations for FlutterFlow developers and built OpenLynk's public REST API."
+      },
+      "feed": "excluded",
+      "feedReasons": [
+        "Fit score 64 < 70"
+      ],
+      "officialUrl": "https://job-boards.greenhouse.io/twilio/jobs/8213730",
+      "applyUrl": "https://job-boards.greenhouse.io/twilio/jobs/8213730",
+      "discoverySources": [
+        "greenhouse:twilio"
+      ],
+      "contacts": [],
+      "contactSearchLinks": [
+        {
+          "label": "Support / developer-support leaders",
+          "url": "https://www.google.com/search?q=site%3Alinkedin.com%2Fin%20%22Twilio%22%20(%22support%20engineering%20manager%22%20OR%20%22head%20of%20support%22%20OR%20%22director%20of%20support%22%20OR%20%22developer%20support%22%20OR%20%22customer%20engineering%20manager%22)"
+        },
+        {
+          "label": "Technical recruiters",
+          "url": "https://www.google.com/search?q=site%3Alinkedin.com%2Fin%20%22Twilio%22%20(%22technical%20recruiter%22%20OR%20%22talent%20acquisition%22%20OR%20%22recruiting%22)%20(engineering%20OR%20technical)"
+        },
+        {
+          "label": "Company team / about page",
+          "url": "https://www.google.com/search?q=%22Twilio%22%20team%20OR%20leadership%20%22support%22"
+        }
+      ],
+      "notes": [],
+      "suppressed": false,
+      "repostOf": null,
+      "history": [
+        {
+          "at": "2026-11-02T12:59:15.532Z",
+          "type": "created",
+          "from": null,
+          "to": "active",
+          "reason": "Discovered on greenhouse:twilio"
+        }
+      ]
+    },
+    {
       "id": "gh-canonical-6635593",
       "keys": {
         "ats": "greenhouse",
@@ -2267,8 +2291,8 @@
       },
       "postedAt": "2025-07-14T16:50:15.000Z",
       "firstSeenAt": "2026-11-02T12:59:15.532Z",
-      "lastCheckedAt": "2026-11-02T13:07:10.058Z",
-      "lastVerifiedAt": "2026-11-02T13:07:10.058Z",
+      "lastCheckedAt": "2026-11-02T13:08:18.718Z",
+      "lastVerifiedAt": "2026-11-02T13:08:18.718Z",
       "lastModifiedAt": "2026-11-02T12:59:15.532Z",
       "status": "active",
       "consecutiveFailures": 0,
@@ -2308,13 +2332,13 @@
         "display": "Not disclosed — verify with recruiter"
       },
       "fit": {
-        "score": 51,
+        "score": 63,
         "category": "exclude",
         "breakdown": {
-          "technical": 6,
+          "technical": 12,
           "devSupport": 13,
           "experience": 15,
-          "industry": 9,
+          "industry": 15,
           "customerFacing": 8
         },
         "matchedSkills": [
@@ -2336,11 +2360,11 @@
         ],
         "concerns": [],
         "whyFit": "Names 5 of your core skills (Debugging / RCA, Supabase / Postgres, AI / LLM support automation, Python / scripting, Technical documentation) and the work centres on: Supports developers on a SaaS / developer platform; Reproduces bugs and works with product engineering.",
-        "worthApplying": "Domain overlap: Backend-as-a-service / databases, Cloud / infrastructure SaaS. Lead with: Root cause analysis on enterprise escalations; drove 30+ product fixes with engineering."
+        "worthApplying": "Domain overlap: Developer platform / devtools, Backend-as-a-service / databases. Lead with: Root cause analysis on enterprise escalations; drove 30+ product fixes with engineering."
       },
       "feed": "excluded",
       "feedReasons": [
-        "Fit score 51 < 70",
+        "Fit score 63 < 70",
         "Posted 476 days before discovery (likely stale/evergreen)"
       ],
       "officialUrl": "https://job-boards.greenhouse.io/canonical/jobs/6635593",
@@ -2406,8 +2430,8 @@
       },
       "postedAt": "2020-11-19T19:48:12.000Z",
       "firstSeenAt": "2026-11-02T12:59:15.532Z",
-      "lastCheckedAt": "2026-11-02T13:07:10.058Z",
-      "lastVerifiedAt": "2026-11-02T13:07:10.058Z",
+      "lastCheckedAt": "2026-11-02T13:08:18.718Z",
+      "lastVerifiedAt": "2026-11-02T13:08:18.718Z",
       "lastModifiedAt": "2026-11-02T12:59:15.532Z",
       "status": "active",
       "consecutiveFailures": 0,
@@ -2446,13 +2470,13 @@
         "display": "Not disclosed — verify with recruiter"
       },
       "fit": {
-        "score": 48,
+        "score": 62,
         "category": "exclude",
         "breakdown": {
-          "technical": 5,
+          "technical": 10,
           "devSupport": 18,
           "experience": 15,
-          "industry": 0,
+          "industry": 9,
           "customerFacing": 10
         },
         "matchedSkills": [
@@ -2475,15 +2499,161 @@
           "Shift / weekend / 24x7 coverage"
         ],
         "whyFit": "Names 4 of your core skills (Debugging / RCA, Logs / observability, AI / LLM support automation, Technical documentation) and the work centres on: Supports developers on a SaaS / developer platform; Investigates production issues with logs, traces, SQL or code; Reproduces bugs and works with product engineering.",
-        "worthApplying": "Lead with: Root cause analysis on enterprise escalations; drove 30+ product fixes with engineering."
+        "worthApplying": "Domain overlap: Developer platform / devtools. Lead with: Root cause analysis on enterprise escalations; drove 30+ product fixes with engineering."
       },
       "feed": "excluded",
       "feedReasons": [
-        "Fit score 48 < 70",
+        "Fit score 62 < 70",
         "Posted 2174 days before discovery (likely stale/evergreen)"
       ],
       "officialUrl": "https://job-boards.greenhouse.io/canonical/jobs/2456563",
       "applyUrl": "https://job-boards.greenhouse.io/canonical/jobs/2456563",
+      "discoverySources": [
+        "greenhouse:canonical"
+      ],
+      "contacts": [],
+      "contactSearchLinks": [
+        {
+          "label": "Support / developer-support leaders",
+          "url": "https://www.google.com/search?q=site%3Alinkedin.com%2Fin%20%22Canonical%22%20(%22support%20engineering%20manager%22%20OR%20%22head%20of%20support%22%20OR%20%22director%20of%20support%22%20OR%20%22developer%20support%22%20OR%20%22customer%20engineering%20manager%22)"
+        },
+        {
+          "label": "Technical recruiters",
+          "url": "https://www.google.com/search?q=site%3Alinkedin.com%2Fin%20%22Canonical%22%20(%22technical%20recruiter%22%20OR%20%22talent%20acquisition%22%20OR%20%22recruiting%22)%20(engineering%20OR%20technical)"
+        },
+        {
+          "label": "Company team / about page",
+          "url": "https://www.google.com/search?q=%22Canonical%22%20team%20OR%20leadership%20%22support%22"
+        }
+      ],
+      "notes": [],
+      "suppressed": false,
+      "repostOf": null,
+      "history": [
+        {
+          "at": "2026-11-02T12:59:15.532Z",
+          "type": "created",
+          "from": null,
+          "to": "active",
+          "reason": "Discovered on greenhouse:canonical"
+        }
+      ]
+    },
+    {
+      "id": "gh-canonical-6448444",
+      "keys": {
+        "ats": "greenhouse",
+        "board": "canonical",
+        "atsId": "6448444",
+        "canonicalUrl": "https://job-boards.greenhouse.io/canonical/jobs/6448444",
+        "reqId": "1233"
+      },
+      "company": "Canonical",
+      "companyInfo": {
+        "hq": null,
+        "international": null,
+        "source": null
+      },
+      "title": "Associate Linux Support Engineer",
+      "normalizedTitle": "associate linux support engineer",
+      "jobFamily": "technical_support",
+      "employmentType": null,
+      "location": {
+        "raw": "Home based - Worldwide | Home Based - Worldwide",
+        "remoteType": "remote",
+        "region": "Worldwide",
+        "india": "verification_required",
+        "evidence": "Home based - Worldwide | Home Based - Worldwide",
+        "evidenceSource": "https://job-boards.greenhouse.io/canonical/jobs/6448444",
+        "reason": "Worldwide listing does not confirm India — confirm with recruiter"
+      },
+      "postedAt": "2025-02-10T09:37:24.000Z",
+      "firstSeenAt": "2026-11-02T12:59:15.532Z",
+      "lastCheckedAt": "2026-11-02T13:08:18.718Z",
+      "lastVerifiedAt": "2026-11-02T13:08:18.718Z",
+      "lastModifiedAt": "2026-11-02T12:59:15.532Z",
+      "status": "active",
+      "consecutiveFailures": 0,
+      "descriptionFingerprint": "3e128c979e9592ba",
+      "techStack": [
+        "JavaScript / TypeScript",
+        "Python / scripting",
+        "Logs / observability",
+        "Debugging / RCA",
+        "AI / LLM support automation",
+        "Technical documentation",
+        "Kubernetes",
+        "C / C++",
+        "Ruby / Rails",
+        "Networking (TCP/IP, DNS, TLS)"
+      ],
+      "yearsRequired": null,
+      "compensation": {
+        "status": "unverified",
+        "currency": null,
+        "interval": null,
+        "min": null,
+        "max": null,
+        "annualMin": null,
+        "annualMax": null,
+        "inrMin": null,
+        "inrMax": null,
+        "fxRate": null,
+        "fxDate": null,
+        "components": {
+          "base": null,
+          "bonus": null,
+          "equity": null
+        },
+        "applicability": "unspecified",
+        "confidence": "none",
+        "evidence": null,
+        "sourceUrl": null,
+        "display": "Not disclosed — verify with recruiter"
+      },
+      "fit": {
+        "score": 62,
+        "category": "exclude",
+        "breakdown": {
+          "technical": 18,
+          "devSupport": 13,
+          "experience": 14,
+          "industry": 9,
+          "customerFacing": 8
+        },
+        "matchedSkills": [
+          "JavaScript / TypeScript",
+          "Debugging / RCA",
+          "Logs / observability",
+          "AI / LLM support automation",
+          "Python / scripting",
+          "Technical documentation"
+        ],
+        "strongestMatch": [
+          "Senior React/TypeScript developer before moving into support engineering",
+          "Root cause analysis on enterprise escalations; drove 30+ product fixes with engineering",
+          "Root-caused production incidents from logs and traces"
+        ],
+        "missing": [
+          "Kubernetes",
+          "C / C++",
+          "Ruby / Rails",
+          "Networking (TCP/IP, DNS, TLS)"
+        ],
+        "concerns": [
+          "Shift / weekend / 24x7 coverage",
+          "Junior/associate level — may be below your experience and pay target"
+        ],
+        "whyFit": "Names 6 of your core skills (JavaScript / TypeScript, Debugging / RCA, Logs / observability, AI / LLM support automation, Python / scripting) and the work centres on: Investigates production issues with logs, traces, SQL or code; Reproduces bugs and works with product engineering.",
+        "worthApplying": "Domain overlap: Developer platform / devtools. Lead with: Senior React/TypeScript developer before moving into support engineering."
+      },
+      "feed": "excluded",
+      "feedReasons": [
+        "Fit score 62 < 70",
+        "Posted 630 days before discovery (likely stale/evergreen)"
+      ],
+      "officialUrl": "https://job-boards.greenhouse.io/canonical/jobs/6448444",
+      "applyUrl": "https://job-boards.greenhouse.io/canonical/jobs/6448444",
       "discoverySources": [
         "greenhouse:canonical"
       ],
@@ -2545,8 +2715,8 @@
       },
       "postedAt": "2025-03-08T05:19:50.000Z",
       "firstSeenAt": "2026-11-02T12:59:15.532Z",
-      "lastCheckedAt": "2026-11-02T13:07:10.058Z",
-      "lastVerifiedAt": "2026-11-02T13:07:10.058Z",
+      "lastCheckedAt": "2026-11-02T13:08:18.718Z",
+      "lastVerifiedAt": "2026-11-02T13:08:18.718Z",
       "lastModifiedAt": "2026-11-02T12:59:15.532Z",
       "status": "active",
       "consecutiveFailures": 0,
@@ -2588,13 +2758,13 @@
         "display": "Not disclosed — verify with recruiter"
       },
       "fit": {
-        "score": 47,
+        "score": 61,
         "category": "exclude",
         "breakdown": {
-          "technical": 10,
+          "technical": 18,
           "devSupport": 13,
           "experience": 5,
-          "industry": 9,
+          "industry": 15,
           "customerFacing": 10
         },
         "matchedSkills": [
@@ -2621,11 +2791,11 @@
           "Staff/principal level — likely expects deeper specialisation"
         ],
         "whyFit": "Names 7 of your core skills (Debugging / RCA, SQL / databases, Logs / observability, AI / LLM support automation, GCP / cloud) and the work centres on: Investigates production issues with logs, traces, SQL or code; Reproduces bugs and works with product engineering; Resolves complex L2/L3 escalations.",
-        "worthApplying": "Domain overlap: AI platform, Cloud / infrastructure SaaS. Lead with: Root cause analysis on enterprise escalations; drove 30+ product fixes with engineering."
+        "worthApplying": "Domain overlap: Developer platform / devtools, AI platform. Lead with: Root cause analysis on enterprise escalations; drove 30+ product fixes with engineering."
       },
       "feed": "excluded",
       "feedReasons": [
-        "Fit score 47 < 70",
+        "Fit score 61 < 70",
         "Posted 604 days before discovery (likely stale/evergreen)"
       ],
       "officialUrl": "https://databricks.com/company/careers/open-positions/job?gh_jid=7845334002",
@@ -2658,152 +2828,6 @@
           "from": null,
           "to": "active",
           "reason": "Discovered on greenhouse:databricks"
-        }
-      ]
-    },
-    {
-      "id": "gh-canonical-6448444",
-      "keys": {
-        "ats": "greenhouse",
-        "board": "canonical",
-        "atsId": "6448444",
-        "canonicalUrl": "https://job-boards.greenhouse.io/canonical/jobs/6448444",
-        "reqId": "1233"
-      },
-      "company": "Canonical",
-      "companyInfo": {
-        "hq": null,
-        "international": null,
-        "source": null
-      },
-      "title": "Associate Linux Support Engineer",
-      "normalizedTitle": "associate linux support engineer",
-      "jobFamily": "technical_support",
-      "employmentType": null,
-      "location": {
-        "raw": "Home based - Worldwide | Home Based - Worldwide",
-        "remoteType": "remote",
-        "region": "Worldwide",
-        "india": "verification_required",
-        "evidence": "Home based - Worldwide | Home Based - Worldwide",
-        "evidenceSource": "https://job-boards.greenhouse.io/canonical/jobs/6448444",
-        "reason": "Worldwide listing does not confirm India — confirm with recruiter"
-      },
-      "postedAt": "2025-02-10T09:37:24.000Z",
-      "firstSeenAt": "2026-11-02T12:59:15.532Z",
-      "lastCheckedAt": "2026-11-02T13:07:10.058Z",
-      "lastVerifiedAt": "2026-11-02T13:07:10.058Z",
-      "lastModifiedAt": "2026-11-02T12:59:15.532Z",
-      "status": "active",
-      "consecutiveFailures": 0,
-      "descriptionFingerprint": "3e128c979e9592ba",
-      "techStack": [
-        "JavaScript / TypeScript",
-        "Python / scripting",
-        "Logs / observability",
-        "Debugging / RCA",
-        "AI / LLM support automation",
-        "Technical documentation",
-        "Kubernetes",
-        "C / C++",
-        "Ruby / Rails",
-        "Networking (TCP/IP, DNS, TLS)"
-      ],
-      "yearsRequired": null,
-      "compensation": {
-        "status": "unverified",
-        "currency": null,
-        "interval": null,
-        "min": null,
-        "max": null,
-        "annualMin": null,
-        "annualMax": null,
-        "inrMin": null,
-        "inrMax": null,
-        "fxRate": null,
-        "fxDate": null,
-        "components": {
-          "base": null,
-          "bonus": null,
-          "equity": null
-        },
-        "applicability": "unspecified",
-        "confidence": "none",
-        "evidence": null,
-        "sourceUrl": null,
-        "display": "Not disclosed — verify with recruiter"
-      },
-      "fit": {
-        "score": 45,
-        "category": "exclude",
-        "breakdown": {
-          "technical": 10,
-          "devSupport": 13,
-          "experience": 14,
-          "industry": 0,
-          "customerFacing": 8
-        },
-        "matchedSkills": [
-          "JavaScript / TypeScript",
-          "Debugging / RCA",
-          "Logs / observability",
-          "AI / LLM support automation",
-          "Python / scripting",
-          "Technical documentation"
-        ],
-        "strongestMatch": [
-          "Senior React/TypeScript developer before moving into support engineering",
-          "Root cause analysis on enterprise escalations; drove 30+ product fixes with engineering",
-          "Root-caused production incidents from logs and traces"
-        ],
-        "missing": [
-          "Kubernetes",
-          "C / C++",
-          "Ruby / Rails",
-          "Networking (TCP/IP, DNS, TLS)"
-        ],
-        "concerns": [
-          "Shift / weekend / 24x7 coverage",
-          "Junior/associate level — may be below your experience and pay target"
-        ],
-        "whyFit": "Names 6 of your core skills (JavaScript / TypeScript, Debugging / RCA, Logs / observability, AI / LLM support automation, Python / scripting) and the work centres on: Investigates production issues with logs, traces, SQL or code; Reproduces bugs and works with product engineering.",
-        "worthApplying": "Lead with: Senior React/TypeScript developer before moving into support engineering."
-      },
-      "feed": "excluded",
-      "feedReasons": [
-        "Fit score 45 < 70",
-        "Posted 630 days before discovery (likely stale/evergreen)"
-      ],
-      "officialUrl": "https://job-boards.greenhouse.io/canonical/jobs/6448444",
-      "applyUrl": "https://job-boards.greenhouse.io/canonical/jobs/6448444",
-      "discoverySources": [
-        "greenhouse:canonical"
-      ],
-      "contacts": [],
-      "contactSearchLinks": [
-        {
-          "label": "Support / developer-support leaders",
-          "url": "https://www.google.com/search?q=site%3Alinkedin.com%2Fin%20%22Canonical%22%20(%22support%20engineering%20manager%22%20OR%20%22head%20of%20support%22%20OR%20%22director%20of%20support%22%20OR%20%22developer%20support%22%20OR%20%22customer%20engineering%20manager%22)"
-        },
-        {
-          "label": "Technical recruiters",
-          "url": "https://www.google.com/search?q=site%3Alinkedin.com%2Fin%20%22Canonical%22%20(%22technical%20recruiter%22%20OR%20%22talent%20acquisition%22%20OR%20%22recruiting%22)%20(engineering%20OR%20technical)"
-        },
-        {
-          "label": "Company team / about page",
-          "url": "https://www.google.com/search?q=%22Canonical%22%20team%20OR%20leadership%20%22support%22"
-        }
-      ],
-      "notes": [],
-      "suppressed": false,
-      "repostOf": null,
-      "history": [
-        {
-          "at": "2026-11-02T12:59:15.532Z",
-          "type": "created",
-          "from": null,
-          "to": "active",
-          "reason": "Discovered on greenhouse:canonical"
         }
       ]
     }
