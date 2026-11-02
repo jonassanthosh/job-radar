@@ -51,7 +51,7 @@ export function makeScorer(profile: ProfileConfig, search: SearchConfig) {
 
     // Technical skills — 30
     const w = matched.reduce((a, s) => a + s.weight, 0);
-    const technical = Math.max(0, Math.round(30 * Math.min(1, w / 22)) - 2 * Math.min(3, gaps.length));
+    const technical = Math.max(0, Math.round(30 * Math.min(1, w / 15)) - 2 * Math.min(3, gaps.length));
 
     // Developer-facing support — 25
     const prior = { developer_support: 12, technical_support: 8, developer_experience: 8, customer_engineering: 5, solutions_integration: 5 }[input.family];
@@ -70,7 +70,7 @@ export function makeScorer(profile: ProfileConfig, search: SearchConfig) {
 
     // Industry & technology — 15
     const ind = industries.filter((i) => i.re.some((r) => r.test(d)));
-    const industry = Math.round(15 * Math.min(1, ind.reduce((a, i) => a + i.weight, 0) / 12));
+    const industry = Math.round(15 * Math.min(1, ind.reduce((a, i) => a + i.weight, 0) / 8));
 
     // Customer-facing engineering — 10
     const customerFacing = (groups.has('technical_customers') ? 4 : 0) + (groups.has('documentation_dx') ? 2 : 0) + (groups.has('tooling') ? 2 : 0) + (groups.has('escalations') ? 2 : 0);

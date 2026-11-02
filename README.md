@@ -25,8 +25,8 @@ Claude finds; the rules decide. A lead Claude found is published only if the sam
 Then each job lands in exactly one list:
 
 - **Recommended**: India-eligible, pay verified ≥ ₹60L, fit ≥ 70
-- **Pay unverified**: India-eligible, pay not disclosed for India, fit ≥ 80
-- **Check India eligibility**: eligibility ambiguous, fit ≥ 75
+- **Pay unverified**: India-eligible, pay not disclosed for India, fit ≥ 75
+- **Check India eligibility**: eligibility ambiguous, fit ≥ 70
 - **Excluded**: everything else (kept in History with the reason)
 
 Thresholds live in `config/profile.json`.

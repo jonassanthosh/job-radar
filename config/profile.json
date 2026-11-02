@@ -9,58 +9,427 @@
   },
   "thresholds": {
     "recommendedMinScore": 70,
-    "reviewQueueMinScore": 80,
-    "locationCheckMinScore": 75,
+    "reviewQueueMinScore": 75,
+    "locationCheckMinScore": 70,
     "maxPostingAgeDays": 90,
     "freshPostingDays": 30,
     "contactStaleDays": 120
   },
   "skills": [
-    { "name": "REST APIs", "weight": 3, "patterns": ["rest(ful)?\\s*apis?", "\\bapis?\\b", "http api"], "evidence": "Debugged REST API integrations for FlutterFlow developers and built OpenLynk's public REST API" },
-    { "name": "OAuth / authentication", "weight": 3, "patterns": ["oauth", "openid|\\boidc\\b", "\\bsso\\b|saml", "authenticat", "\\bjwt\\b"], "evidence": "Resolved OAuth and authentication failures across Firebase/Supabase auth in 11,700+ support cases" },
-    { "name": "Webhooks", "weight": 2, "patterns": ["webhooks?"], "evidence": "Debugged webhook delivery and payload issues for developer customers" },
-    { "name": "SDKs", "weight": 3, "patterns": ["\\bsdks?\\b", "client librar"], "evidence": "Supported SDK users at FlutterFlow and shipped mobile SDKs for OpenLynk" },
-    { "name": "Firebase", "weight": 2, "patterns": ["firebase", "firestore"], "evidence": "Daily Firebase debugging (Auth, Firestore, Cloud Functions) at FlutterFlow" },
-    { "name": "Supabase / Postgres", "weight": 2, "patterns": ["supabase", "postgres"], "evidence": "Debugged Supabase/Postgres integrations for FlutterFlow customers" },
-    { "name": "SQL / databases", "weight": 2, "patterns": ["\\bsql\\b", "databases?", "mysql", "mongodb", "nosql"], "evidence": "Investigated database and query issues during production escalations" },
-    { "name": "Serverless / Cloud Functions", "weight": 2, "patterns": ["cloud functions?", "serverless", "lambda"], "evidence": "Debugged Cloud Functions deployments and runtime errors" },
-    { "name": "JavaScript / TypeScript", "weight": 3, "patterns": ["javascript", "typescript", "\\bjs\\b", "\\bts\\b"], "evidence": "Senior React/TypeScript developer before moving into support engineering" },
-    { "name": "React / Next.js", "weight": 2, "patterns": ["react", "next\\.?js"], "evidence": "Built production React and Next.js applications" },
-    { "name": "Node.js", "weight": 2, "patterns": ["node\\.?js", "\\bnode\\b"], "evidence": "Built Node.js backends, including OpenLynk" },
-    { "name": "Flutter / mobile", "weight": 2, "patterns": ["flutter", "dart", "mobile", "\\bios\\b", "android", "xcode", "gradle"], "evidence": "Resolved Flutter mobile build failures (iOS/Android) at FlutterFlow" },
-    { "name": "Python / scripting", "weight": 1, "patterns": ["python", "scripting", "\\bbash\\b", "shell scripts?"], "evidence": "Built a LangChain (Python) RAG support agent" },
-    { "name": "GCP / cloud", "weight": 1, "patterns": ["\\bgcp\\b", "google cloud", "\\baws\\b", "azure", "cloud platform"], "evidence": "Worked across GCP/Firebase production infrastructure" },
-    { "name": "Logs / observability", "weight": 2, "patterns": ["\\blogs?\\b", "logging", "traces?|tracing", "observability", "datadog", "sentry", "grafana", "kibana"], "evidence": "Root-caused production incidents from logs and traces" },
-    { "name": "Debugging / RCA", "weight": 3, "patterns": ["debug", "root cause", "\\brca\\b", "troubleshoot", "reproduc"], "evidence": "Root cause analysis on enterprise escalations; drove 30+ product fixes with engineering" },
-    { "name": "AI / LLM support automation", "weight": 2, "patterns": ["\\bllms?\\b", "\\brag\\b", "langchain", "generative ai|genai", "\\bai\\b", "machine learning", "openai|anthropic"], "evidence": "Built and deployed a LangChain RAG support agent resolving ~75–80% of 40–50 daily inquiries" },
-    { "name": "GraphQL", "weight": 1, "patterns": ["graphql"], "evidence": "Worked with GraphQL APIs as a frontend/backend engineer" },
-    { "name": "Git / CI", "weight": 1, "patterns": ["\\bgit\\b", "github", "ci/cd|\\bci\\b"], "evidence": "Daily Git/CI use as a product engineer" },
-    { "name": "Technical documentation", "weight": 1, "patterns": ["documentation", "knowledge base", "\\bdocs\\b", "technical writing"], "evidence": "Wrote technical documentation and support knowledge content" }
+    {
+      "name": "REST APIs",
+      "weight": 3,
+      "patterns": [
+        "rest(ful)?\\s*apis?",
+        "\\bapis?\\b",
+        "http api"
+      ],
+      "evidence": "Debugged REST API integrations for FlutterFlow developers and built OpenLynk's public REST API"
+    },
+    {
+      "name": "OAuth / authentication",
+      "weight": 3,
+      "patterns": [
+        "oauth",
+        "openid|\\boidc\\b",
+        "\\bsso\\b|saml",
+        "authenticat",
+        "\\bjwt\\b"
+      ],
+      "evidence": "Resolved OAuth and authentication failures across Firebase/Supabase auth in 11,700+ support cases"
+    },
+    {
+      "name": "Webhooks",
+      "weight": 2,
+      "patterns": [
+        "webhooks?"
+      ],
+      "evidence": "Debugged webhook delivery and payload issues for developer customers"
+    },
+    {
+      "name": "SDKs",
+      "weight": 3,
+      "patterns": [
+        "\\bsdks?\\b",
+        "client librar"
+      ],
+      "evidence": "Supported SDK users at FlutterFlow and shipped mobile SDKs for OpenLynk"
+    },
+    {
+      "name": "Firebase",
+      "weight": 2,
+      "patterns": [
+        "firebase",
+        "firestore"
+      ],
+      "evidence": "Daily Firebase debugging (Auth, Firestore, Cloud Functions) at FlutterFlow"
+    },
+    {
+      "name": "Supabase / Postgres",
+      "weight": 2,
+      "patterns": [
+        "supabase",
+        "postgres"
+      ],
+      "evidence": "Debugged Supabase/Postgres integrations for FlutterFlow customers"
+    },
+    {
+      "name": "SQL / databases",
+      "weight": 2,
+      "patterns": [
+        "\\bsql\\b",
+        "databases?",
+        "mysql",
+        "mongodb",
+        "nosql"
+      ],
+      "evidence": "Investigated database and query issues during production escalations"
+    },
+    {
+      "name": "Serverless / Cloud Functions",
+      "weight": 2,
+      "patterns": [
+        "cloud functions?",
+        "serverless",
+        "lambda"
+      ],
+      "evidence": "Debugged Cloud Functions deployments and runtime errors"
+    },
+    {
+      "name": "JavaScript / TypeScript",
+      "weight": 3,
+      "patterns": [
+        "javascript",
+        "typescript",
+        "\\bjs\\b",
+        "\\bts\\b"
+      ],
+      "evidence": "Senior React/TypeScript developer before moving into support engineering"
+    },
+    {
+      "name": "React / Next.js",
+      "weight": 2,
+      "patterns": [
+        "react",
+        "next\\.?js"
+      ],
+      "evidence": "Built production React and Next.js applications"
+    },
+    {
+      "name": "Node.js",
+      "weight": 2,
+      "patterns": [
+        "node\\.?js",
+        "\\bnode\\b"
+      ],
+      "evidence": "Built Node.js backends, including OpenLynk"
+    },
+    {
+      "name": "Flutter / mobile",
+      "weight": 2,
+      "patterns": [
+        "flutter",
+        "dart",
+        "mobile",
+        "\\bios\\b",
+        "android",
+        "xcode",
+        "gradle"
+      ],
+      "evidence": "Resolved Flutter mobile build failures (iOS/Android) at FlutterFlow"
+    },
+    {
+      "name": "Python / scripting",
+      "weight": 1,
+      "patterns": [
+        "python",
+        "scripting",
+        "\\bbash\\b",
+        "shell scripts?"
+      ],
+      "evidence": "Built a LangChain (Python) RAG support agent"
+    },
+    {
+      "name": "GCP / cloud",
+      "weight": 1,
+      "patterns": [
+        "\\bgcp\\b",
+        "google cloud",
+        "\\baws\\b",
+        "azure",
+        "cloud platform"
+      ],
+      "evidence": "Worked across GCP/Firebase production infrastructure"
+    },
+    {
+      "name": "Logs / observability",
+      "weight": 2,
+      "patterns": [
+        "\\blogs?\\b",
+        "logging",
+        "traces?|tracing",
+        "observability",
+        "datadog",
+        "sentry",
+        "grafana",
+        "kibana"
+      ],
+      "evidence": "Root-caused production incidents from logs and traces"
+    },
+    {
+      "name": "Debugging / RCA",
+      "weight": 3,
+      "patterns": [
+        "debug",
+        "root cause",
+        "\\brca\\b",
+        "troubleshoot",
+        "reproduc"
+      ],
+      "evidence": "Root cause analysis on enterprise escalations; drove 30+ product fixes with engineering"
+    },
+    {
+      "name": "AI / LLM support automation",
+      "weight": 2,
+      "patterns": [
+        "\\bllms?\\b",
+        "\\brag\\b",
+        "langchain",
+        "generative ai|genai",
+        "\\bai\\b",
+        "machine learning",
+        "openai|anthropic"
+      ],
+      "evidence": "Built and deployed a LangChain RAG support agent resolving ~75–80% of 40–50 daily inquiries"
+    },
+    {
+      "name": "GraphQL",
+      "weight": 1,
+      "patterns": [
+        "graphql"
+      ],
+      "evidence": "Worked with GraphQL APIs as a frontend/backend engineer"
+    },
+    {
+      "name": "Git / CI",
+      "weight": 1,
+      "patterns": [
+        "\\bgit\\b",
+        "github",
+        "ci/cd|\\bci\\b"
+      ],
+      "evidence": "Daily Git/CI use as a product engineer"
+    },
+    {
+      "name": "Technical documentation",
+      "weight": 1,
+      "patterns": [
+        "documentation",
+        "knowledge base",
+        "\\bdocs\\b",
+        "technical writing"
+      ],
+      "evidence": "Wrote technical documentation and support knowledge content"
+    }
   ],
   "unfamiliarSkills": [
-    { "name": "Kubernetes", "patterns": ["kubernetes", "\\bk8s\\b", "helm"] },
-    { "name": "Terraform / IaC", "patterns": ["terraform", "infrastructure as code", "pulumi", "ansible"] },
-    { "name": "Java / JVM", "patterns": ["\\bjava\\b", "\\bjvm\\b", "spring boot", "kotlin"] },
-    { "name": "Go", "patterns": ["\\bgolang\\b", "\\bgo\\b(?= (?:language|programming|services|code))"] },
-    { "name": "C / C++", "patterns": ["\\bc\\+\\+", "\\bc/c\\+\\+"] },
-    { "name": ".NET / C#", "patterns": ["\\.net\\b", "\\bc#"] },
-    { "name": "Ruby / Rails", "patterns": ["\\bruby\\b", "\\brails\\b"] },
-    { "name": "PHP", "patterns": ["\\bphp\\b"] },
-    { "name": "Linux administration", "patterns": ["linux (?:administration|systems?|internals)", "sysadmin"] },
-    { "name": "Networking (TCP/IP, DNS, TLS)", "patterns": ["tcp/ip", "networking", "\\bdns\\b", "\\btls\\b|\\bssl\\b", "load balanc"] },
-    { "name": "Kafka / streaming", "patterns": ["kafka", "streaming data", "flink"] },
-    { "name": "Spark / data engineering", "patterns": ["\\bspark\\b", "data warehouse", "\\betl\\b", "snowflake", "databricks"] },
-    { "name": "Salesforce", "patterns": ["salesforce"] },
-    { "name": "Security / compliance", "patterns": ["penetration test", "\\bsoc ?2\\b", "\\bsiem\\b", "incident response"] },
-    { "name": "Payments domain", "patterns": ["payments? (?:industry|processing)", "\\bpci\\b"] }
+    {
+      "name": "Kubernetes",
+      "patterns": [
+        "kubernetes",
+        "\\bk8s\\b",
+        "helm"
+      ]
+    },
+    {
+      "name": "Terraform / IaC",
+      "patterns": [
+        "terraform",
+        "infrastructure as code",
+        "pulumi",
+        "ansible"
+      ]
+    },
+    {
+      "name": "Java / JVM",
+      "patterns": [
+        "\\bjava\\b",
+        "\\bjvm\\b",
+        "spring boot",
+        "kotlin"
+      ]
+    },
+    {
+      "name": "Go",
+      "patterns": [
+        "\\bgolang\\b",
+        "\\bgo\\b(?= (?:language|programming|services|code))"
+      ]
+    },
+    {
+      "name": "C / C++",
+      "patterns": [
+        "\\bc\\+\\+",
+        "\\bc/c\\+\\+"
+      ]
+    },
+    {
+      "name": ".NET / C#",
+      "patterns": [
+        "\\.net\\b",
+        "\\bc#"
+      ]
+    },
+    {
+      "name": "Ruby / Rails",
+      "patterns": [
+        "\\bruby\\b",
+        "\\brails\\b"
+      ]
+    },
+    {
+      "name": "PHP",
+      "patterns": [
+        "\\bphp\\b"
+      ]
+    },
+    {
+      "name": "Linux administration",
+      "patterns": [
+        "linux (?:administration|systems?|internals)",
+        "sysadmin"
+      ]
+    },
+    {
+      "name": "Networking (TCP/IP, DNS, TLS)",
+      "patterns": [
+        "tcp/ip",
+        "networking",
+        "\\bdns\\b",
+        "\\btls\\b|\\bssl\\b",
+        "load balanc"
+      ]
+    },
+    {
+      "name": "Kafka / streaming",
+      "patterns": [
+        "kafka",
+        "streaming data",
+        "flink"
+      ]
+    },
+    {
+      "name": "Spark / data engineering",
+      "patterns": [
+        "\\bspark\\b",
+        "data warehouse",
+        "\\betl\\b",
+        "snowflake",
+        "databricks"
+      ]
+    },
+    {
+      "name": "Salesforce",
+      "patterns": [
+        "salesforce"
+      ]
+    },
+    {
+      "name": "Security / compliance",
+      "patterns": [
+        "penetration test",
+        "\\bsoc ?2\\b",
+        "\\bsiem\\b",
+        "incident response"
+      ]
+    },
+    {
+      "name": "Payments domain",
+      "patterns": [
+        "payments? (?:industry|processing)",
+        "\\bpci\\b"
+      ]
+    }
   ],
   "industries": [
-    { "name": "Developer platform / devtools", "weight": 5, "patterns": ["developer platform", "developer tools?", "devtools", "for developers", "developers? (?:use|build)", "\\bapi[- ]first\\b"] },
-    { "name": "Low-code / app builders", "weight": 5, "patterns": ["low[- ]code", "no[- ]code", "app builder"] },
-    { "name": "Backend-as-a-service / databases", "weight": 4, "patterns": ["backend[- ]as[- ]a[- ]service", "\\bbaas\\b", "database (?:platform|company|product)", "postgres", "firebase", "supabase"] },
-    { "name": "AI platform", "weight": 4, "patterns": ["\\bai\\b (?:platform|company|products?)", "\\bllms?\\b", "generative ai", "foundation models?"] },
-    { "name": "Mobile", "weight": 3, "patterns": ["mobile (?:apps?|developers?|sdk)", "flutter", "react native"] },
-    { "name": "Cloud / infrastructure SaaS", "weight": 3, "patterns": ["\\bsaas\\b", "cloud (?:platform|infrastructure|native)", "infrastructure"] },
-    { "name": "API / integrations", "weight": 3, "patterns": ["integrations? platform", "\\bapis?\\b", "webhooks?"] }
+    {
+      "name": "Developer platform / devtools",
+      "weight": 5,
+      "patterns": [
+        "developer platform",
+        "developer tools?",
+        "devtools",
+        "for developers",
+        "developers? (?:use|build)",
+        "\\bapi[- ]first\\b",
+        "\\bdevops\\b",
+        "ci/cd",
+        "open[- ]source",
+        "developer[- ]facing",
+        "(?:engineers|developers) (?:at|from) (?:our )?customers",
+        "product analytics",
+        "\\bsdks?\\b"
+      ]
+    },
+    {
+      "name": "Low-code / app builders",
+      "weight": 5,
+      "patterns": [
+        "low[- ]code",
+        "no[- ]code",
+        "app builder"
+      ]
+    },
+    {
+      "name": "Backend-as-a-service / databases",
+      "weight": 4,
+      "patterns": [
+        "backend[- ]as[- ]a[- ]service",
+        "\\bbaas\\b",
+        "database (?:platform|company|product)",
+        "postgres",
+        "firebase",
+        "supabase"
+      ]
+    },
+    {
+      "name": "AI platform",
+      "weight": 4,
+      "patterns": [
+        "\\bai\\b (?:platform|company|products?)",
+        "\\bllms?\\b",
+        "generative ai",
+        "foundation models?"
+      ]
+    },
+    {
+      "name": "Mobile",
+      "weight": 3,
+      "patterns": [
+        "mobile (?:apps?|developers?|sdk)",
+        "flutter",
+        "react native"
+      ]
+    },
+    {
+      "name": "Cloud / infrastructure SaaS",
+      "weight": 3,
+      "patterns": [
+        "\\bsaas\\b",
+        "cloud (?:platform|infrastructure|native)",
+        "infrastructure"
+      ]
+    },
+    {
+      "name": "API / integrations",
+      "weight": 3,
+      "patterns": [
+        "integrations? platform",
+        "\\bapis?\\b",
+        "webhooks?",
+        "communications? platform",
+        "\\bcpaas\\b"
+      ]
+    }
   ]
 }
