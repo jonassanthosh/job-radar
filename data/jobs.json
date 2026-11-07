@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-06T08:07:50.620Z",
+  "updatedAt": "2026-11-07T07:27:09.675Z",
   "jobs": [
     {
       "id": "gh-gitlab-8692874002",
@@ -32,8 +32,8 @@
       },
       "postedAt": "2026-08-18T09:16:27.000Z",
       "firstSeenAt": "2026-11-02T12:59:15.532Z",
-      "lastCheckedAt": "2026-11-06T08:07:50.620Z",
-      "lastVerifiedAt": "2026-11-06T08:07:50.620Z",
+      "lastCheckedAt": "2026-11-07T07:27:09.675Z",
+      "lastVerifiedAt": "2026-11-07T07:27:09.675Z",
       "lastModifiedAt": "2026-11-02T12:59:15.532Z",
       "status": "active",
       "consecutiveFailures": 0,
@@ -184,8 +184,8 @@
       },
       "postedAt": "2026-10-28T08:28:45.000Z",
       "firstSeenAt": "2026-11-02T12:59:15.532Z",
-      "lastCheckedAt": "2026-11-06T08:07:50.620Z",
-      "lastVerifiedAt": "2026-11-06T08:07:50.620Z",
+      "lastCheckedAt": "2026-11-07T07:27:09.675Z",
+      "lastVerifiedAt": "2026-11-07T07:27:09.675Z",
       "lastModifiedAt": "2026-11-02T12:59:15.532Z",
       "status": "active",
       "consecutiveFailures": 0,
@@ -333,8 +333,8 @@
       },
       "postedAt": "2026-10-26T14:29:18.961Z",
       "firstSeenAt": "2026-11-02T12:59:15.532Z",
-      "lastCheckedAt": "2026-11-06T08:07:50.620Z",
-      "lastVerifiedAt": "2026-11-06T08:07:50.620Z",
+      "lastCheckedAt": "2026-11-07T07:27:09.675Z",
+      "lastVerifiedAt": "2026-11-07T07:27:09.675Z",
       "lastModifiedAt": "2026-11-05T08:03:49.769Z",
       "status": "active",
       "consecutiveFailures": 0,
@@ -479,8 +479,8 @@
       },
       "postedAt": "2026-09-23T13:58:42.792Z",
       "firstSeenAt": "2026-11-02T12:59:15.532Z",
-      "lastCheckedAt": "2026-11-06T08:07:50.620Z",
-      "lastVerifiedAt": "2026-11-06T08:07:50.620Z",
+      "lastCheckedAt": "2026-11-07T07:27:09.675Z",
+      "lastVerifiedAt": "2026-11-07T07:27:09.675Z",
       "lastModifiedAt": "2026-11-02T12:59:15.532Z",
       "status": "active",
       "consecutiveFailures": 0,
@@ -583,6 +583,161 @@
       ]
     },
     {
+      "id": "ab-posthog-0c3c0ae6970d",
+      "keys": {
+        "ats": "ashby",
+        "board": "posthog",
+        "atsId": "db808740-242e-4a40-ad43-d41f26c049d7",
+        "canonicalUrl": "https://jobs.ashbyhq.com/posthog/db808740-242e-4a40-ad43-d41f26c049d7",
+        "reqId": null
+      },
+      "company": "PostHog",
+      "companyInfo": {
+        "hq": null,
+        "international": null,
+        "source": null
+      },
+      "title": "Technical Support Engineer",
+      "normalizedTitle": "technical support engineer",
+      "jobFamily": "technical_support",
+      "employmentType": "Full-Time",
+      "location": {
+        "raw": "Remote",
+        "remoteType": "remote",
+        "region": "Unspecified",
+        "india": "verification_required",
+        "evidence": "Remote",
+        "evidenceSource": "https://jobs.ashbyhq.com/PostHog/db808740-242e-4a40-ad43-d41f26c049d7",
+        "reason": "Remote listing with no stated country — confirm India eligibility"
+      },
+      "postedAt": "2026-11-06T15:25:28.875Z",
+      "firstSeenAt": "2026-11-02T12:59:15.532Z",
+      "lastCheckedAt": "2026-11-07T07:27:09.675Z",
+      "lastVerifiedAt": "2026-11-07T07:27:09.675Z",
+      "lastModifiedAt": "2026-11-07T07:27:09.675Z",
+      "status": "active",
+      "consecutiveFailures": 0,
+      "descriptionFingerprint": "dfe23302f965db5f",
+      "techStack": [
+        "SQL / databases",
+        "Logs / observability",
+        "Debugging / RCA",
+        "AI / LLM support automation",
+        "Technical documentation",
+        "Spark / data engineering"
+      ],
+      "yearsRequired": null,
+      "compensation": {
+        "status": "unverified",
+        "currency": null,
+        "interval": null,
+        "min": null,
+        "max": null,
+        "annualMin": null,
+        "annualMax": null,
+        "inrMin": null,
+        "inrMax": null,
+        "fxRate": null,
+        "fxDate": null,
+        "components": {
+          "base": null,
+          "bonus": null,
+          "equity": null
+        },
+        "applicability": "unspecified",
+        "confidence": "none",
+        "evidence": null,
+        "sourceUrl": null,
+        "display": "Not disclosed — verify with recruiter"
+      },
+      "fit": {
+        "score": 72,
+        "category": "possible",
+        "breakdown": {
+          "technical": 18,
+          "devSupport": 16,
+          "experience": 15,
+          "industry": 15,
+          "customerFacing": 8
+        },
+        "matchedSkills": [
+          "Debugging / RCA",
+          "SQL / databases",
+          "Logs / observability",
+          "AI / LLM support automation",
+          "Technical documentation"
+        ],
+        "strongestMatch": [
+          "Root cause analysis on enterprise escalations; drove 30+ product fixes with engineering",
+          "Investigated database and query issues during production escalations",
+          "Root-caused production incidents from logs and traces"
+        ],
+        "missing": [
+          "Spark / data engineering"
+        ],
+        "concerns": [],
+        "whyFit": "Names 5 of your core skills (Debugging / RCA, SQL / databases, Logs / observability, AI / LLM support automation, Technical documentation) and the work centres on: Supports developers on a SaaS / developer platform; Investigates production issues with logs, traces, SQL or code; Reproduces bugs and works with product engineering.",
+        "worthApplying": "Domain overlap: Developer platform / devtools, AI platform. Lead with: Root cause analysis on enterprise escalations; drove 30+ product fixes with engineering."
+      },
+      "feed": "location_check",
+      "feedReasons": [
+        "Remote listing with no stated country — confirm India eligibility"
+      ],
+      "officialUrl": "https://jobs.ashbyhq.com/PostHog/db808740-242e-4a40-ad43-d41f26c049d7",
+      "applyUrl": "https://jobs.ashbyhq.com/PostHog/db808740-242e-4a40-ad43-d41f26c049d7/application",
+      "discoverySources": [
+        "ashby:posthog"
+      ],
+      "contacts": [],
+      "contactSearchLinks": [
+        {
+          "label": "Support / developer-support leaders",
+          "url": "https://www.google.com/search?q=site%3Alinkedin.com%2Fin%20%22PostHog%22%20(%22support%20engineering%20manager%22%20OR%20%22head%20of%20support%22%20OR%20%22director%20of%20support%22%20OR%20%22developer%20support%22%20OR%20%22customer%20engineering%20manager%22)"
+        },
+        {
+          "label": "Technical recruiters",
+          "url": "https://www.google.com/search?q=site%3Alinkedin.com%2Fin%20%22PostHog%22%20(%22technical%20recruiter%22%20OR%20%22talent%20acquisition%22%20OR%20%22recruiting%22)%20(engineering%20OR%20technical)"
+        },
+        {
+          "label": "Company team / about page",
+          "url": "https://www.google.com/search?q=%22PostHog%22%20team%20OR%20leadership%20%22support%22"
+        }
+      ],
+      "notes": [],
+      "suppressed": false,
+      "repostOf": null,
+      "history": [
+        {
+          "at": "2026-11-02T12:59:15.532Z",
+          "type": "created",
+          "from": null,
+          "to": "active",
+          "reason": "Discovered on ashby:posthog"
+        },
+        {
+          "at": "2026-11-02T13:08:18.718Z",
+          "type": "feed",
+          "from": "excluded",
+          "to": "location_check",
+          "reason": "Remote listing with no stated country — confirm India eligibility"
+        },
+        {
+          "at": "2026-11-05T08:03:49.769Z",
+          "type": "status",
+          "from": "active",
+          "to": "closed",
+          "reason": "No longer listed on the official job board"
+        },
+        {
+          "at": "2026-11-07T07:27:09.675Z",
+          "type": "status",
+          "from": "closed",
+          "to": "active",
+          "reason": "Posting reappeared on the official board (reopened)"
+        }
+      ]
+    },
+    {
       "id": "gh-singlestore-8267309",
       "keys": {
         "ats": "greenhouse",
@@ -612,8 +767,8 @@
       },
       "postedAt": "2026-10-14T16:28:22.000Z",
       "firstSeenAt": "2026-11-02T12:59:15.532Z",
-      "lastCheckedAt": "2026-11-06T08:07:50.620Z",
-      "lastVerifiedAt": "2026-11-06T08:07:50.620Z",
+      "lastCheckedAt": "2026-11-07T07:27:09.675Z",
+      "lastVerifiedAt": "2026-11-07T07:27:09.675Z",
       "lastModifiedAt": "2026-11-02T12:59:15.532Z",
       "status": "active",
       "consecutiveFailures": 0,
@@ -760,8 +915,8 @@
       },
       "postedAt": "2026-04-02T08:09:56.000Z",
       "firstSeenAt": "2026-11-02T12:59:15.532Z",
-      "lastCheckedAt": "2026-11-06T08:07:50.620Z",
-      "lastVerifiedAt": "2026-11-06T08:07:50.620Z",
+      "lastCheckedAt": "2026-11-07T07:27:09.675Z",
+      "lastVerifiedAt": "2026-11-07T07:27:09.675Z",
       "lastModifiedAt": "2026-11-02T12:59:15.532Z",
       "status": "active",
       "consecutiveFailures": 0,
@@ -902,8 +1057,8 @@
       },
       "postedAt": "2025-03-20T18:51:09.252Z",
       "firstSeenAt": "2026-11-02T12:59:15.532Z",
-      "lastCheckedAt": "2026-11-06T08:07:50.620Z",
-      "lastVerifiedAt": "2026-11-06T08:07:50.620Z",
+      "lastCheckedAt": "2026-11-07T07:27:09.675Z",
+      "lastVerifiedAt": "2026-11-07T07:27:09.675Z",
       "lastModifiedAt": "2026-11-02T12:59:15.532Z",
       "status": "active",
       "consecutiveFailures": 0,
@@ -1041,8 +1196,8 @@
       },
       "postedAt": "2026-07-31T19:04:49.027Z",
       "firstSeenAt": "2026-11-02T12:59:15.532Z",
-      "lastCheckedAt": "2026-11-06T08:07:50.620Z",
-      "lastVerifiedAt": "2026-11-06T08:07:50.620Z",
+      "lastCheckedAt": "2026-11-07T07:27:09.675Z",
+      "lastVerifiedAt": "2026-11-07T07:27:09.675Z",
       "lastModifiedAt": "2026-11-05T08:03:49.769Z",
       "status": "active",
       "consecutiveFailures": 0,
@@ -1189,8 +1344,8 @@
       },
       "postedAt": "2025-12-17T21:46:32.608Z",
       "firstSeenAt": "2026-11-02T12:59:15.532Z",
-      "lastCheckedAt": "2026-11-06T08:07:50.620Z",
-      "lastVerifiedAt": "2026-11-06T08:07:50.620Z",
+      "lastCheckedAt": "2026-11-07T07:27:09.675Z",
+      "lastVerifiedAt": "2026-11-07T07:27:09.675Z",
       "lastModifiedAt": "2026-11-02T12:59:15.532Z",
       "status": "active",
       "consecutiveFailures": 0,
@@ -1326,8 +1481,8 @@
       },
       "postedAt": "2026-06-04T05:42:58.000Z",
       "firstSeenAt": "2026-11-02T12:59:15.532Z",
-      "lastCheckedAt": "2026-11-06T08:07:50.620Z",
-      "lastVerifiedAt": "2026-11-06T08:07:50.620Z",
+      "lastCheckedAt": "2026-11-07T07:27:09.675Z",
+      "lastVerifiedAt": "2026-11-07T07:27:09.675Z",
       "lastModifiedAt": "2026-11-02T12:59:15.532Z",
       "status": "active",
       "consecutiveFailures": 0,
@@ -1469,8 +1624,8 @@
       },
       "postedAt": "2025-02-05T16:40:51.000Z",
       "firstSeenAt": "2026-11-02T12:59:15.532Z",
-      "lastCheckedAt": "2026-11-06T08:07:50.620Z",
-      "lastVerifiedAt": "2026-11-06T08:07:50.620Z",
+      "lastCheckedAt": "2026-11-07T07:27:09.675Z",
+      "lastVerifiedAt": "2026-11-07T07:27:09.675Z",
       "lastModifiedAt": "2026-11-02T12:59:15.532Z",
       "status": "active",
       "consecutiveFailures": 0,
@@ -1612,8 +1767,8 @@
       },
       "postedAt": "2026-05-29T21:09:34.000Z",
       "firstSeenAt": "2026-11-02T12:59:15.532Z",
-      "lastCheckedAt": "2026-11-06T08:07:50.620Z",
-      "lastVerifiedAt": "2026-11-06T08:07:50.620Z",
+      "lastCheckedAt": "2026-11-07T07:27:09.675Z",
+      "lastVerifiedAt": "2026-11-07T07:27:09.675Z",
       "lastModifiedAt": "2026-11-02T12:59:15.532Z",
       "status": "active",
       "consecutiveFailures": 0,
@@ -1748,8 +1903,8 @@
       },
       "postedAt": "2026-09-11T05:56:37.000Z",
       "firstSeenAt": "2026-11-02T12:59:15.532Z",
-      "lastCheckedAt": "2026-11-06T08:07:50.620Z",
-      "lastVerifiedAt": "2026-11-06T08:07:50.620Z",
+      "lastCheckedAt": "2026-11-07T07:27:09.675Z",
+      "lastVerifiedAt": "2026-11-07T07:27:09.675Z",
       "lastModifiedAt": "2026-11-02T12:59:15.532Z",
       "status": "active",
       "consecutiveFailures": 0,
@@ -1891,8 +2046,8 @@
       },
       "postedAt": "2026-11-05T14:57:26.000Z",
       "firstSeenAt": "2026-11-06T08:07:50.620Z",
-      "lastCheckedAt": "2026-11-06T08:07:50.620Z",
-      "lastVerifiedAt": "2026-11-06T08:07:50.620Z",
+      "lastCheckedAt": "2026-11-07T07:27:09.675Z",
+      "lastVerifiedAt": "2026-11-07T07:27:09.675Z",
       "lastModifiedAt": "2026-11-06T08:07:50.620Z",
       "status": "active",
       "consecutiveFailures": 0,
@@ -2022,8 +2177,8 @@
       },
       "postedAt": "2025-02-05T16:31:17.000Z",
       "firstSeenAt": "2026-11-02T12:59:15.532Z",
-      "lastCheckedAt": "2026-11-06T08:07:50.620Z",
-      "lastVerifiedAt": "2026-11-06T08:07:50.620Z",
+      "lastCheckedAt": "2026-11-07T07:27:09.675Z",
+      "lastVerifiedAt": "2026-11-07T07:27:09.675Z",
       "lastModifiedAt": "2026-11-02T12:59:15.532Z",
       "status": "active",
       "consecutiveFailures": 0,
@@ -2166,8 +2321,8 @@
       },
       "postedAt": "2026-09-23T13:59:26.000Z",
       "firstSeenAt": "2026-11-02T12:59:15.532Z",
-      "lastCheckedAt": "2026-11-06T08:07:50.620Z",
-      "lastVerifiedAt": "2026-11-06T08:07:50.620Z",
+      "lastCheckedAt": "2026-11-07T07:27:09.675Z",
+      "lastVerifiedAt": "2026-11-07T07:27:09.675Z",
       "lastModifiedAt": "2026-11-06T08:07:50.620Z",
       "status": "active",
       "consecutiveFailures": 0,
@@ -2303,8 +2458,8 @@
       },
       "postedAt": "2025-07-14T16:50:15.000Z",
       "firstSeenAt": "2026-11-02T12:59:15.532Z",
-      "lastCheckedAt": "2026-11-06T08:07:50.620Z",
-      "lastVerifiedAt": "2026-11-06T08:07:50.620Z",
+      "lastCheckedAt": "2026-11-07T07:27:09.675Z",
+      "lastVerifiedAt": "2026-11-07T07:27:09.675Z",
       "lastModifiedAt": "2026-11-02T12:59:15.532Z",
       "status": "active",
       "consecutiveFailures": 0,
@@ -2442,8 +2597,8 @@
       },
       "postedAt": "2020-11-19T19:48:12.000Z",
       "firstSeenAt": "2026-11-02T12:59:15.532Z",
-      "lastCheckedAt": "2026-11-06T08:07:50.620Z",
-      "lastVerifiedAt": "2026-11-06T08:07:50.620Z",
+      "lastCheckedAt": "2026-11-07T07:27:09.675Z",
+      "lastVerifiedAt": "2026-11-07T07:27:09.675Z",
       "lastModifiedAt": "2026-11-02T12:59:15.532Z",
       "status": "active",
       "consecutiveFailures": 0,
@@ -2581,8 +2736,8 @@
       },
       "postedAt": "2025-02-10T09:37:24.000Z",
       "firstSeenAt": "2026-11-02T12:59:15.532Z",
-      "lastCheckedAt": "2026-11-06T08:07:50.620Z",
-      "lastVerifiedAt": "2026-11-06T08:07:50.620Z",
+      "lastCheckedAt": "2026-11-07T07:27:09.675Z",
+      "lastVerifiedAt": "2026-11-07T07:27:09.675Z",
       "lastModifiedAt": "2026-11-02T12:59:15.532Z",
       "status": "active",
       "consecutiveFailures": 0,
@@ -2727,8 +2882,8 @@
       },
       "postedAt": "2025-03-08T05:19:50.000Z",
       "firstSeenAt": "2026-11-02T12:59:15.532Z",
-      "lastCheckedAt": "2026-11-06T08:07:50.620Z",
-      "lastVerifiedAt": "2026-11-06T08:07:50.620Z",
+      "lastCheckedAt": "2026-11-07T07:27:09.675Z",
+      "lastVerifiedAt": "2026-11-07T07:27:09.675Z",
       "lastModifiedAt": "2026-11-02T12:59:15.532Z",
       "status": "active",
       "consecutiveFailures": 0,
@@ -2873,8 +3028,8 @@
       },
       "postedAt": "2026-11-02T15:48:03.000Z",
       "firstSeenAt": "2026-11-03T08:09:06.754Z",
-      "lastCheckedAt": "2026-11-06T08:07:50.620Z",
-      "lastVerifiedAt": "2026-11-06T08:07:50.620Z",
+      "lastCheckedAt": "2026-11-07T07:27:09.675Z",
+      "lastVerifiedAt": "2026-11-07T07:27:09.675Z",
       "lastModifiedAt": "2026-11-03T08:09:06.754Z",
       "status": "active",
       "consecutiveFailures": 0,
@@ -2971,154 +3126,6 @@
           "from": null,
           "to": "active",
           "reason": "Discovered on greenhouse:databricks"
-        }
-      ]
-    },
-    {
-      "id": "ab-posthog-0c3c0ae6970d",
-      "keys": {
-        "ats": "ashby",
-        "board": "posthog",
-        "atsId": "db808740-242e-4a40-ad43-d41f26c049d7",
-        "canonicalUrl": "https://jobs.ashbyhq.com/posthog/db808740-242e-4a40-ad43-d41f26c049d7",
-        "reqId": null
-      },
-      "company": "PostHog",
-      "companyInfo": {
-        "hq": null,
-        "international": null,
-        "source": null
-      },
-      "title": "Technical Support Engineer",
-      "normalizedTitle": "technical support engineer",
-      "jobFamily": "technical_support",
-      "employmentType": "Full-Time",
-      "location": {
-        "raw": "Remote",
-        "remoteType": "remote",
-        "region": "Unspecified",
-        "india": "verification_required",
-        "evidence": "Remote",
-        "evidenceSource": "https://jobs.ashbyhq.com/posthog/db808740-242e-4a40-ad43-d41f26c049d7",
-        "reason": "Remote listing with no stated country — confirm India eligibility"
-      },
-      "postedAt": "2026-10-28T14:43:56.854Z",
-      "firstSeenAt": "2026-11-02T12:59:15.532Z",
-      "lastCheckedAt": "2026-11-05T08:03:49.769Z",
-      "lastVerifiedAt": "2026-11-04T07:41:20.774Z",
-      "lastModifiedAt": "2026-11-05T08:03:49.769Z",
-      "status": "closed",
-      "consecutiveFailures": 0,
-      "descriptionFingerprint": "dfe23302f965db5f",
-      "techStack": [
-        "SQL / databases",
-        "Logs / observability",
-        "Debugging / RCA",
-        "AI / LLM support automation",
-        "Technical documentation",
-        "Spark / data engineering"
-      ],
-      "yearsRequired": null,
-      "compensation": {
-        "status": "unverified",
-        "currency": null,
-        "interval": null,
-        "min": null,
-        "max": null,
-        "annualMin": null,
-        "annualMax": null,
-        "inrMin": null,
-        "inrMax": null,
-        "fxRate": null,
-        "fxDate": null,
-        "components": {
-          "base": null,
-          "bonus": null,
-          "equity": null
-        },
-        "applicability": "unspecified",
-        "confidence": "none",
-        "evidence": null,
-        "sourceUrl": null,
-        "display": "Not disclosed — verify with recruiter"
-      },
-      "fit": {
-        "score": 72,
-        "category": "possible",
-        "breakdown": {
-          "technical": 18,
-          "devSupport": 16,
-          "experience": 15,
-          "industry": 15,
-          "customerFacing": 8
-        },
-        "matchedSkills": [
-          "Debugging / RCA",
-          "SQL / databases",
-          "Logs / observability",
-          "AI / LLM support automation",
-          "Technical documentation"
-        ],
-        "strongestMatch": [
-          "Root cause analysis on enterprise escalations; drove 30+ product fixes with engineering",
-          "Investigated database and query issues during production escalations",
-          "Root-caused production incidents from logs and traces"
-        ],
-        "missing": [
-          "Spark / data engineering"
-        ],
-        "concerns": [],
-        "whyFit": "Names 5 of your core skills (Debugging / RCA, SQL / databases, Logs / observability, AI / LLM support automation, Technical documentation) and the work centres on: Supports developers on a SaaS / developer platform; Investigates production issues with logs, traces, SQL or code; Reproduces bugs and works with product engineering.",
-        "worthApplying": "Domain overlap: Developer platform / devtools, AI platform. Lead with: Root cause analysis on enterprise escalations; drove 30+ product fixes with engineering."
-      },
-      "feed": "location_check",
-      "feedReasons": [
-        "Remote listing with no stated country — confirm India eligibility"
-      ],
-      "officialUrl": "https://jobs.ashbyhq.com/posthog/db808740-242e-4a40-ad43-d41f26c049d7",
-      "applyUrl": "https://jobs.ashbyhq.com/posthog/db808740-242e-4a40-ad43-d41f26c049d7/application",
-      "discoverySources": [
-        "ashby:posthog"
-      ],
-      "contacts": [],
-      "contactSearchLinks": [
-        {
-          "label": "Support / developer-support leaders",
-          "url": "https://www.google.com/search?q=site%3Alinkedin.com%2Fin%20%22PostHog%22%20(%22support%20engineering%20manager%22%20OR%20%22head%20of%20support%22%20OR%20%22director%20of%20support%22%20OR%20%22developer%20support%22%20OR%20%22customer%20engineering%20manager%22)"
-        },
-        {
-          "label": "Technical recruiters",
-          "url": "https://www.google.com/search?q=site%3Alinkedin.com%2Fin%20%22PostHog%22%20(%22technical%20recruiter%22%20OR%20%22talent%20acquisition%22%20OR%20%22recruiting%22)%20(engineering%20OR%20technical)"
-        },
-        {
-          "label": "Company team / about page",
-          "url": "https://www.google.com/search?q=%22PostHog%22%20team%20OR%20leadership%20%22support%22"
-        }
-      ],
-      "notes": [],
-      "suppressed": false,
-      "repostOf": null,
-      "history": [
-        {
-          "at": "2026-11-02T12:59:15.532Z",
-          "type": "created",
-          "from": null,
-          "to": "active",
-          "reason": "Discovered on ashby:posthog"
-        },
-        {
-          "at": "2026-11-02T13:08:18.718Z",
-          "type": "feed",
-          "from": "excluded",
-          "to": "location_check",
-          "reason": "Remote listing with no stated country — confirm India eligibility"
-        },
-        {
-          "at": "2026-11-05T08:03:49.769Z",
-          "type": "status",
-          "from": "active",
-          "to": "closed",
-          "reason": "No longer listed on the official job board"
         }
       ]
     }
