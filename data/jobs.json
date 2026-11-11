@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T08:34:57.531Z",
+  "updatedAt": "2026-11-11T07:55:21.735Z",
   "jobs": [
     {
       "id": "gh-gitlab-8692874002",
@@ -32,8 +32,8 @@
       },
       "postedAt": "2026-08-18T09:16:27.000Z",
       "firstSeenAt": "2026-11-02T12:59:15.532Z",
-      "lastCheckedAt": "2026-11-10T08:34:57.531Z",
-      "lastVerifiedAt": "2026-11-10T08:34:57.531Z",
+      "lastCheckedAt": "2026-11-11T07:55:21.735Z",
+      "lastVerifiedAt": "2026-11-11T07:55:21.735Z",
       "lastModifiedAt": "2026-11-02T12:59:15.532Z",
       "status": "active",
       "consecutiveFailures": 0,
@@ -184,8 +184,8 @@
       },
       "postedAt": "2026-10-28T08:28:45.000Z",
       "firstSeenAt": "2026-11-02T12:59:15.532Z",
-      "lastCheckedAt": "2026-11-10T08:34:57.531Z",
-      "lastVerifiedAt": "2026-11-10T08:34:57.531Z",
+      "lastCheckedAt": "2026-11-11T07:55:21.735Z",
+      "lastVerifiedAt": "2026-11-11T07:55:21.735Z",
       "lastModifiedAt": "2026-11-02T12:59:15.532Z",
       "status": "active",
       "consecutiveFailures": 0,
@@ -333,8 +333,8 @@
       },
       "postedAt": "2026-10-26T14:29:18.961Z",
       "firstSeenAt": "2026-11-02T12:59:15.532Z",
-      "lastCheckedAt": "2026-11-10T08:34:57.531Z",
-      "lastVerifiedAt": "2026-11-10T08:34:57.531Z",
+      "lastCheckedAt": "2026-11-11T07:55:21.735Z",
+      "lastVerifiedAt": "2026-11-11T07:55:21.735Z",
       "lastModifiedAt": "2026-11-05T08:03:49.769Z",
       "status": "active",
       "consecutiveFailures": 0,
@@ -479,8 +479,8 @@
       },
       "postedAt": "2026-09-23T13:58:42.792Z",
       "firstSeenAt": "2026-11-02T12:59:15.532Z",
-      "lastCheckedAt": "2026-11-10T08:34:57.531Z",
-      "lastVerifiedAt": "2026-11-10T08:34:57.531Z",
+      "lastCheckedAt": "2026-11-11T07:55:21.735Z",
+      "lastVerifiedAt": "2026-11-11T07:55:21.735Z",
       "lastModifiedAt": "2026-11-02T12:59:15.532Z",
       "status": "active",
       "consecutiveFailures": 0,
@@ -612,8 +612,8 @@
       },
       "postedAt": "2026-11-07T14:24:51.000Z",
       "firstSeenAt": "2026-11-08T07:37:37.045Z",
-      "lastCheckedAt": "2026-11-10T08:34:57.531Z",
-      "lastVerifiedAt": "2026-11-10T08:34:57.531Z",
+      "lastCheckedAt": "2026-11-11T07:55:21.735Z",
+      "lastVerifiedAt": "2026-11-11T07:55:21.735Z",
       "lastModifiedAt": "2026-11-08T07:37:37.045Z",
       "status": "active",
       "consecutiveFailures": 0,
@@ -765,8 +765,8 @@
       },
       "postedAt": "2026-11-06T15:25:28.875Z",
       "firstSeenAt": "2026-11-02T12:59:15.532Z",
-      "lastCheckedAt": "2026-11-10T08:34:57.531Z",
-      "lastVerifiedAt": "2026-11-10T08:34:57.531Z",
+      "lastCheckedAt": "2026-11-11T07:55:21.735Z",
+      "lastVerifiedAt": "2026-11-11T07:55:21.735Z",
       "lastModifiedAt": "2026-11-07T07:27:09.675Z",
       "status": "active",
       "consecutiveFailures": 0,
@@ -920,8 +920,8 @@
       },
       "postedAt": "2026-10-14T16:28:22.000Z",
       "firstSeenAt": "2026-11-02T12:59:15.532Z",
-      "lastCheckedAt": "2026-11-10T08:34:57.531Z",
-      "lastVerifiedAt": "2026-11-10T08:34:57.531Z",
+      "lastCheckedAt": "2026-11-11T07:55:21.735Z",
+      "lastVerifiedAt": "2026-11-11T07:55:21.735Z",
       "lastModifiedAt": "2026-11-02T12:59:15.532Z",
       "status": "active",
       "consecutiveFailures": 0,
@@ -1068,8 +1068,8 @@
       },
       "postedAt": "2026-04-02T08:09:56.000Z",
       "firstSeenAt": "2026-11-02T12:59:15.532Z",
-      "lastCheckedAt": "2026-11-10T08:34:57.531Z",
-      "lastVerifiedAt": "2026-11-10T08:34:57.531Z",
+      "lastCheckedAt": "2026-11-11T07:55:21.735Z",
+      "lastVerifiedAt": "2026-11-11T07:55:21.735Z",
       "lastModifiedAt": "2026-11-02T12:59:15.532Z",
       "status": "active",
       "consecutiveFailures": 0,
@@ -1210,8 +1210,8 @@
       },
       "postedAt": "2025-03-20T18:51:09.252Z",
       "firstSeenAt": "2026-11-02T12:59:15.532Z",
-      "lastCheckedAt": "2026-11-10T08:34:57.531Z",
-      "lastVerifiedAt": "2026-11-10T08:34:57.531Z",
+      "lastCheckedAt": "2026-11-11T07:55:21.735Z",
+      "lastVerifiedAt": "2026-11-11T07:55:21.735Z",
       "lastModifiedAt": "2026-11-02T12:59:15.532Z",
       "status": "active",
       "consecutiveFailures": 0,
@@ -1349,8 +1349,8 @@
       },
       "postedAt": "2026-07-31T19:04:49.027Z",
       "firstSeenAt": "2026-11-02T12:59:15.532Z",
-      "lastCheckedAt": "2026-11-10T08:34:57.531Z",
-      "lastVerifiedAt": "2026-11-10T08:34:57.531Z",
+      "lastCheckedAt": "2026-11-11T07:55:21.735Z",
+      "lastVerifiedAt": "2026-11-11T07:55:21.735Z",
       "lastModifiedAt": "2026-11-05T08:03:49.769Z",
       "status": "active",
       "consecutiveFailures": 0,
@@ -1497,8 +1497,8 @@
       },
       "postedAt": "2025-12-17T21:46:32.608Z",
       "firstSeenAt": "2026-11-02T12:59:15.532Z",
-      "lastCheckedAt": "2026-11-10T08:34:57.531Z",
-      "lastVerifiedAt": "2026-11-10T08:34:57.531Z",
+      "lastCheckedAt": "2026-11-11T07:55:21.735Z",
+      "lastVerifiedAt": "2026-11-11T07:55:21.735Z",
       "lastModifiedAt": "2026-11-02T12:59:15.532Z",
       "status": "active",
       "consecutiveFailures": 0,
@@ -1605,149 +1605,6 @@
       ]
     },
     {
-      "id": "gh-samsara-7960367",
-      "keys": {
-        "ats": "greenhouse",
-        "board": "samsara",
-        "atsId": "7960367",
-        "canonicalUrl": "https://job-boards.greenhouse.io/samsara/jobs/7960367",
-        "reqId": "JR11702"
-      },
-      "company": "Samsara",
-      "companyInfo": {
-        "hq": null,
-        "international": null,
-        "source": null
-      },
-      "title": "Product Support Engineer III",
-      "normalizedTitle": "product support engineer iii",
-      "jobFamily": "technical_support",
-      "employmentType": null,
-      "location": {
-        "raw": "Bengaluru - BLR1 | Bengaluru - BLR1",
-        "remoteType": "remote",
-        "region": "India",
-        "india": "eligible",
-        "evidence": "Bengaluru - BLR1 | Bengaluru - BLR1",
-        "evidenceSource": "https://www.samsara.com/company/careers/roles/7960367?gh_jid=7960367",
-        "reason": "Official location lists India and the role is remote"
-      },
-      "postedAt": "2026-06-04T05:42:58.000Z",
-      "firstSeenAt": "2026-11-02T12:59:15.532Z",
-      "lastCheckedAt": "2026-11-10T08:34:57.531Z",
-      "lastVerifiedAt": "2026-11-10T08:34:57.531Z",
-      "lastModifiedAt": "2026-11-02T12:59:15.532Z",
-      "status": "active",
-      "consecutiveFailures": 0,
-      "descriptionFingerprint": "3171107603ab209d",
-      "techStack": [
-        "OAuth / authentication",
-        "SQL / databases",
-        "Flutter / mobile",
-        "Python / scripting",
-        "Logs / observability",
-        "Debugging / RCA",
-        "Technical documentation",
-        "Spark / data engineering",
-        "Security / compliance"
-      ],
-      "yearsRequired": 8,
-      "compensation": {
-        "status": "unverified",
-        "currency": null,
-        "interval": null,
-        "min": null,
-        "max": null,
-        "annualMin": null,
-        "annualMax": null,
-        "inrMin": null,
-        "inrMax": null,
-        "fxRate": null,
-        "fxDate": null,
-        "components": {
-          "base": null,
-          "bonus": null,
-          "equity": null
-        },
-        "applicability": "unspecified",
-        "confidence": "none",
-        "evidence": null,
-        "sourceUrl": null,
-        "display": "Not disclosed — verify with recruiter"
-      },
-      "fit": {
-        "score": 78,
-        "category": "possible",
-        "breakdown": {
-          "technical": 24,
-          "devSupport": 21,
-          "experience": 12,
-          "industry": 11,
-          "customerFacing": 10
-        },
-        "matchedSkills": [
-          "OAuth / authentication",
-          "Debugging / RCA",
-          "SQL / databases",
-          "Flutter / mobile",
-          "Logs / observability",
-          "Python / scripting",
-          "Technical documentation"
-        ],
-        "strongestMatch": [
-          "Resolved OAuth and authentication failures across Firebase/Supabase auth in 11,700+ support cases",
-          "Root cause analysis on enterprise escalations; drove 30+ product fixes with engineering",
-          "Investigated database and query issues during production escalations"
-        ],
-        "missing": [
-          "Spark / data engineering",
-          "Security / compliance",
-          "Asks for 8+ years (profile: 6)"
-        ],
-        "concerns": [
-          "On-call rotation"
-        ],
-        "whyFit": "Names 7 of your core skills (OAuth / authentication, Debugging / RCA, SQL / databases, Flutter / mobile, Logs / observability) and the work centres on: Supports developers on a SaaS / developer platform; Debugs APIs, SDKs, webhooks, integrations or auth; Investigates production issues with logs, traces, SQL or code.",
-        "worthApplying": "Senior-level title fits your escalation and mentoring experience. Domain overlap: Mobile, Cloud / infrastructure SaaS. Lead with: Resolved OAuth and authentication failures across Firebase/Supabase auth in 11,700+ support cases."
-      },
-      "feed": "excluded",
-      "feedReasons": [
-        "Posted 151 days before discovery (likely stale/evergreen)"
-      ],
-      "officialUrl": "https://www.samsara.com/company/careers/roles/7960367?gh_jid=7960367",
-      "applyUrl": "https://www.samsara.com/company/careers/roles/7960367?gh_jid=7960367",
-      "discoverySources": [
-        "greenhouse:samsara"
-      ],
-      "contacts": [],
-      "contactSearchLinks": [
-        {
-          "label": "Support / developer-support leaders",
-          "url": "https://www.google.com/search?q=site%3Alinkedin.com%2Fin%20%22Samsara%22%20(%22support%20engineering%20manager%22%20OR%20%22head%20of%20support%22%20OR%20%22director%20of%20support%22%20OR%20%22developer%20support%22%20OR%20%22customer%20engineering%20manager%22)"
-        },
-        {
-          "label": "Technical recruiters",
-          "url": "https://www.google.com/search?q=site%3Alinkedin.com%2Fin%20%22Samsara%22%20(%22technical%20recruiter%22%20OR%20%22talent%20acquisition%22%20OR%20%22recruiting%22)%20(engineering%20OR%20technical)"
-        },
-        {
-          "label": "Company team / about page",
-          "url": "https://www.google.com/search?q=%22Samsara%22%20team%20OR%20leadership%20%22support%22"
-        }
-      ],
-      "notes": [],
-      "suppressed": false,
-      "repostOf": null,
-      "history": [
-        {
-          "at": "2026-11-02T12:59:15.532Z",
-          "type": "created",
-          "from": null,
-          "to": "active",
-          "reason": "Discovered on greenhouse:samsara"
-        }
-      ]
-    },
-    {
       "id": "gh-databricks-7845325002",
       "keys": {
         "ats": "greenhouse",
@@ -1777,8 +1634,8 @@
       },
       "postedAt": "2025-02-05T16:40:51.000Z",
       "firstSeenAt": "2026-11-02T12:59:15.532Z",
-      "lastCheckedAt": "2026-11-10T08:34:57.531Z",
-      "lastVerifiedAt": "2026-11-10T08:34:57.531Z",
+      "lastCheckedAt": "2026-11-11T07:55:21.735Z",
+      "lastVerifiedAt": "2026-11-11T07:55:21.735Z",
       "lastModifiedAt": "2026-11-02T12:59:15.532Z",
       "status": "active",
       "consecutiveFailures": 0,
@@ -1920,8 +1777,8 @@
       },
       "postedAt": "2026-05-29T21:09:34.000Z",
       "firstSeenAt": "2026-11-02T12:59:15.532Z",
-      "lastCheckedAt": "2026-11-10T08:34:57.531Z",
-      "lastVerifiedAt": "2026-11-10T08:34:57.531Z",
+      "lastCheckedAt": "2026-11-11T07:55:21.735Z",
+      "lastVerifiedAt": "2026-11-11T07:55:21.735Z",
       "lastModifiedAt": "2026-11-02T12:59:15.532Z",
       "status": "active",
       "consecutiveFailures": 0,
@@ -2056,8 +1913,8 @@
       },
       "postedAt": "2026-09-11T05:56:37.000Z",
       "firstSeenAt": "2026-11-02T12:59:15.532Z",
-      "lastCheckedAt": "2026-11-10T08:34:57.531Z",
-      "lastVerifiedAt": "2026-11-10T08:34:57.531Z",
+      "lastCheckedAt": "2026-11-11T07:55:21.735Z",
+      "lastVerifiedAt": "2026-11-11T07:55:21.735Z",
       "lastModifiedAt": "2026-11-02T12:59:15.532Z",
       "status": "active",
       "consecutiveFailures": 0,
@@ -2199,8 +2056,8 @@
       },
       "postedAt": "2026-11-05T14:57:26.000Z",
       "firstSeenAt": "2026-11-06T08:07:50.620Z",
-      "lastCheckedAt": "2026-11-10T08:34:57.531Z",
-      "lastVerifiedAt": "2026-11-10T08:34:57.531Z",
+      "lastCheckedAt": "2026-11-11T07:55:21.735Z",
+      "lastVerifiedAt": "2026-11-11T07:55:21.735Z",
       "lastModifiedAt": "2026-11-06T08:07:50.620Z",
       "status": "active",
       "consecutiveFailures": 0,
@@ -2330,8 +2187,8 @@
       },
       "postedAt": "2025-02-05T16:31:17.000Z",
       "firstSeenAt": "2026-11-02T12:59:15.532Z",
-      "lastCheckedAt": "2026-11-10T08:34:57.531Z",
-      "lastVerifiedAt": "2026-11-10T08:34:57.531Z",
+      "lastCheckedAt": "2026-11-11T07:55:21.735Z",
+      "lastVerifiedAt": "2026-11-11T07:55:21.735Z",
       "lastModifiedAt": "2026-11-02T12:59:15.532Z",
       "status": "active",
       "consecutiveFailures": 0,
@@ -2445,6 +2302,150 @@
       ]
     },
     {
+      "id": "gh-databricks-8041698002",
+      "keys": {
+        "ats": "greenhouse",
+        "board": "databricks",
+        "atsId": "8041698002",
+        "canonicalUrl": "https://job-boards.greenhouse.io/databricks/jobs/8041698002",
+        "reqId": "P-1431"
+      },
+      "company": "Databricks",
+      "companyInfo": {
+        "hq": null,
+        "international": null,
+        "source": null
+      },
+      "title": "Senior Technical Solutions Engineer (Platform)",
+      "normalizedTitle": "senior technical solutions engineer",
+      "jobFamily": "solutions_integration",
+      "employmentType": null,
+      "location": {
+        "raw": "Bengaluru, India | Bengaluru, India",
+        "remoteType": "unknown",
+        "region": "India",
+        "india": "verification_required",
+        "evidence": "Bengaluru, India | Bengaluru, India",
+        "evidenceSource": "https://databricks.com/company/careers/open-positions/job?gh_jid=8041698002",
+        "reason": "India location listed, but the posting does not say the role is remote"
+      },
+      "postedAt": "2026-01-07T08:41:18.000Z",
+      "firstSeenAt": "2026-11-11T07:55:21.735Z",
+      "lastCheckedAt": "2026-11-11T07:55:21.735Z",
+      "lastVerifiedAt": "2026-11-11T07:55:21.735Z",
+      "lastModifiedAt": "2026-11-11T07:55:21.735Z",
+      "status": "active",
+      "consecutiveFailures": 0,
+      "descriptionFingerprint": "76170d9006133971",
+      "techStack": [
+        "SQL / databases",
+        "GCP / cloud",
+        "Logs / observability",
+        "Debugging / RCA",
+        "AI / LLM support automation",
+        "Git / CI",
+        "Technical documentation",
+        "Linux administration",
+        "Kafka / streaming",
+        "Spark / data engineering"
+      ],
+      "yearsRequired": 7,
+      "compensation": {
+        "status": "unverified",
+        "currency": null,
+        "interval": null,
+        "min": null,
+        "max": null,
+        "annualMin": null,
+        "annualMax": null,
+        "inrMin": null,
+        "inrMax": null,
+        "fxRate": null,
+        "fxDate": null,
+        "components": {
+          "base": null,
+          "bonus": null,
+          "equity": null
+        },
+        "applicability": "unspecified",
+        "confidence": "none",
+        "evidence": null,
+        "sourceUrl": null,
+        "display": "Not disclosed — verify with recruiter"
+      },
+      "fit": {
+        "score": 68,
+        "category": "exclude",
+        "breakdown": {
+          "technical": 18,
+          "devSupport": 13,
+          "experience": 12,
+          "industry": 15,
+          "customerFacing": 10
+        },
+        "matchedSkills": [
+          "Debugging / RCA",
+          "SQL / databases",
+          "Logs / observability",
+          "AI / LLM support automation",
+          "GCP / cloud",
+          "Git / CI",
+          "Technical documentation"
+        ],
+        "strongestMatch": [
+          "Root cause analysis on enterprise escalations; drove 30+ product fixes with engineering",
+          "Investigated database and query issues during production escalations",
+          "Root-caused production incidents from logs and traces"
+        ],
+        "missing": [
+          "Linux administration",
+          "Kafka / streaming",
+          "Spark / data engineering",
+          "Asks for 7+ years (profile: 6)"
+        ],
+        "concerns": [],
+        "whyFit": "Names 7 of your core skills (Debugging / RCA, SQL / databases, Logs / observability, AI / LLM support automation, GCP / cloud) and the work centres on: Investigates production issues with logs, traces, SQL or code; Reproduces bugs and works with product engineering; Resolves complex L2/L3 escalations.",
+        "worthApplying": "Senior-level title fits your escalation and mentoring experience. Domain overlap: Developer platform / devtools, AI platform. Lead with: Root cause analysis on enterprise escalations; drove 30+ product fixes with engineering."
+      },
+      "feed": "excluded",
+      "feedReasons": [
+        "Fit score 68 < 70",
+        "Posted 308 days before discovery (likely stale/evergreen)"
+      ],
+      "officialUrl": "https://databricks.com/company/careers/open-positions/job?gh_jid=8041698002",
+      "applyUrl": "https://databricks.com/company/careers/open-positions/job?gh_jid=8041698002",
+      "discoverySources": [
+        "greenhouse:databricks"
+      ],
+      "contacts": [],
+      "contactSearchLinks": [
+        {
+          "label": "Support / developer-support leaders",
+          "url": "https://www.google.com/search?q=site%3Alinkedin.com%2Fin%20%22Databricks%22%20(%22support%20engineering%20manager%22%20OR%20%22head%20of%20support%22%20OR%20%22director%20of%20support%22%20OR%20%22developer%20support%22%20OR%20%22customer%20engineering%20manager%22)"
+        },
+        {
+          "label": "Technical recruiters",
+          "url": "https://www.google.com/search?q=site%3Alinkedin.com%2Fin%20%22Databricks%22%20(%22technical%20recruiter%22%20OR%20%22talent%20acquisition%22%20OR%20%22recruiting%22)%20(engineering%20OR%20technical)"
+        },
+        {
+          "label": "Company team / about page",
+          "url": "https://www.google.com/search?q=%22Databricks%22%20team%20OR%20leadership%20%22support%22"
+        }
+      ],
+      "notes": [],
+      "suppressed": false,
+      "repostOf": null,
+      "history": [
+        {
+          "at": "2026-11-11T07:55:21.735Z",
+          "type": "created",
+          "from": null,
+          "to": "active",
+          "reason": "Discovered on greenhouse:databricks"
+        }
+      ]
+    },
+    {
       "id": "gh-twilio-8213730",
       "keys": {
         "ats": "greenhouse",
@@ -2474,8 +2475,8 @@
       },
       "postedAt": "2026-09-23T13:59:26.000Z",
       "firstSeenAt": "2026-11-02T12:59:15.532Z",
-      "lastCheckedAt": "2026-11-10T08:34:57.531Z",
-      "lastVerifiedAt": "2026-11-10T08:34:57.531Z",
+      "lastCheckedAt": "2026-11-11T07:55:21.735Z",
+      "lastVerifiedAt": "2026-11-11T07:55:21.735Z",
       "lastModifiedAt": "2026-11-06T08:07:50.620Z",
       "status": "active",
       "consecutiveFailures": 0,
@@ -2611,8 +2612,8 @@
       },
       "postedAt": "2025-07-14T16:50:15.000Z",
       "firstSeenAt": "2026-11-02T12:59:15.532Z",
-      "lastCheckedAt": "2026-11-10T08:34:57.531Z",
-      "lastVerifiedAt": "2026-11-10T08:34:57.531Z",
+      "lastCheckedAt": "2026-11-11T07:55:21.735Z",
+      "lastVerifiedAt": "2026-11-11T07:55:21.735Z",
       "lastModifiedAt": "2026-11-02T12:59:15.532Z",
       "status": "active",
       "consecutiveFailures": 0,
@@ -2750,8 +2751,8 @@
       },
       "postedAt": "2020-11-19T19:48:12.000Z",
       "firstSeenAt": "2026-11-02T12:59:15.532Z",
-      "lastCheckedAt": "2026-11-10T08:34:57.531Z",
-      "lastVerifiedAt": "2026-11-10T08:34:57.531Z",
+      "lastCheckedAt": "2026-11-11T07:55:21.735Z",
+      "lastVerifiedAt": "2026-11-11T07:55:21.735Z",
       "lastModifiedAt": "2026-11-02T12:59:15.532Z",
       "status": "active",
       "consecutiveFailures": 0,
@@ -2889,8 +2890,8 @@
       },
       "postedAt": "2025-02-10T09:37:24.000Z",
       "firstSeenAt": "2026-11-02T12:59:15.532Z",
-      "lastCheckedAt": "2026-11-10T08:34:57.531Z",
-      "lastVerifiedAt": "2026-11-10T08:34:57.531Z",
+      "lastCheckedAt": "2026-11-11T07:55:21.735Z",
+      "lastVerifiedAt": "2026-11-11T07:55:21.735Z",
       "lastModifiedAt": "2026-11-02T12:59:15.532Z",
       "status": "active",
       "consecutiveFailures": 0,
@@ -3006,6 +3007,147 @@
       ]
     },
     {
+      "id": "gh-chainguard-4728275006",
+      "keys": {
+        "ats": "greenhouse",
+        "board": "chainguard",
+        "atsId": "4728275006",
+        "canonicalUrl": "https://job-boards.greenhouse.io/chainguard/jobs/4728275006",
+        "reqId": "POS-002072"
+      },
+      "company": "Chainguard",
+      "companyInfo": {
+        "hq": null,
+        "international": null,
+        "source": null
+      },
+      "title": "Technical Support Engineer",
+      "normalizedTitle": "technical support engineer",
+      "jobFamily": "technical_support",
+      "employmentType": null,
+      "location": {
+        "raw": "India - Remote | Remote - India",
+        "remoteType": "remote",
+        "region": "India",
+        "india": "eligible",
+        "evidence": "India - Remote | Remote - India",
+        "evidenceSource": "https://job-boards.greenhouse.io/chainguard/jobs/4728275006",
+        "reason": "Official location lists India and the role is remote"
+      },
+      "postedAt": "2026-11-10T20:12:39.000Z",
+      "firstSeenAt": "2026-11-11T07:55:21.735Z",
+      "lastCheckedAt": "2026-11-11T07:55:21.735Z",
+      "lastVerifiedAt": "2026-11-11T07:55:21.735Z",
+      "lastModifiedAt": "2026-11-11T07:55:21.735Z",
+      "status": "active",
+      "consecutiveFailures": 0,
+      "descriptionFingerprint": "e6f288ee687d5287",
+      "techStack": [
+        "GCP / cloud",
+        "Debugging / RCA",
+        "AI / LLM support automation",
+        "Git / CI",
+        "Technical documentation",
+        "Kubernetes",
+        "Terraform / IaC",
+        "Spark / data engineering"
+      ],
+      "yearsRequired": 3,
+      "compensation": {
+        "status": "unverified",
+        "currency": null,
+        "interval": null,
+        "min": null,
+        "max": null,
+        "annualMin": null,
+        "annualMax": null,
+        "inrMin": null,
+        "inrMax": null,
+        "fxRate": null,
+        "fxDate": null,
+        "components": {
+          "base": null,
+          "bonus": null,
+          "equity": null
+        },
+        "applicability": "unspecified",
+        "confidence": "none",
+        "evidence": null,
+        "sourceUrl": null,
+        "display": "Not disclosed — verify with recruiter"
+      },
+      "fit": {
+        "score": 62,
+        "category": "exclude",
+        "breakdown": {
+          "technical": 10,
+          "devSupport": 13,
+          "experience": 20,
+          "industry": 9,
+          "customerFacing": 10
+        },
+        "matchedSkills": [
+          "Debugging / RCA",
+          "AI / LLM support automation",
+          "GCP / cloud",
+          "Git / CI",
+          "Technical documentation"
+        ],
+        "strongestMatch": [
+          "Root cause analysis on enterprise escalations; drove 30+ product fixes with engineering",
+          "Built and deployed a LangChain RAG support agent resolving ~75–80% of 40–50 daily inquiries",
+          "Worked across GCP/Firebase production infrastructure"
+        ],
+        "missing": [
+          "Kubernetes",
+          "Terraform / IaC",
+          "Spark / data engineering"
+        ],
+        "concerns": [
+          "Shift / weekend / 24x7 coverage",
+          "On-call rotation"
+        ],
+        "whyFit": "Names 5 of your core skills (Debugging / RCA, AI / LLM support automation, GCP / cloud, Git / CI, Technical documentation) and the work centres on: Reproduces bugs and works with product engineering; Resolves complex L2/L3 escalations.",
+        "worthApplying": "Domain overlap: Developer platform / devtools. Lead with: Root cause analysis on enterprise escalations; drove 30+ product fixes with engineering."
+      },
+      "feed": "excluded",
+      "feedReasons": [
+        "Fit score 62 < 70"
+      ],
+      "officialUrl": "https://job-boards.greenhouse.io/chainguard/jobs/4728275006",
+      "applyUrl": "https://job-boards.greenhouse.io/chainguard/jobs/4728275006",
+      "discoverySources": [
+        "greenhouse:chainguard"
+      ],
+      "contacts": [],
+      "contactSearchLinks": [
+        {
+          "label": "Support / developer-support leaders",
+          "url": "https://www.google.com/search?q=site%3Alinkedin.com%2Fin%20%22Chainguard%22%20(%22support%20engineering%20manager%22%20OR%20%22head%20of%20support%22%20OR%20%22director%20of%20support%22%20OR%20%22developer%20support%22%20OR%20%22customer%20engineering%20manager%22)"
+        },
+        {
+          "label": "Technical recruiters",
+          "url": "https://www.google.com/search?q=site%3Alinkedin.com%2Fin%20%22Chainguard%22%20(%22technical%20recruiter%22%20OR%20%22talent%20acquisition%22%20OR%20%22recruiting%22)%20(engineering%20OR%20technical)"
+        },
+        {
+          "label": "Company team / about page",
+          "url": "https://www.google.com/search?q=%22Chainguard%22%20team%20OR%20leadership%20%22support%22"
+        }
+      ],
+      "notes": [],
+      "suppressed": false,
+      "repostOf": null,
+      "history": [
+        {
+          "at": "2026-11-11T07:55:21.735Z",
+          "type": "created",
+          "from": null,
+          "to": "active",
+          "reason": "Discovered on greenhouse:chainguard"
+        }
+      ]
+    },
+    {
       "id": "gh-databricks-7845334002",
       "keys": {
         "ats": "greenhouse",
@@ -3035,8 +3177,8 @@
       },
       "postedAt": "2025-03-08T05:19:50.000Z",
       "firstSeenAt": "2026-11-02T12:59:15.532Z",
-      "lastCheckedAt": "2026-11-10T08:34:57.531Z",
-      "lastVerifiedAt": "2026-11-10T08:34:57.531Z",
+      "lastCheckedAt": "2026-11-11T07:55:21.735Z",
+      "lastVerifiedAt": "2026-11-11T07:55:21.735Z",
       "lastModifiedAt": "2026-11-02T12:59:15.532Z",
       "status": "active",
       "consecutiveFailures": 0,
@@ -3181,8 +3323,8 @@
       },
       "postedAt": "2026-11-02T15:48:03.000Z",
       "firstSeenAt": "2026-11-03T08:09:06.754Z",
-      "lastCheckedAt": "2026-11-10T08:34:57.531Z",
-      "lastVerifiedAt": "2026-11-10T08:34:57.531Z",
+      "lastCheckedAt": "2026-11-11T07:55:21.735Z",
+      "lastVerifiedAt": "2026-11-11T07:55:21.735Z",
       "lastModifiedAt": "2026-11-03T08:09:06.754Z",
       "status": "active",
       "consecutiveFailures": 0,
@@ -3279,6 +3421,156 @@
           "from": null,
           "to": "active",
           "reason": "Discovered on greenhouse:databricks"
+        }
+      ]
+    },
+    {
+      "id": "gh-samsara-7960367",
+      "keys": {
+        "ats": "greenhouse",
+        "board": "samsara",
+        "atsId": "7960367",
+        "canonicalUrl": "https://job-boards.greenhouse.io/samsara/jobs/7960367",
+        "reqId": "JR11702"
+      },
+      "company": "Samsara",
+      "companyInfo": {
+        "hq": null,
+        "international": null,
+        "source": null
+      },
+      "title": "Product Support Engineer III",
+      "normalizedTitle": "product support engineer iii",
+      "jobFamily": "technical_support",
+      "employmentType": null,
+      "location": {
+        "raw": "Bengaluru - BLR1 | Bengaluru - BLR1",
+        "remoteType": "remote",
+        "region": "India",
+        "india": "eligible",
+        "evidence": "Bengaluru - BLR1 | Bengaluru - BLR1",
+        "evidenceSource": "https://www.samsara.com/company/careers/roles/7960367?gh_jid=7960367",
+        "reason": "Official location lists India and the role is remote"
+      },
+      "postedAt": "2026-06-04T05:42:58.000Z",
+      "firstSeenAt": "2026-11-02T12:59:15.532Z",
+      "lastCheckedAt": "2026-11-11T07:55:21.735Z",
+      "lastVerifiedAt": "2026-11-10T08:34:57.531Z",
+      "lastModifiedAt": "2026-11-11T07:55:21.735Z",
+      "status": "closed",
+      "consecutiveFailures": 0,
+      "descriptionFingerprint": "3171107603ab209d",
+      "techStack": [
+        "OAuth / authentication",
+        "SQL / databases",
+        "Flutter / mobile",
+        "Python / scripting",
+        "Logs / observability",
+        "Debugging / RCA",
+        "Technical documentation",
+        "Spark / data engineering",
+        "Security / compliance"
+      ],
+      "yearsRequired": 8,
+      "compensation": {
+        "status": "unverified",
+        "currency": null,
+        "interval": null,
+        "min": null,
+        "max": null,
+        "annualMin": null,
+        "annualMax": null,
+        "inrMin": null,
+        "inrMax": null,
+        "fxRate": null,
+        "fxDate": null,
+        "components": {
+          "base": null,
+          "bonus": null,
+          "equity": null
+        },
+        "applicability": "unspecified",
+        "confidence": "none",
+        "evidence": null,
+        "sourceUrl": null,
+        "display": "Not disclosed — verify with recruiter"
+      },
+      "fit": {
+        "score": 78,
+        "category": "possible",
+        "breakdown": {
+          "technical": 24,
+          "devSupport": 21,
+          "experience": 12,
+          "industry": 11,
+          "customerFacing": 10
+        },
+        "matchedSkills": [
+          "OAuth / authentication",
+          "Debugging / RCA",
+          "SQL / databases",
+          "Flutter / mobile",
+          "Logs / observability",
+          "Python / scripting",
+          "Technical documentation"
+        ],
+        "strongestMatch": [
+          "Resolved OAuth and authentication failures across Firebase/Supabase auth in 11,700+ support cases",
+          "Root cause analysis on enterprise escalations; drove 30+ product fixes with engineering",
+          "Investigated database and query issues during production escalations"
+        ],
+        "missing": [
+          "Spark / data engineering",
+          "Security / compliance",
+          "Asks for 8+ years (profile: 6)"
+        ],
+        "concerns": [
+          "On-call rotation"
+        ],
+        "whyFit": "Names 7 of your core skills (OAuth / authentication, Debugging / RCA, SQL / databases, Flutter / mobile, Logs / observability) and the work centres on: Supports developers on a SaaS / developer platform; Debugs APIs, SDKs, webhooks, integrations or auth; Investigates production issues with logs, traces, SQL or code.",
+        "worthApplying": "Senior-level title fits your escalation and mentoring experience. Domain overlap: Mobile, Cloud / infrastructure SaaS. Lead with: Resolved OAuth and authentication failures across Firebase/Supabase auth in 11,700+ support cases."
+      },
+      "feed": "excluded",
+      "feedReasons": [
+        "Posted 151 days before discovery (likely stale/evergreen)"
+      ],
+      "officialUrl": "https://www.samsara.com/company/careers/roles/7960367?gh_jid=7960367",
+      "applyUrl": "https://www.samsara.com/company/careers/roles/7960367?gh_jid=7960367",
+      "discoverySources": [
+        "greenhouse:samsara"
+      ],
+      "contacts": [],
+      "contactSearchLinks": [
+        {
+          "label": "Support / developer-support leaders",
+          "url": "https://www.google.com/search?q=site%3Alinkedin.com%2Fin%20%22Samsara%22%20(%22support%20engineering%20manager%22%20OR%20%22head%20of%20support%22%20OR%20%22director%20of%20support%22%20OR%20%22developer%20support%22%20OR%20%22customer%20engineering%20manager%22)"
+        },
+        {
+          "label": "Technical recruiters",
+          "url": "https://www.google.com/search?q=site%3Alinkedin.com%2Fin%20%22Samsara%22%20(%22technical%20recruiter%22%20OR%20%22talent%20acquisition%22%20OR%20%22recruiting%22)%20(engineering%20OR%20technical)"
+        },
+        {
+          "label": "Company team / about page",
+          "url": "https://www.google.com/search?q=%22Samsara%22%20team%20OR%20leadership%20%22support%22"
+        }
+      ],
+      "notes": [],
+      "suppressed": false,
+      "repostOf": null,
+      "history": [
+        {
+          "at": "2026-11-02T12:59:15.532Z",
+          "type": "created",
+          "from": null,
+          "to": "active",
+          "reason": "Discovered on greenhouse:samsara"
+        },
+        {
+          "at": "2026-11-11T07:55:21.735Z",
+          "type": "status",
+          "from": "active",
+          "to": "closed",
+          "reason": "No longer listed on the official job board"
         }
       ]
     }
