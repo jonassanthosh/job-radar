@@ -490,6 +490,36 @@
       },
       "fxDate": "2026-11-11",
       "nextScheduledAt": "2026-11-13T01:30:00.000Z"
+    },
+    {
+      "id": "2026-11-13T08:19:48.302Z",
+      "mode": "incremental",
+      "startedAt": "2026-11-13T08:19:48.302Z",
+      "finishedAt": "2026-11-13T08:20:14.379Z",
+      "ok": true,
+      "boardsScanned": 51,
+      "boardsFailed": 0,
+      "postingsExamined": 8270,
+      "candidatesAfterTitleFilter": 195,
+      "newJobs": 0,
+      "newQualified": 0,
+      "updatedJobs": 0,
+      "closedJobs": 0,
+      "reopenedJobs": 0,
+      "verificationFailed": 0,
+      "duplicatesDiscarded": 0,
+      "suppressedByImport": 0,
+      "newBoardsDiscovered": 0,
+      "sourceFailures": [],
+      "agentLeads": {
+        "considered": 0,
+        "newBoards": 0,
+        "published": 0,
+        "rejected": [],
+        "unsupported": []
+      },
+      "fxDate": "2026-11-12",
+      "nextScheduledAt": "2026-11-14T01:30:00.000Z"
     }
   ]
 }
