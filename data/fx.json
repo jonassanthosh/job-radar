@@ -1,16 +1,16 @@
 {
   "schemaVersion": 1,
   "base": "INR",
-  "date": "2026-11-13",
+  "date": "2026-11-16",
   "source": "ECB reference rates via frankfurter.dev",
   "rates": {
-    "AUD": 63.9509,
-    "CAD": 66.0982,
-    "CHF": 112.4113,
-    "EUR": 104.1602,
-    "GBP": 124.6541,
-    "JPY": 0.589,
-    "SGD": 73.1689,
-    "USD": 94.2418
+    "AUD": 63.4639,
+    "CAD": 65.7505,
+    "CHF": 111.9107,
+    "EUR": 103.4501,
+    "GBP": 123.9664,
+    "JPY": 0.5885,
+    "SGD": 72.8757,
+    "USD": 93.9232
   }
 }
