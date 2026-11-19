@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-18T08:43:56.563Z",
+  "updatedAt": "2026-11-19T08:59:02.747Z",
   "jobs": [
     {
       "id": "gh-gitlab-8692874002",
@@ -32,8 +32,8 @@
       },
       "postedAt": "2026-08-18T09:16:27.000Z",
       "firstSeenAt": "2026-11-02T12:59:15.532Z",
-      "lastCheckedAt": "2026-11-18T08:43:56.563Z",
-      "lastVerifiedAt": "2026-11-18T08:43:56.563Z",
+      "lastCheckedAt": "2026-11-19T08:59:02.747Z",
+      "lastVerifiedAt": "2026-11-19T08:59:02.747Z",
       "lastModifiedAt": "2026-11-02T12:59:15.532Z",
       "status": "active",
       "consecutiveFailures": 0,
@@ -184,8 +184,8 @@
       },
       "postedAt": "2026-10-28T08:28:45.000Z",
       "firstSeenAt": "2026-11-02T12:59:15.532Z",
-      "lastCheckedAt": "2026-11-18T08:43:56.563Z",
-      "lastVerifiedAt": "2026-11-18T08:43:56.563Z",
+      "lastCheckedAt": "2026-11-19T08:59:02.747Z",
+      "lastVerifiedAt": "2026-11-19T08:59:02.747Z",
       "lastModifiedAt": "2026-11-02T12:59:15.532Z",
       "status": "active",
       "consecutiveFailures": 0,
@@ -333,8 +333,8 @@
       },
       "postedAt": "2026-10-26T14:29:18.961Z",
       "firstSeenAt": "2026-11-02T12:59:15.532Z",
-      "lastCheckedAt": "2026-11-18T08:43:56.563Z",
-      "lastVerifiedAt": "2026-11-18T08:43:56.563Z",
+      "lastCheckedAt": "2026-11-19T08:59:02.747Z",
+      "lastVerifiedAt": "2026-11-19T08:59:02.747Z",
       "lastModifiedAt": "2026-11-05T08:03:49.769Z",
       "status": "active",
       "consecutiveFailures": 0,
@@ -479,8 +479,8 @@
       },
       "postedAt": "2026-09-23T13:58:42.792Z",
       "firstSeenAt": "2026-11-02T12:59:15.532Z",
-      "lastCheckedAt": "2026-11-18T08:43:56.563Z",
-      "lastVerifiedAt": "2026-11-18T08:43:56.563Z",
+      "lastCheckedAt": "2026-11-19T08:59:02.747Z",
+      "lastVerifiedAt": "2026-11-19T08:59:02.747Z",
       "lastModifiedAt": "2026-11-02T12:59:15.532Z",
       "status": "active",
       "consecutiveFailures": 0,
@@ -612,8 +612,8 @@
       },
       "postedAt": "2026-11-07T14:24:51.000Z",
       "firstSeenAt": "2026-11-08T07:37:37.045Z",
-      "lastCheckedAt": "2026-11-18T08:43:56.563Z",
-      "lastVerifiedAt": "2026-11-18T08:43:56.563Z",
+      "lastCheckedAt": "2026-11-19T08:59:02.747Z",
+      "lastVerifiedAt": "2026-11-19T08:59:02.747Z",
       "lastModifiedAt": "2026-11-08T07:37:37.045Z",
       "status": "active",
       "consecutiveFailures": 0,
@@ -765,8 +765,8 @@
       },
       "postedAt": "2026-11-06T15:25:28.875Z",
       "firstSeenAt": "2026-11-02T12:59:15.532Z",
-      "lastCheckedAt": "2026-11-18T08:43:56.563Z",
-      "lastVerifiedAt": "2026-11-18T08:43:56.563Z",
+      "lastCheckedAt": "2026-11-19T08:59:02.747Z",
+      "lastVerifiedAt": "2026-11-19T08:59:02.747Z",
       "lastModifiedAt": "2026-11-07T07:27:09.675Z",
       "status": "active",
       "consecutiveFailures": 0,
@@ -920,8 +920,8 @@
       },
       "postedAt": "2026-10-14T16:28:22.000Z",
       "firstSeenAt": "2026-11-02T12:59:15.532Z",
-      "lastCheckedAt": "2026-11-18T08:43:56.563Z",
-      "lastVerifiedAt": "2026-11-18T08:43:56.563Z",
+      "lastCheckedAt": "2026-11-19T08:59:02.747Z",
+      "lastVerifiedAt": "2026-11-19T08:59:02.747Z",
       "lastModifiedAt": "2026-11-02T12:59:15.532Z",
       "status": "active",
       "consecutiveFailures": 0,
@@ -1068,8 +1068,8 @@
       },
       "postedAt": "2026-04-02T08:09:56.000Z",
       "firstSeenAt": "2026-11-02T12:59:15.532Z",
-      "lastCheckedAt": "2026-11-18T08:43:56.563Z",
-      "lastVerifiedAt": "2026-11-18T08:43:56.563Z",
+      "lastCheckedAt": "2026-11-19T08:59:02.747Z",
+      "lastVerifiedAt": "2026-11-19T08:59:02.747Z",
       "lastModifiedAt": "2026-11-17T09:26:20.354Z",
       "status": "active",
       "consecutiveFailures": 0,
@@ -1217,8 +1217,8 @@
       },
       "postedAt": "2025-03-20T18:51:09.252Z",
       "firstSeenAt": "2026-11-02T12:59:15.532Z",
-      "lastCheckedAt": "2026-11-18T08:43:56.563Z",
-      "lastVerifiedAt": "2026-11-18T08:43:56.563Z",
+      "lastCheckedAt": "2026-11-19T08:59:02.747Z",
+      "lastVerifiedAt": "2026-11-19T08:59:02.747Z",
       "lastModifiedAt": "2026-11-02T12:59:15.532Z",
       "status": "active",
       "consecutiveFailures": 0,
@@ -1356,8 +1356,8 @@
       },
       "postedAt": "2026-07-31T19:04:49.027Z",
       "firstSeenAt": "2026-11-02T12:59:15.532Z",
-      "lastCheckedAt": "2026-11-18T08:43:56.563Z",
-      "lastVerifiedAt": "2026-11-18T08:43:56.563Z",
+      "lastCheckedAt": "2026-11-19T08:59:02.747Z",
+      "lastVerifiedAt": "2026-11-19T08:59:02.747Z",
       "lastModifiedAt": "2026-11-05T08:03:49.769Z",
       "status": "active",
       "consecutiveFailures": 0,
@@ -1504,8 +1504,8 @@
       },
       "postedAt": "2025-12-17T21:46:32.608Z",
       "firstSeenAt": "2026-11-02T12:59:15.532Z",
-      "lastCheckedAt": "2026-11-18T08:43:56.563Z",
-      "lastVerifiedAt": "2026-11-18T08:43:56.563Z",
+      "lastCheckedAt": "2026-11-19T08:59:02.747Z",
+      "lastVerifiedAt": "2026-11-19T08:59:02.747Z",
       "lastModifiedAt": "2026-11-02T12:59:15.532Z",
       "status": "active",
       "consecutiveFailures": 0,
@@ -1641,8 +1641,8 @@
       },
       "postedAt": "2025-02-05T16:40:51.000Z",
       "firstSeenAt": "2026-11-02T12:59:15.532Z",
-      "lastCheckedAt": "2026-11-18T08:43:56.563Z",
-      "lastVerifiedAt": "2026-11-18T08:43:56.563Z",
+      "lastCheckedAt": "2026-11-19T08:59:02.747Z",
+      "lastVerifiedAt": "2026-11-19T08:59:02.747Z",
       "lastModifiedAt": "2026-11-02T12:59:15.532Z",
       "status": "active",
       "consecutiveFailures": 0,
@@ -1784,8 +1784,8 @@
       },
       "postedAt": "2026-05-29T21:09:34.000Z",
       "firstSeenAt": "2026-11-02T12:59:15.532Z",
-      "lastCheckedAt": "2026-11-18T08:43:56.563Z",
-      "lastVerifiedAt": "2026-11-18T08:43:56.563Z",
+      "lastCheckedAt": "2026-11-19T08:59:02.747Z",
+      "lastVerifiedAt": "2026-11-19T08:59:02.747Z",
       "lastModifiedAt": "2026-11-02T12:59:15.532Z",
       "status": "active",
       "consecutiveFailures": 0,
@@ -1891,149 +1891,6 @@
       ]
     },
     {
-      "id": "gh-startree-6189220004",
-      "keys": {
-        "ats": "greenhouse",
-        "board": "startree",
-        "atsId": "6189220004",
-        "canonicalUrl": "https://job-boards.greenhouse.io/startree/jobs/6189220004",
-        "reqId": "187"
-      },
-      "company": "StarTree",
-      "companyInfo": {
-        "hq": null,
-        "international": null,
-        "source": null
-      },
-      "title": "Technical Support Engineer",
-      "normalizedTitle": "technical support engineer",
-      "jobFamily": "technical_support",
-      "employmentType": null,
-      "location": {
-        "raw": "India (Remote) | Bengaluru, Karnataka, India",
-        "remoteType": "remote",
-        "region": "India",
-        "india": "eligible",
-        "evidence": "India (Remote) | Bengaluru, Karnataka, India",
-        "evidenceSource": "https://job-boards.greenhouse.io/startree/jobs/6189220004",
-        "reason": "Official location lists India and the role is remote"
-      },
-      "postedAt": "2026-09-11T05:56:37.000Z",
-      "firstSeenAt": "2026-11-02T12:59:15.532Z",
-      "lastCheckedAt": "2026-11-18T08:43:56.563Z",
-      "lastVerifiedAt": "2026-11-18T08:43:56.563Z",
-      "lastModifiedAt": "2026-11-02T12:59:15.532Z",
-      "status": "active",
-      "consecutiveFailures": 0,
-      "descriptionFingerprint": "5e5b2839c59752a3",
-      "techStack": [
-        "SQL / databases",
-        "GCP / cloud",
-        "Debugging / RCA",
-        "AI / LLM support automation",
-        "Technical documentation",
-        "Kubernetes",
-        "Java / JVM",
-        "Kafka / streaming",
-        "Spark / data engineering"
-      ],
-      "yearsRequired": 4,
-      "compensation": {
-        "status": "unverified",
-        "currency": null,
-        "interval": null,
-        "min": null,
-        "max": null,
-        "annualMin": null,
-        "annualMax": null,
-        "inrMin": null,
-        "inrMax": null,
-        "fxRate": null,
-        "fxDate": null,
-        "components": {
-          "base": null,
-          "bonus": null,
-          "equity": null
-        },
-        "applicability": "unspecified",
-        "confidence": "none",
-        "evidence": null,
-        "sourceUrl": null,
-        "display": "Not disclosed — verify with recruiter"
-      },
-      "fit": {
-        "score": 73,
-        "category": "possible",
-        "breakdown": {
-          "technical": 12,
-          "devSupport": 16,
-          "experience": 20,
-          "industry": 15,
-          "customerFacing": 10
-        },
-        "matchedSkills": [
-          "Debugging / RCA",
-          "SQL / databases",
-          "AI / LLM support automation",
-          "GCP / cloud",
-          "Technical documentation"
-        ],
-        "strongestMatch": [
-          "Root cause analysis on enterprise escalations; drove 30+ product fixes with engineering",
-          "Investigated database and query issues during production escalations",
-          "Built and deployed a LangChain RAG support agent resolving ~75–80% of 40–50 daily inquiries"
-        ],
-        "missing": [
-          "Kubernetes",
-          "Java / JVM",
-          "Kafka / streaming",
-          "Spark / data engineering"
-        ],
-        "concerns": [
-          "On-call rotation",
-          "Expects overlap with US hours"
-        ],
-        "whyFit": "Names 5 of your core skills (Debugging / RCA, SQL / databases, AI / LLM support automation, GCP / cloud, Technical documentation) and the work centres on: Investigates production issues with logs, traces, SQL or code; Reproduces bugs and works with product engineering; Resolves complex L2/L3 escalations.",
-        "worthApplying": "Domain overlap: Developer platform / devtools, Cloud / infrastructure SaaS. Lead with: Root cause analysis on enterprise escalations; drove 30+ product fixes with engineering."
-      },
-      "feed": "excluded",
-      "feedReasons": [
-        "Pay unverified and fit 73 below review threshold 75"
-      ],
-      "officialUrl": "https://job-boards.greenhouse.io/startree/jobs/6189220004",
-      "applyUrl": "https://job-boards.greenhouse.io/startree/jobs/6189220004",
-      "discoverySources": [
-        "greenhouse:startree"
-      ],
-      "contacts": [],
-      "contactSearchLinks": [
-        {
-          "label": "Support / developer-support leaders",
-          "url": "https://www.google.com/search?q=site%3Alinkedin.com%2Fin%20%22StarTree%22%20(%22support%20engineering%20manager%22%20OR%20%22head%20of%20support%22%20OR%20%22director%20of%20support%22%20OR%20%22developer%20support%22%20OR%20%22customer%20engineering%20manager%22)"
-        },
-        {
-          "label": "Technical recruiters",
-          "url": "https://www.google.com/search?q=site%3Alinkedin.com%2Fin%20%22StarTree%22%20(%22technical%20recruiter%22%20OR%20%22talent%20acquisition%22%20OR%20%22recruiting%22)%20(engineering%20OR%20technical)"
-        },
-        {
-          "label": "Company team / about page",
-          "url": "https://www.google.com/search?q=%22StarTree%22%20team%20OR%20leadership%20%22support%22"
-        }
-      ],
-      "notes": [],
-      "suppressed": false,
-      "repostOf": null,
-      "history": [
-        {
-          "at": "2026-11-02T12:59:15.532Z",
-          "type": "created",
-          "from": null,
-          "to": "active",
-          "reason": "Discovered on greenhouse:startree"
-        }
-      ]
-    },
-    {
       "id": "gh-twilio-8028473",
       "keys": {
         "ats": "greenhouse",
@@ -2063,8 +1920,8 @@
       },
       "postedAt": "2026-11-05T14:57:26.000Z",
       "firstSeenAt": "2026-11-06T08:07:50.620Z",
-      "lastCheckedAt": "2026-11-18T08:43:56.563Z",
-      "lastVerifiedAt": "2026-11-18T08:43:56.563Z",
+      "lastCheckedAt": "2026-11-19T08:59:02.747Z",
+      "lastVerifiedAt": "2026-11-19T08:59:02.747Z",
       "lastModifiedAt": "2026-11-06T08:07:50.620Z",
       "status": "active",
       "consecutiveFailures": 0,
@@ -2194,8 +2051,8 @@
       },
       "postedAt": "2025-02-05T16:31:17.000Z",
       "firstSeenAt": "2026-11-02T12:59:15.532Z",
-      "lastCheckedAt": "2026-11-18T08:43:56.563Z",
-      "lastVerifiedAt": "2026-11-18T08:43:56.563Z",
+      "lastCheckedAt": "2026-11-19T08:59:02.747Z",
+      "lastVerifiedAt": "2026-11-19T08:59:02.747Z",
       "lastModifiedAt": "2026-11-02T12:59:15.532Z",
       "status": "active",
       "consecutiveFailures": 0,
@@ -2338,8 +2195,8 @@
       },
       "postedAt": "2026-01-07T08:41:18.000Z",
       "firstSeenAt": "2026-11-11T07:55:21.735Z",
-      "lastCheckedAt": "2026-11-18T08:43:56.563Z",
-      "lastVerifiedAt": "2026-11-18T08:43:56.563Z",
+      "lastCheckedAt": "2026-11-19T08:59:02.747Z",
+      "lastVerifiedAt": "2026-11-19T08:59:02.747Z",
       "lastModifiedAt": "2026-11-11T07:55:21.735Z",
       "status": "active",
       "consecutiveFailures": 0,
@@ -2482,8 +2339,8 @@
       },
       "postedAt": "2026-09-23T13:59:26.000Z",
       "firstSeenAt": "2026-11-02T12:59:15.532Z",
-      "lastCheckedAt": "2026-11-18T08:43:56.563Z",
-      "lastVerifiedAt": "2026-11-18T08:43:56.563Z",
+      "lastCheckedAt": "2026-11-19T08:59:02.747Z",
+      "lastVerifiedAt": "2026-11-19T08:59:02.747Z",
       "lastModifiedAt": "2026-11-06T08:07:50.620Z",
       "status": "active",
       "consecutiveFailures": 0,
@@ -2619,8 +2476,8 @@
       },
       "postedAt": "2025-07-14T16:50:15.000Z",
       "firstSeenAt": "2026-11-02T12:59:15.532Z",
-      "lastCheckedAt": "2026-11-18T08:43:56.563Z",
-      "lastVerifiedAt": "2026-11-18T08:43:56.563Z",
+      "lastCheckedAt": "2026-11-19T08:59:02.747Z",
+      "lastVerifiedAt": "2026-11-19T08:59:02.747Z",
       "lastModifiedAt": "2026-11-02T12:59:15.532Z",
       "status": "active",
       "consecutiveFailures": 0,
@@ -2758,8 +2615,8 @@
       },
       "postedAt": "2020-11-19T19:48:12.000Z",
       "firstSeenAt": "2026-11-02T12:59:15.532Z",
-      "lastCheckedAt": "2026-11-18T08:43:56.563Z",
-      "lastVerifiedAt": "2026-11-18T08:43:56.563Z",
+      "lastCheckedAt": "2026-11-19T08:59:02.747Z",
+      "lastVerifiedAt": "2026-11-19T08:59:02.747Z",
       "lastModifiedAt": "2026-11-02T12:59:15.532Z",
       "status": "active",
       "consecutiveFailures": 0,
@@ -2897,8 +2754,8 @@
       },
       "postedAt": "2025-02-10T09:37:24.000Z",
       "firstSeenAt": "2026-11-02T12:59:15.532Z",
-      "lastCheckedAt": "2026-11-18T08:43:56.563Z",
-      "lastVerifiedAt": "2026-11-18T08:43:56.563Z",
+      "lastCheckedAt": "2026-11-19T08:59:02.747Z",
+      "lastVerifiedAt": "2026-11-19T08:59:02.747Z",
       "lastModifiedAt": "2026-11-02T12:59:15.532Z",
       "status": "active",
       "consecutiveFailures": 0,
@@ -3043,8 +2900,8 @@
       },
       "postedAt": "2026-11-10T20:12:39.000Z",
       "firstSeenAt": "2026-11-11T07:55:21.735Z",
-      "lastCheckedAt": "2026-11-18T08:43:56.563Z",
-      "lastVerifiedAt": "2026-11-18T08:43:56.563Z",
+      "lastCheckedAt": "2026-11-19T08:59:02.747Z",
+      "lastVerifiedAt": "2026-11-19T08:59:02.747Z",
       "lastModifiedAt": "2026-11-11T07:55:21.735Z",
       "status": "active",
       "consecutiveFailures": 0,
@@ -3184,8 +3041,8 @@
       },
       "postedAt": "2025-03-08T05:19:50.000Z",
       "firstSeenAt": "2026-11-02T12:59:15.532Z",
-      "lastCheckedAt": "2026-11-18T08:43:56.563Z",
-      "lastVerifiedAt": "2026-11-18T08:43:56.563Z",
+      "lastCheckedAt": "2026-11-19T08:59:02.747Z",
+      "lastVerifiedAt": "2026-11-19T08:59:02.747Z",
       "lastModifiedAt": "2026-11-02T12:59:15.532Z",
       "status": "active",
       "consecutiveFailures": 0,
@@ -3330,8 +3187,8 @@
       },
       "postedAt": "2026-11-16T05:59:50.000Z",
       "firstSeenAt": "2026-11-16T08:11:01.229Z",
-      "lastCheckedAt": "2026-11-18T08:43:56.563Z",
-      "lastVerifiedAt": "2026-11-18T08:43:56.563Z",
+      "lastCheckedAt": "2026-11-19T08:59:02.747Z",
+      "lastVerifiedAt": "2026-11-19T08:59:02.747Z",
       "lastModifiedAt": "2026-11-16T08:11:01.229Z",
       "status": "active",
       "consecutiveFailures": 0,
@@ -3459,8 +3316,8 @@
       },
       "postedAt": "2026-11-02T15:48:03.000Z",
       "firstSeenAt": "2026-11-03T08:09:06.754Z",
-      "lastCheckedAt": "2026-11-18T08:43:56.563Z",
-      "lastVerifiedAt": "2026-11-18T08:43:56.563Z",
+      "lastCheckedAt": "2026-11-19T08:59:02.747Z",
+      "lastVerifiedAt": "2026-11-19T08:59:02.747Z",
       "lastModifiedAt": "2026-11-12T08:33:49.337Z",
       "status": "active",
       "consecutiveFailures": 0,
@@ -3718,6 +3575,156 @@
         },
         {
           "at": "2026-11-11T07:55:21.735Z",
+          "type": "status",
+          "from": "active",
+          "to": "closed",
+          "reason": "No longer listed on the official job board"
+        }
+      ]
+    },
+    {
+      "id": "gh-startree-6189220004",
+      "keys": {
+        "ats": "greenhouse",
+        "board": "startree",
+        "atsId": "6189220004",
+        "canonicalUrl": "https://job-boards.greenhouse.io/startree/jobs/6189220004",
+        "reqId": "187"
+      },
+      "company": "StarTree",
+      "companyInfo": {
+        "hq": null,
+        "international": null,
+        "source": null
+      },
+      "title": "Technical Support Engineer",
+      "normalizedTitle": "technical support engineer",
+      "jobFamily": "technical_support",
+      "employmentType": null,
+      "location": {
+        "raw": "India (Remote) | Bengaluru, Karnataka, India",
+        "remoteType": "remote",
+        "region": "India",
+        "india": "eligible",
+        "evidence": "India (Remote) | Bengaluru, Karnataka, India",
+        "evidenceSource": "https://job-boards.greenhouse.io/startree/jobs/6189220004",
+        "reason": "Official location lists India and the role is remote"
+      },
+      "postedAt": "2026-09-11T05:56:37.000Z",
+      "firstSeenAt": "2026-11-02T12:59:15.532Z",
+      "lastCheckedAt": "2026-11-19T08:59:02.747Z",
+      "lastVerifiedAt": "2026-11-18T08:43:56.563Z",
+      "lastModifiedAt": "2026-11-19T08:59:02.747Z",
+      "status": "closed",
+      "consecutiveFailures": 0,
+      "descriptionFingerprint": "5e5b2839c59752a3",
+      "techStack": [
+        "SQL / databases",
+        "GCP / cloud",
+        "Debugging / RCA",
+        "AI / LLM support automation",
+        "Technical documentation",
+        "Kubernetes",
+        "Java / JVM",
+        "Kafka / streaming",
+        "Spark / data engineering"
+      ],
+      "yearsRequired": 4,
+      "compensation": {
+        "status": "unverified",
+        "currency": null,
+        "interval": null,
+        "min": null,
+        "max": null,
+        "annualMin": null,
+        "annualMax": null,
+        "inrMin": null,
+        "inrMax": null,
+        "fxRate": null,
+        "fxDate": null,
+        "components": {
+          "base": null,
+          "bonus": null,
+          "equity": null
+        },
+        "applicability": "unspecified",
+        "confidence": "none",
+        "evidence": null,
+        "sourceUrl": null,
+        "display": "Not disclosed — verify with recruiter"
+      },
+      "fit": {
+        "score": 73,
+        "category": "possible",
+        "breakdown": {
+          "technical": 12,
+          "devSupport": 16,
+          "experience": 20,
+          "industry": 15,
+          "customerFacing": 10
+        },
+        "matchedSkills": [
+          "Debugging / RCA",
+          "SQL / databases",
+          "AI / LLM support automation",
+          "GCP / cloud",
+          "Technical documentation"
+        ],
+        "strongestMatch": [
+          "Root cause analysis on enterprise escalations; drove 30+ product fixes with engineering",
+          "Investigated database and query issues during production escalations",
+          "Built and deployed a LangChain RAG support agent resolving ~75–80% of 40–50 daily inquiries"
+        ],
+        "missing": [
+          "Kubernetes",
+          "Java / JVM",
+          "Kafka / streaming",
+          "Spark / data engineering"
+        ],
+        "concerns": [
+          "On-call rotation",
+          "Expects overlap with US hours"
+        ],
+        "whyFit": "Names 5 of your core skills (Debugging / RCA, SQL / databases, AI / LLM support automation, GCP / cloud, Technical documentation) and the work centres on: Investigates production issues with logs, traces, SQL or code; Reproduces bugs and works with product engineering; Resolves complex L2/L3 escalations.",
+        "worthApplying": "Domain overlap: Developer platform / devtools, Cloud / infrastructure SaaS. Lead with: Root cause analysis on enterprise escalations; drove 30+ product fixes with engineering."
+      },
+      "feed": "excluded",
+      "feedReasons": [
+        "Pay unverified and fit 73 below review threshold 75"
+      ],
+      "officialUrl": "https://job-boards.greenhouse.io/startree/jobs/6189220004",
+      "applyUrl": "https://job-boards.greenhouse.io/startree/jobs/6189220004",
+      "discoverySources": [
+        "greenhouse:startree"
+      ],
+      "contacts": [],
+      "contactSearchLinks": [
+        {
+          "label": "Support / developer-support leaders",
+          "url": "https://www.google.com/search?q=site%3Alinkedin.com%2Fin%20%22StarTree%22%20(%22support%20engineering%20manager%22%20OR%20%22head%20of%20support%22%20OR%20%22director%20of%20support%22%20OR%20%22developer%20support%22%20OR%20%22customer%20engineering%20manager%22)"
+        },
+        {
+          "label": "Technical recruiters",
+          "url": "https://www.google.com/search?q=site%3Alinkedin.com%2Fin%20%22StarTree%22%20(%22technical%20recruiter%22%20OR%20%22talent%20acquisition%22%20OR%20%22recruiting%22)%20(engineering%20OR%20technical)"
+        },
+        {
+          "label": "Company team / about page",
+          "url": "https://www.google.com/search?q=%22StarTree%22%20team%20OR%20leadership%20%22support%22"
+        }
+      ],
+      "notes": [],
+      "suppressed": false,
+      "repostOf": null,
+      "history": [
+        {
+          "at": "2026-11-02T12:59:15.532Z",
+          "type": "created",
+          "from": null,
+          "to": "active",
+          "reason": "Discovered on greenhouse:startree"
+        },
+        {
+          "at": "2026-11-19T08:59:02.747Z",
           "type": "status",
           "from": "active",
           "to": "closed",
