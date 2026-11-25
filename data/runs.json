@@ -895,6 +895,41 @@
       },
       "fxDate": "2026-11-23",
       "nextScheduledAt": "2026-11-25T01:30:00.000Z"
+    },
+    {
+      "id": "2026-11-25T10:00:24.873Z",
+      "mode": "incremental",
+      "startedAt": "2026-11-25T10:00:24.873Z",
+      "finishedAt": "2026-11-25T10:00:54.461Z",
+      "ok": true,
+      "boardsScanned": 51,
+      "boardsFailed": 1,
+      "postingsExamined": 8276,
+      "candidatesAfterTitleFilter": 191,
+      "newJobs": 0,
+      "newQualified": 0,
+      "updatedJobs": 1,
+      "closedJobs": 0,
+      "reopenedJobs": 0,
+      "verificationFailed": 0,
+      "duplicatesDiscarded": 0,
+      "suppressedByImport": 0,
+      "newBoardsDiscovered": 0,
+      "sourceFailures": [
+        {
+          "source": "workday:adobe",
+          "error": "HTTP 429 for https://adobe.wd5.myworkdayjobs.com/wday/cxs/adobe/external_experienced/jobs"
+        }
+      ],
+      "agentLeads": {
+        "considered": 0,
+        "newBoards": 0,
+        "published": 0,
+        "rejected": [],
+        "unsupported": []
+      },
+      "fxDate": "2026-11-24",
+      "nextScheduledAt": "2026-11-26T01:30:00.000Z"
     }
   ]
 }
